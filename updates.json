@@ -1,3 +1,92 @@
 {
-  "releases": []
+    "releases":  [
+                     {
+                         "version":  "27.0.0-beta1",
+                         "channel":  "beta",
+                         "package":  "com.instagram.android",
+                         "architecture":  "arm64-v8a",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta V27 beta 1\n\n- Updated to Instagram 447.0.0.55.81 with Instagram and MyInsta clone builds for ARM64, ARM32, x86 and x86_64.\n- Redesigned settings with search, grouped controls and light/dark themes.\n- Ghost Mode controls for activity, receipts, Stories, screenshots and secret voice playback.\n- Manual conversation read action and Seen after reply, with separate handling of view-once media.\n- Download Center for posts, carousels, Reels, Stories, profile photos and supported DM media, including voice messages.\n- Optional advanced Story downloads, best-available quality selection, folder settings and completion/failure notifications.\n- Independent ad, distraction, gesture, autoplay, Story looping and highlight controls.\n- Story mentions, exact timestamps, highlight-cover viewing and profile-photo zoom/download tools.\n- Text selection, profile biography copying and four-state relationship indicators.\n- Developer tools, experiment import/export and preserved community roles.\n- Owner-controlled update and membership feeds; updates match the installed package, architecture and selected release channel.\n\nBeta release: device validation is ongoing. Please report the architecture, app variant and reproduction steps with any issue.",
+                         "link":  "https://github.com/Noctharion/MyInstaAPP/releases/download/v27-beta1/MyInsta-V27-beta1-Instagram-arm64-v8a.apk",
+                         "sha256":  "893ce9baea32359cb2302f5e006fdd3cc4bee8630a9c22044cb35e9a860ce99a",
+                         "size":  247280059
+                     },
+                     {
+                         "version":  "27.0.0-beta1",
+                         "channel":  "beta",
+                         "package":  "com.myinsta.android",
+                         "architecture":  "arm64-v8a",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta V27 beta 1\n\n- Updated to Instagram 447.0.0.55.81 with Instagram and MyInsta clone builds for ARM64, ARM32, x86 and x86_64.\n- Redesigned settings with search, grouped controls and light/dark themes.\n- Ghost Mode controls for activity, receipts, Stories, screenshots and secret voice playback.\n- Manual conversation read action and Seen after reply, with separate handling of view-once media.\n- Download Center for posts, carousels, Reels, Stories, profile photos and supported DM media, including voice messages.\n- Optional advanced Story downloads, best-available quality selection, folder settings and completion/failure notifications.\n- Independent ad, distraction, gesture, autoplay, Story looping and highlight controls.\n- Story mentions, exact timestamps, highlight-cover viewing and profile-photo zoom/download tools.\n- Text selection, profile biography copying and four-state relationship indicators.\n- Developer tools, experiment import/export and preserved community roles.\n- Owner-controlled update and membership feeds; updates match the installed package, architecture and selected release channel.\n\nBeta release: device validation is ongoing. Please report the architecture, app variant and reproduction steps with any issue.",
+                         "link":  "https://github.com/Noctharion/MyInstaAPP/releases/download/v27-beta1/MyInsta-V27-beta1-Clone-arm64-v8a.apk",
+                         "sha256":  "deba6dcf0fb5f2476ab96a417c8048d6f2c59c07d95b3f426d1d5ecaea0d49a0",
+                         "size":  247415484
+                     },
+                     {
+                         "version":  "27.0.0-beta1",
+                         "channel":  "beta",
+                         "package":  "com.instagram.android",
+                         "architecture":  "armeabi-v7a",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta V27 beta 1\n\n- Updated to Instagram 447.0.0.55.81 with Instagram and MyInsta clone builds for ARM64, ARM32, x86 and x86_64.\n- Redesigned settings with search, grouped controls and light/dark themes.\n- Ghost Mode controls for activity, receipts, Stories, screenshots and secret voice playback.\n- Manual conversation read action and Seen after reply, with separate handling of view-once media.\n- Download Center for posts, carousels, Reels, Stories, profile photos and supported DM media, including voice messages.\n- Optional advanced Story downloads, best-available quality selection, folder settings and completion/failure notifications.\n- Independent ad, distraction, gesture, autoplay, Story looping and highlight controls.\n- Story mentions, exact timestamps, highlight-cover viewing and profile-photo zoom/download tools.\n- Text selection, profile biography copying and four-state relationship indicators.\n- Developer tools, experiment import/export and preserved community roles.\n- Owner-controlled update and membership feeds; updates match the installed package, architecture and selected release channel.\n\nBeta release: device validation is ongoing. Please report the architecture, app variant and reproduction steps with any issue.",
+                         "link":  "https://github.com/Noctharion/MyInstaAPP/releases/download/v27-beta1/MyInsta-V27-beta1-Instagram-armeabi-v7a.apk",
+                         "sha256":  "8232847013f5cec391d26a2c7499b7ba046ec7ced893c195a441b93292a74c5f",
+                         "size":  211314576
+                     },
+                     {
+                         "version":  "27.0.0-beta1",
+                         "channel":  "beta",
+                         "package":  "com.myinsta.android",
+                         "architecture":  "armeabi-v7a",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta V27 beta 1\n\n- Updated to Instagram 447.0.0.55.81 with Instagram and MyInsta clone builds for ARM64, ARM32, x86 and x86_64.\n- Redesigned settings with search, grouped controls and light/dark themes.\n- Ghost Mode controls for activity, receipts, Stories, screenshots and secret voice playback.\n- Manual conversation read action and Seen after reply, with separate handling of view-once media.\n- Download Center for posts, carousels, Reels, Stories, profile photos and supported DM media, including voice messages.\n- Optional advanced Story downloads, best-available quality selection, folder settings and completion/failure notifications.\n- Independent ad, distraction, gesture, autoplay, Story looping and highlight controls.\n- Story mentions, exact timestamps, highlight-cover viewing and profile-photo zoom/download tools.\n- Text selection, profile biography copying and four-state relationship indicators.\n- Developer tools, experiment import/export and preserved community roles.\n- Owner-controlled update and membership feeds; updates match the installed package, architecture and selected release channel.\n\nBeta release: device validation is ongoing. Please report the architecture, app variant and reproduction steps with any issue.",
+                         "link":  "https://github.com/Noctharion/MyInstaAPP/releases/download/v27-beta1/MyInsta-V27-beta1-Clone-armeabi-v7a.apk",
+                         "sha256":  "92e31abe418bc04a45e2f75c6a422b6db58065831e66769cdd3edc6e47d56a5e",
+                         "size":  211433629
+                     },
+                     {
+                         "version":  "27.0.0-beta1",
+                         "channel":  "beta",
+                         "package":  "com.instagram.android",
+                         "architecture":  "x86",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta V27 beta 1\n\n- Updated to Instagram 447.0.0.55.81 with Instagram and MyInsta clone builds for ARM64, ARM32, x86 and x86_64.\n- Redesigned settings with search, grouped controls and light/dark themes.\n- Ghost Mode controls for activity, receipts, Stories, screenshots and secret voice playback.\n- Manual conversation read action and Seen after reply, with separate handling of view-once media.\n- Download Center for posts, carousels, Reels, Stories, profile photos and supported DM media, including voice messages.\n- Optional advanced Story downloads, best-available quality selection, folder settings and completion/failure notifications.\n- Independent ad, distraction, gesture, autoplay, Story looping and highlight controls.\n- Story mentions, exact timestamps, highlight-cover viewing and profile-photo zoom/download tools.\n- Text selection, profile biography copying and four-state relationship indicators.\n- Developer tools, experiment import/export and preserved community roles.\n- Owner-controlled update and membership feeds; updates match the installed package, architecture and selected release channel.\n\nBeta release: device validation is ongoing. Please report the architecture, app variant and reproduction steps with any issue.",
+                         "link":  "https://github.com/Noctharion/MyInstaAPP/releases/download/v27-beta1/MyInsta-V27-beta1-Instagram-x86.apk",
+                         "sha256":  "8b73a3522aa12dee7da01cecf2296b0046390f684f5d395c5297690d3c167b63",
+                         "size":  157569763
+                     },
+                     {
+                         "version":  "27.0.0-beta1",
+                         "channel":  "beta",
+                         "package":  "com.myinsta.android",
+                         "architecture":  "x86",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta V27 beta 1\n\n- Updated to Instagram 447.0.0.55.81 with Instagram and MyInsta clone builds for ARM64, ARM32, x86 and x86_64.\n- Redesigned settings with search, grouped controls and light/dark themes.\n- Ghost Mode controls for activity, receipts, Stories, screenshots and secret voice playback.\n- Manual conversation read action and Seen after reply, with separate handling of view-once media.\n- Download Center for posts, carousels, Reels, Stories, profile photos and supported DM media, including voice messages.\n- Optional advanced Story downloads, best-available quality selection, folder settings and completion/failure notifications.\n- Independent ad, distraction, gesture, autoplay, Story looping and highlight controls.\n- Story mentions, exact timestamps, highlight-cover viewing and profile-photo zoom/download tools.\n- Text selection, profile biography copying and four-state relationship indicators.\n- Developer tools, experiment import/export and preserved community roles.\n- Owner-controlled update and membership feeds; updates match the installed package, architecture and selected release channel.\n\nBeta release: device validation is ongoing. Please report the architecture, app variant and reproduction steps with any issue.",
+                         "link":  "https://github.com/Noctharion/MyInstaAPP/releases/download/v27-beta1/MyInsta-V27-beta1-Clone-x86.apk",
+                         "sha256":  "10622be2ca99f6dc343b9d3142c1ec10d1bf29b5801000030b194099f04757b5",
+                         "size":  157692900
+                     },
+                     {
+                         "version":  "27.0.0-beta1",
+                         "channel":  "beta",
+                         "package":  "com.instagram.android",
+                         "architecture":  "x86_64",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta V27 beta 1\n\n- Updated to Instagram 447.0.0.55.81 with Instagram and MyInsta clone builds for ARM64, ARM32, x86 and x86_64.\n- Redesigned settings with search, grouped controls and light/dark themes.\n- Ghost Mode controls for activity, receipts, Stories, screenshots and secret voice playback.\n- Manual conversation read action and Seen after reply, with separate handling of view-once media.\n- Download Center for posts, carousels, Reels, Stories, profile photos and supported DM media, including voice messages.\n- Optional advanced Story downloads, best-available quality selection, folder settings and completion/failure notifications.\n- Independent ad, distraction, gesture, autoplay, Story looping and highlight controls.\n- Story mentions, exact timestamps, highlight-cover viewing and profile-photo zoom/download tools.\n- Text selection, profile biography copying and four-state relationship indicators.\n- Developer tools, experiment import/export and preserved community roles.\n- Owner-controlled update and membership feeds; updates match the installed package, architecture and selected release channel.\n\nBeta release: device validation is ongoing. Please report the architecture, app variant and reproduction steps with any issue.",
+                         "link":  "https://github.com/Noctharion/MyInstaAPP/releases/download/v27-beta1/MyInsta-V27-beta1-Instagram-x86_64.apk",
+                         "sha256":  "6deffc13ef50727f17b3a3dcbe75b62e50f06d6f0b4fc1fc7d5646fcb31ec241",
+                         "size":  163173735
+                     },
+                     {
+                         "version":  "27.0.0-beta1",
+                         "channel":  "beta",
+                         "package":  "com.myinsta.android",
+                         "architecture":  "x86_64",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta V27 beta 1\n\n- Updated to Instagram 447.0.0.55.81 with Instagram and MyInsta clone builds for ARM64, ARM32, x86 and x86_64.\n- Redesigned settings with search, grouped controls and light/dark themes.\n- Ghost Mode controls for activity, receipts, Stories, screenshots and secret voice playback.\n- Manual conversation read action and Seen after reply, with separate handling of view-once media.\n- Download Center for posts, carousels, Reels, Stories, profile photos and supported DM media, including voice messages.\n- Optional advanced Story downloads, best-available quality selection, folder settings and completion/failure notifications.\n- Independent ad, distraction, gesture, autoplay, Story looping and highlight controls.\n- Story mentions, exact timestamps, highlight-cover viewing and profile-photo zoom/download tools.\n- Text selection, profile biography copying and four-state relationship indicators.\n- Developer tools, experiment import/export and preserved community roles.\n- Owner-controlled update and membership feeds; updates match the installed package, architecture and selected release channel.\n\nBeta release: device validation is ongoing. Please report the architecture, app variant and reproduction steps with any issue.",
+                         "link":  "https://github.com/Noctharion/MyInstaAPP/releases/download/v27-beta1/MyInsta-V27-beta1-Clone-x86_64.apk",
+                         "sha256":  "15f627fc723d13fb9844777b8fbd6925b8d0c6c24149bf93d4db546ed9c8a5e4",
+                         "size":  163300968
+                     }
+                 ]
 }
