@@ -1,0 +1,8 @@
+19c657bfd6c15514663d9ecbfe2a3f86d5925fe85d161dc4e17a13efaa8c1995  MyInsta-v27.2.2-UnClone-arm64.apk
+0f3cd45d38fbd643f8ea5df9b6701e47b8fdf7574bba2f3b668ac4d0ecf03acc  MyInsta-v27.2.2-Clone-arm64.apk
+1b2cbf19b281c1bfd2656749d2ac56311bc1ee7c91e27348dfd2c9d9e68cbc09  MyInsta-v27.2.2-UnClone-arm32.apk
+56f746fcfcb3110ac818f00408ff499bef3c68df60f483d6a5012b2b23f0fa1f  MyInsta-v27.2.2-Clone-arm32.apk
+2eea547c7b5ab9b18c2048fae81de79538ff653a9039b9e9049acc90db576af7  MyInsta-v27.2.2-UnClone-x86.apk
+600882c822c76543fecb58a2c6abd34d3f2c8a0cf0503fc3498586abf94f395d  MyInsta-v27.2.2-Clone-x86.apk
+efd8db3dd7815e259515b034c3ebcef622f868cec82ce23c261f17f0440d8eae  MyInsta-v27.2.2-UnClone-x86_64.apk
+6fe868304308b5c065aa82e7a63d17876dc94018700c104b39e36d9351726735  MyInsta-v27.2.2-Clone-x86_64.apk
