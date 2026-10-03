@@ -1,6 +1,17 @@
 {
     "releases":  [
                      {
+                         "version":  "27.2.4",
+                         "channel":  "beta",
+                         "package":  "com.instagram.android",
+                         "architecture":  "arm64-v8a",
+                         "versionCode":  999999999,
+                         "changelog":  "MyInsta v27.2.2 (Beta 2)\n\n- New Appearance section with themes, native navigation ordering, recommendations and button visibility controls.\n- Eight editable theme presets, Monet and AMOLED, five-color Story rings, live preview, undo/cancel, and theme import/export.\n- Expanded theme coverage across profiles, inbox, search, notifications, native settings and conversation details.\n- Separate Liquid Glass controls for supported areas, with independent material settings for Monet and Instagram default.\n- Improved Reels playback-bar clearance, contextual Reel layout and inbox Instants spacing with Glass navigation.\n- Independent Discover people controls for Home, profiles, inbox and Notifications; separate filters for suggested content categories.\n- Separate Save and Repost visibility controls for Feed, posts and Reels, including Reel counters.\n- Improved Home, Following and Favorites ad filtering, with correct feed completion when every available post is filtered.\n- Pull-to-refresh blocking now also covers Explore and retains normal scrolling.\n- Floating profile-photo viewer on long press, with native taps and your own profile-photo actions preserved.\n- Profile photos use the profile display name, and highlight covers use the highlight title.\n- Improved external Instagram link handoff for UnClone builds.\n- More consistent English settings text, themed menu outlines and search results.\n- Numeric release naming: v27.2.2 identifies Beta 2; preview updates remain controlled by Include preview releases.\n\nBased on Instagram 447.0.0.55.81. Clone and UnClone builds are available for ARM64, ARM32, x86 and x86_64. Broader device and account testing remains ongoing; report the architecture, variant and reproduction steps with any issue.",
+                         "link":  "https://mega.nz/file/0bpgyBIA#YtYdKD1r38IDSod5vQM6UM4kpW4L3CV4FJLp1ZQ4ZOI",
+                         "sha256":  "19c657bfd6c15514663d9ecbfe2a3f86d5925fe85d161dc4e17a13efaa8c1995",
+                         "size":  247452053
+                     },
+                     {
                          "version":  "27.2.2",
                          "channel":  "beta",
                          "package":  "com.instagram.android",
