@@ -8,13 +8,6 @@ Released October 3, 2026, based on Instagram 447.0.0.55.81. Eight signed APKs co
 
 UnClone uses `com.instagram.android` and retains the Instagram name and icon. Clone uses `com.myinsta.android` with the MyInsta name and icon, allowing a separate installation. Choose the architecture matching your device.
 
-| Architecture | UnClone (Instagram) | Clone (MyInsta) |
-| --- | --- | --- |
-| arm64-v8a | [Download](https://mega.nz/file/0bpgyBIA#YtYdKD1r38IDSod5vQM6UM4kpW4L3CV4FJLp1ZQ4ZOI) | [Download](https://mega.nz/file/hTRnBQBK#AX6ikAD8SL7CkJsVN636-yKQ4c6cHkmR_p7JTmHrfxU) |
-| armeabi-v7a | [Download](https://mega.nz/file/Ib4jQCyD#zEO34mS9ffrP9ivcJQyGoHHHl0kgSEai1bjoXl5gzmc) | [Download](https://mega.nz/file/tGxSATID#CADGfD9UW-mA4CVcmUE3vfMJoN-_zVUStrldBwaaIEA) |
-| x86 | [Download](https://mega.nz/file/4bYXUKLS#Mf6vOzUeA5OigmGD74RCDu9nCQ2LDTA02DfyX5O1xH0) | [Download](https://mega.nz/file/5ThR0a7K#YqkIoNxfi-5m_86-Aaw2lzbbXSKk64T5RrdKkOb0Rug) |
-| x86_64 | [Download](https://mega.nz/file/xDxUDKLS#AtmnhOps_CSM0vbKH6ZdSW0ZaG76ZZU5tmHyPH4sxxM) | [Download](https://mega.nz/file/JOQERZYa#dsbNtD65uct1zk4ji-4EuO2OLm-nT3fW2ntE-DH1WKM) |
-
 See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md) and [SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS.txt). Enable **Include preview releases** in MyInsta's update settings to receive beta updates. A development build already identifying as v27.2.2 can be updated manually with the matching release APK.
 
 ## Update feed
