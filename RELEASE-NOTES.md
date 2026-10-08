@@ -1,3 +1,20 @@
+# MyInsta v27.2.4 (Beta 4)
+
+Prepared October 9, 2026. Based on Instagram **447.0.0.55.81**. **Clone and UnClone for arm64-v8a only**; other architectures are reserved for the final release. The release identity is `27.2.4 / beta`, with the established signing certificate. Downloads are managed on the [official releases page](https://myinsta.dev/releases).
+
+- **Ghost Mode:** independent, default-off **Seen after reacting** and **Mark as seen button** options under **Remove Seen Status**. Successful reaction additions/changes can send the conversation receipt; removals and failures do not. Removing a reaction cannot undo Seen. The in-chat double-check button preserves all view-once media while **Keep View-Once Media** is enabled; otherwise it also explicitly marks eligible incoming view-once/replayable media as seen. The existing inbox action remains independent.
+- **DM reaction emojis:** locally displayed and received reactions follow the selected emoji style without changing the transmitted reaction.
+- **Developer Flag layouts:** fit all four Prism overflow actions without clipping; show mentions in the Compose Story header; apply Story organizer filters and Hide tray highlights to the experimental Reels Stories bar; offer the highlight-cover viewer in the alternate profile long-press menu.
+- **Themes:** active colors apply to the Themes screen, Home suggestions, video algorithm footer, Explore recent searches, follower/following search and sorting, Subscriptions, and Direct filters/counters. The pinned Direct filter row replaces the inline row during scrolling. AMOLED preserves native action states and styles, with explicit control-color edits respected.
+- **Settings:** matching scene artwork for all ten main cards, centered between the title and description.
+- **Privacy:** Disable analytics also suppresses the inspected contacts/location onboarding prompts while retaining Android permission requests and manual management screens.
+- **Updates:** official APK update API, installed variant/ABI matching, opt-in foreground checks, and a Home announcement with patch notes and Download/Close alongside Android notifications. Download and installation remain user actions.
+- **About and developer tools:** official Report/Releases links, Spartan maintainer and community links, original-developer Instagram credit, and informational Source code/Wiki rows. Obsolete automatic-decryption controls are removed; native metadata, the bundled JSON mapping and experiment import/export remain available. The Wiki adds a practical Developer Flags guide and complete reference with explicit evidence labels.
+
+The native-flag integration experiment was removed. MyInsta follows the active native layout without automatically enabling these layout flags. Phone captures identified layouts; they do not validate the changed release APK. Fresh visual acceptance, recipient-visible receipts, the Home update announcement and the reported onboarding prompts remain pending owner testing. Server delivery and offline receipt behavior remain dependent on Instagram. GitHub metadata publication does not publish the official website release.
+
+The final ARM64 bundle passed **347 JVM tests**. Both signed APKs applied all **17 patches** and passed exact package/ABI and release identity, established-certificate signature, 16 KB alignment, DEX/runtime payload preservation and serialized branch/native-reference gates. See the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.4.json), [SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.4.txt) and [Beta 4 Wiki record](https://github.com/Noctharion/MyInsta/wiki/Release-v27.2.4). Beta 3 and Beta 2 history follows.
+
 # MyInsta v27.2.3 (Beta 3)
 
 Prepared October 5, 2026. Based on Instagram **447.0.0.55.81**, with Clone and UnClone APKs for **arm64-v8a, armeabi-v7a, x86_64 and x86**. Download links are pending. Beta 3 metadata is published with blank links; eligible update details can appear, and the Download action becomes available when a matching link is supplied.

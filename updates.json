@@ -1,6 +1,28 @@
 {
   "releases": [
     {
+      "version": "27.2.4",
+      "channel": "beta",
+      "package": "com.instagram.android",
+      "architecture": "arm64-v8a",
+      "versionCode": 999999999,
+      "changelog": "MyInsta v27.2.4 (Beta 4)\n\n- Ghost Mode: separate Seen after reacting and in-chat Mark as seen button, both off by default. Accepted reaction additions/changes can send the chat receipt; removing a reaction cannot undo Seen. The header button preserves all view-once media with Keep View-Once Media on, or explicitly marks eligible incoming view-once/replayable media as seen when it is off. The inbox-menu action remains independent.\n- DM reaction emojis follow the selected local emoji style without changing the transmitted reaction.\n- Developer Flag layouts: all four Prism overflow actions fit, Compose Story mentions are supported, Reels Stories bars follow organizer filters and Hide tray highlights, and alternate profile menus expose the highlight-cover viewer.\n- Themes: active colors cover the Themes screen, Home suggestions, video algorithm footer, Explore recent searches, follower/following controls, Subscriptions, and Direct filters/counters. The pinned Direct filter row replaces the inline row. AMOLED retains native action states and explicit control-color edits.\n- Settings: matching scene artwork on all ten main cards, centered between title and description.\n- Disable analytics suppresses inspected contacts/location onboarding prompts while retaining Android permission requests and manual management.\n- OTA moves to the official APK update API with exact variant/ABI matching, opt-in foreground checks, notifications, and a Home announcement with patch notes and Download/Close.\n- About uses official Report/Releases links, Spartan maintainer/community links and the original developer's Instagram credit. Source code and Wiki are informational rows. Obsolete automatic-decryption controls are removed; JSON experiment mapping and import/export remain available.\n- Wiki: practical Developer Flags guide and complete reference with explicit evidence labels. The native-flag integration experiment was removed.\n\nBased on Instagram 447.0.0.55.81. Clone and UnClone for arm64-v8a only; other architectures are reserved for the final release. Official website release publication is separate from this metadata. Fresh visual, recipient-visible receipt and server/offline acceptance remain pending owner testing.",
+      "link": "",
+      "sha256": "576da783666ab21c0c21cd4d330c9ee54f0bd4c81be79dba06947cb6e130d1ea",
+      "size": 249045016
+    },
+    {
+      "version": "27.2.4",
+      "channel": "beta",
+      "package": "com.myinsta.android",
+      "architecture": "arm64-v8a",
+      "versionCode": 999999999,
+      "changelog": "MyInsta v27.2.4 (Beta 4)\n\n- Ghost Mode: separate Seen after reacting and in-chat Mark as seen button, both off by default. Accepted reaction additions/changes can send the chat receipt; removing a reaction cannot undo Seen. The header button preserves all view-once media with Keep View-Once Media on, or explicitly marks eligible incoming view-once/replayable media as seen when it is off. The inbox-menu action remains independent.\n- DM reaction emojis follow the selected local emoji style without changing the transmitted reaction.\n- Developer Flag layouts: all four Prism overflow actions fit, Compose Story mentions are supported, Reels Stories bars follow organizer filters and Hide tray highlights, and alternate profile menus expose the highlight-cover viewer.\n- Themes: active colors cover the Themes screen, Home suggestions, video algorithm footer, Explore recent searches, follower/following controls, Subscriptions, and Direct filters/counters. The pinned Direct filter row replaces the inline row. AMOLED retains native action states and explicit control-color edits.\n- Settings: matching scene artwork on all ten main cards, centered between title and description.\n- Disable analytics suppresses inspected contacts/location onboarding prompts while retaining Android permission requests and manual management.\n- OTA moves to the official APK update API with exact variant/ABI matching, opt-in foreground checks, notifications, and a Home announcement with patch notes and Download/Close.\n- About uses official Report/Releases links, Spartan maintainer/community links and the original developer's Instagram credit. Source code and Wiki are informational rows. Obsolete automatic-decryption controls are removed; JSON experiment mapping and import/export remain available.\n- Wiki: practical Developer Flags guide and complete reference with explicit evidence labels. The native-flag integration experiment was removed.\n\nBased on Instagram 447.0.0.55.81. Clone and UnClone for arm64-v8a only; other architectures are reserved for the final release. Official website release publication is separate from this metadata. Fresh visual, recipient-visible receipt and server/offline acceptance remain pending owner testing.",
+      "link": "",
+      "sha256": "9b7be8a7f5fc182db68c0d948060be135c80e19995ba786f844d151aa78eac09",
+      "size": 249180441
+    },
+    {
       "version": "27.2.3",
       "channel": "beta",
       "package": "com.instagram.android",
