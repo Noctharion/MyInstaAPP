@@ -1,0 +1,2 @@
+dc0014b8c21bdbfe5bb5d82f6c026e4a02ed179ddaedb3d9ddc0967db862a15d  MyInsta-v27.2.5-Beta5-UnClone-arm64-v8a.apk
+155f2b64734df36bb83d1853bb282a31e75254ba47d98d90a69a1c0527a90e4a  MyInsta-v27.2.5-Beta5-Clone-arm64-v8a.apk
