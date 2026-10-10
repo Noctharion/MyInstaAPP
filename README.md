@@ -2,6 +2,20 @@
 
 Public release and membership metadata maintained by Spartan. Application source code is maintained separately.
 
+## v27.2.5 (Beta 5)
+
+Prepared October 10, 2026, based on Instagram **447.0.0.55.81**. **Clone and UnClone for arm64-v8a only**; other architectures are reserved for the final release. The existing signed APKs are reused without a rebuild. They retain the internal **`v27.2.5-dev`** label and OTA identity **`27.2.5 / beta`**, Android versionCode `999999999`, unknown editorial build number `-1` and the established signing certificate.
+
+| Architecture | UnClone (Instagram) | Clone (MyInsta) |
+| --- | --- | --- |
+| arm64-v8a | Download link pending | Download link pending |
+
+Beta 5 adds **Like protection**, photo/GIF comment downloads and MOD settings backup with optional developer flags. It corrects Direct media-read bookkeeping, emoji measurement and shortcut ordering, Story mention/header alignment, and native theme coverage across discovery, search, News filters and Reels menus/trays. Home theme work is reduced during drawing. The Stories summary page retains native behavior, with color handling only.
+
+See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 5 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.5.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.5.json) and the [Wiki release record](https://github.com/Noctharion/MyInsta/wiki/Release-v27.2.5). The bundle passed **370 JVM tests**, the production people renderer passed **88 checks**, and both exact APKs passed signature, package/ABI, identity, 16 KB alignment, payload and serialized integration checks. Fresh device confirmation of the latest visual changes remains pending.
+
+The owner publishes the matching APKs on the [official website](https://myinsta.dev/releases). Repository updates do not create the website release. The app uses `https://myinsta.dev/api/version`; this repository's `updates.json` remains legacy release metadata. Source development moves to **v27.0.0 final**, while these APKs remain Beta 5.
+
 ## v27.2.4 (Beta 4)
 
 Prepared October 9, 2026, based on Instagram **447.0.0.55.81**. This release contains **Clone and UnClone for arm64-v8a only**. Other architectures are reserved for the final release. Release identity is `27.2.4 / beta`, with Android versionCode `999999999` and the established signing certificate.
@@ -43,9 +57,9 @@ See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-N
 
 ## Release metadata and updates
 
-`updates.json` retains the legacy release schema: version, channel, package, architecture, versionCode, changelog, signed-APK SHA-256, size and link. Beta 4 adds only the two ARM64 variants. All eight Beta 3 entries and all eight Beta 2 entries remain unchanged, including existing links. APK Android versionCode is `999999999`; it is separate from the official website's editorial release build number.
+`updates.json` retains the legacy release schema: version, channel, package, architecture, versionCode, changelog, signed-APK SHA-256, size and link. Beta 5 adds only its two ARM64 variants. The two Beta 4 entries, all eight Beta 3 entries and all eight Beta 2 entries remain unchanged, including existing links. APK Android versionCode is `999999999`; it is separate from the official website's editorial release build number.
 
-Beta 4 update checks use the public official API, select the installed Clone/UnClone variant and ABI, and accept compatible universal assets. **Automatic checks** is opt-in; when enabled, it checks on opening or returning from the background. A newer eligible release can show an Android notification and a themed **Home** announcement with patch notes and **Download / Close**. A release needs to be published with matching assets on the official website before the app can offer it. When an installed editorial build number is unknown, the app omits it from the API query and uses release-version comparison.
+Beta 4 and Beta 5 update checks use the public official API, select the installed Clone/UnClone variant and ABI, and accept compatible universal assets. **Automatic checks** is opt-in; when enabled, it checks on opening or returning from the background. A newer eligible release can show an Android notification and a themed **Home** announcement with patch notes and **Download / Close**. A release needs to be published with matching assets on the official website before the app can offer it. When an installed editorial build number is unknown, the app omits it from the API query and uses release-version comparison.
 
 All four Beta 3 ABI builds passed **248 JVM tests each**. All eight final APKs applied all **17 patches** and passed signing, exact package/ABI, embedded release/update identity, 16 KB alignment, DEX preservation and serialized branch/runtime/native-reference checks. The final artifact record remains separate from ARM64 Android 16 development device evidence; fresh installation of all eight final variants was not performed in this release run. Broader device and account testing remains ongoing. The 193-test checkpoint and previously tested ARM64 payload comparison belong to the historical Beta 2 release.
 
