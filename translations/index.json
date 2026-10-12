@@ -4,9 +4,17 @@
   "defaults": {
     "en": "en",
     "pt": "pt-PT",
-    "es": "es"
+    "es": "es",
+    "de": "de"
   },
   "packs": [
+    {
+      "locale": "de",
+      "revision": 1,
+      "path": "packs/de/1-dbd342d82ae251af2662036641c9c1807c447d34e378e19451dadd1f631831ff.json",
+      "size": 107420,
+      "sha256": "dbd342d82ae251af2662036641c9c1807c447d34e378e19451dadd1f631831ff"
+    },
     {
       "locale": "en",
       "revision": 2,
