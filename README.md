@@ -2,6 +2,12 @@
 
 Public release and membership metadata maintained by Spartan. Application source code is maintained separately.
 
+## v27.0.1 translations in development
+
+MyInsta's own interface follows Instagram's chosen language. Complete English and European Portuguese catalogues contain 1,322 entries and ship in the APK for offline use. Additional languages and corrections are distributed from [translations/](translations/) without rebuilding the app. Public contributors can use the [JSON template](translations/contribute/template.json), [contribution guide](translations/CONTRIBUTING.md) and standalone tools in this repository. See the [public wiki](https://github.com/Noctharion/MyInstaAPP/wiki) for feature guides and translation status.
+
+This work targets the upcoming v27.0.1; the released v27.0.0 artifacts and update metadata retain their existing release identity.
+
 ## v27.0.0 (Final)
 
 Prepared October 10, 2026, based on Instagram **447.0.0.55.81**, for Android **9 (API 28) and later**. This release contains **eight APKs**: Clone and UnClone for **arm64-v8a, armeabi-v7a, x86_64 and x86**. Release information and delivery are managed on the [official website](https://myinsta.dev/releases).
@@ -23,7 +29,7 @@ No website editorial build number was supplied; the embedded **releaseBuildNumbe
 
 All four ABI bundles passed **370 JVM tests per ABI**. Each exact signed APK applied **17 patches** and passed package/ABI and embedded identity, v1/v2/v3 signature checks against the final certificate, 16 KB alignment, signing payload/DEX preservation, serialized branch/runtime/native-reference checks and scoped screen, comment-download, Like protection and Reels tray gates. Per-artifact counts are recorded in the release notes and manifest. **Fresh device acceptance of the exact final APKs remains pending.**
 
-See the [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Final SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.0.0.txt), [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.0.0.json) and [Final Wiki record](https://github.com/Noctharion/MyInsta/wiki/Release-v27.0.0). GitHub publication does not create a website release or upload APKs. All `updates.json` download links are empty by owner request; app OTA uses the official API.
+See the [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Final SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.0.0.txt), [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.0.0.json) and [Final Wiki record](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md). GitHub publication does not create a website release or upload APKs. All `updates.json` download links are empty by owner request; app OTA uses the official API.
 
 ## v27.2.5 (Beta 5)
 
@@ -35,7 +41,7 @@ Prepared October 10, 2026, based on Instagram **447.0.0.55.81**. **Clone and UnC
 
 Beta 5 adds **Like protection**, photo/GIF comment downloads and MOD settings backup with optional developer flags. It corrects Direct media-read bookkeeping, emoji measurement and shortcut ordering, Story mention/header alignment, and native theme coverage across discovery, search, News filters and Reels menus/trays. Home theme work is reduced during drawing. The Stories summary page retains native behavior, with color handling only.
 
-See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 5 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.5.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.5.json) and the [Wiki release record](https://github.com/Noctharion/MyInsta/wiki/Release-v27.2.5). The bundle passed **370 JVM tests**, the production people renderer passed **198 checks**, and both exact APKs passed signature, package/ABI, identity, 16 KB alignment, payload and serialized integration checks. Fresh device confirmation of the latest visual changes remains pending.
+See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 5 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.5.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.5.json) and the [Wiki release record](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md). The bundle passed **370 JVM tests**, the production people renderer passed **198 checks**, and both exact APKs passed signature, package/ABI, identity, 16 KB alignment, payload and serialized integration checks. Fresh device confirmation of the latest visual changes remains pending.
 
 The owner publishes the matching APKs on the [official website](https://myinsta.dev/releases). Repository updates do not create the website release. The app uses `https://myinsta.dev/api/version`; this repository's `updates.json` remains legacy release metadata. Source development moves to **v27.0.0 final**, while these APKs remain Beta 5.
 
@@ -47,7 +53,7 @@ Prepared October 9, 2026, based on Instagram **447.0.0.55.81**. This release con
 | --- | --- | --- |
 | arm64-v8a | Download link pending | Download link pending |
 
-Beta 4 adds an optional in-chat **Mark as seen** button and **Seen after reacting**, corrects alternate Developer Flag layouts and theme coverage, suppresses contacts/location onboarding with Disable analytics, refreshes settings artwork and About links, and migrates update checks to the official API with a Home announcement. See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 4 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.4.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.4.json) and the [Wiki release record](https://github.com/Noctharion/MyInsta/wiki/Release-v27.2.4).
+Beta 4 adds an optional in-chat **Mark as seen** button and **Seen after reacting**, corrects alternate Developer Flag layouts and theme coverage, suppresses contacts/location onboarding with Disable analytics, refreshes settings artwork and About links, and migrates update checks to the official API with a Home announcement. See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 4 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.4.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.4.json) and the [Wiki release record](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md).
 
 Both final signed APKs applied all **17 patches** and passed package/ABI, embedded release identity, established-certificate signature, 16 KB alignment, DEX/runtime payload preservation, serialized branches and native references. The ARM64 bundle passed **347 JVM tests**. The final manifest records **no fresh device validation**; visual acceptance, recipient-visible receipts, Home announcements and onboarding behavior remain pending owner testing.
 
@@ -66,7 +72,7 @@ Prepared October 5, 2026, based on Instagram **447.0.0.55.81**. Eight final APKs
 
 UnClone uses `com.instagram.android` and retains Instagram's name and icon. Clone uses `com.myinsta.android` with the MyInsta name and icon for a separate installation. Each final APK declares MyInsta `27.2.3`, channel `beta` and Android versionCode `999999999`.
 
-Beta 3 adds Keep Unsent Messages, the Home Story organizer, Fonts & emojis, creative Direct text, Story fonts, native audio upload, first-frame/audio download choices, Story receipt/mention options, Instants controls and foreground update checks. See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 3 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.3.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.3.json) and the [Wiki release record](https://github.com/Noctharion/MyInsta/wiki/Release-v27.2.3).
+Beta 3 adds Keep Unsent Messages, the Home Story organizer, Fonts & emojis, creative Direct text, Story fonts, native audio upload, first-frame/audio download choices, Story receipt/mention options, Instants controls and foreground update checks. See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 3 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.3.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.3.json) and the [Wiki release record](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md).
 
 `updates.json` contains eight Beta 3 entries with exact signed-APK hashes and sizes and **empty download links**. The Beta 3 updater can display eligible update details while the links are blank; its Download button appears after a matching HTTPS link is supplied. Beta 4 uses the official API instead. Existing Beta 2 entries and artifacts are retained below; all legacy download links are now blank.
 
