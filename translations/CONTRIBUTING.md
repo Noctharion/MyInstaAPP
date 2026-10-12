@@ -4,7 +4,7 @@ Everything needed by a translator is in this **public MyInstaAPP repository**. D
 
 ## Translate
 
-The complete English catalogue is [source/en.json](source/en.json). [source/pt-PT.json](source/pt-PT.json) is the complete European Portuguese translation. The [template](contribute/template.json) and [context](contribute/context.json) are ready to download, or export a new template:
+The complete English catalogue is [source/en.json](source/en.json). Complete translations are published for [European Portuguese](source/pt-PT.json), [Brazilian Portuguese](source/pt-BR.json), [Spanish](source/es.json), [German](source/de.json) and [French](source/fr.json), with 1,322 entries each. English and European Portuguese are bundled in the APK; the other four are downloaded when needed. The [template](contribute/template.json) and [context](contribute/context.json) are ready to download, or export a new template:
 
 ```powershell
 ./translations/tools/Translations.ps1 -Command export -Locale es -Output ./translation-es
@@ -30,9 +30,9 @@ Save the translated authoring file under `translations/source/<locale>.json`. In
 ./translations/tools/Translations.ps1 -Command prepare -File ./translations/source/es.json -Default
 ```
 
-`-Default` makes the locale the fallback for its language/script family. pt-PT is the `pt` default, so pt-BR currently uses it until an exact pt-BR pack exists. `zh-Hans` and `zh-Hant` have separate defaults; do not mix scripts. Exact variants take precedence; partial entries fall back to English.
+`-Default` makes the locale the fallback for its language/script family. pt-PT is the `pt` default; the published exact pt-BR pack takes precedence for Brazilian Portuguese. Portuguese variants without an exact pack use pt-PT. `zh-Hans` and `zh-Hant` have separate defaults; do not mix scripts. Exact variants take precedence; partial entries fall back to English.
 
-Preparation computes the byte length and SHA-256, creates an immutable `translations/packs/<locale>/<revision>-<sha256>.json` path, and atomically updates `translations/index.json`. Same-revision changes are rejected. Keep older immutable packs for cached indexes and older clients.
+Preparation validates UTF-8 and normalizes physical line endings to LF before computing the byte length and SHA-256. It creates an immutable `translations/packs/<locale>/<revision>-<sha256>.json` path and atomically updates `translations/index.json`. JSON-escaped line breaks in text values are preserved. Same-revision changes are rejected. Keep older immutable packs for cached indexes and older clients.
 
 Review and commit the authoring JSON, new pack and index. Contributors without write access submit a pull request to this public repository. Maintainers merge/push the files to publish. A correction or additional language needs **no APK rebuild**.
 

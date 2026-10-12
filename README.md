@@ -4,7 +4,7 @@ Public release and membership metadata maintained by Spartan. Application source
 
 ## v27.0.1 translations in development
 
-MyInsta's own interface follows Instagram's chosen language. Complete English and European Portuguese catalogues contain 1,322 entries and ship in the APK for offline use. Additional languages and corrections are distributed from [translations/](translations/) without rebuilding the app. Public contributors can use the [JSON template](translations/contribute/template.json), [contribution guide](translations/CONTRIBUTING.md) and standalone tools in this repository. See the [public wiki](https://github.com/Noctharion/MyInstaAPP/wiki) for feature guides and translation status.
+MyInsta's own interface follows Instagram's chosen language. Complete English and European Portuguese catalogues contain 1,322 entries and ship in the APK for offline use. Complete Brazilian Portuguese, Spanish, German and French packs are also available from [translations/](translations/), with 1,322 entries each. Language packs and corrections are distributed without rebuilding the app. Public contributors can use the [JSON template](translations/contribute/template.json), [contribution guide](translations/CONTRIBUTING.md) and standalone tools in this repository. See the [public wiki](https://github.com/Noctharion/MyInstaAPP/wiki) for feature guides and translation status.
 
 This work targets the upcoming v27.0.1; the released v27.0.0 artifacts and update metadata retain their existing release identity.
 
