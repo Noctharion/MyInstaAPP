@@ -5,7 +5,8 @@
     "en": "en",
     "pt": "pt-PT",
     "es": "es",
-    "de": "de"
+    "de": "de",
+    "fr": "fr"
   },
   "packs": [
     {
@@ -28,6 +29,13 @@
       "path": "packs/es/1-88f268c3ba7fab038cd2cc4628205bf692adfdd425dc2e19f16e1e00c1ab4301.json",
       "size": 107016,
       "sha256": "88f268c3ba7fab038cd2cc4628205bf692adfdd425dc2e19f16e1e00c1ab4301"
+    },
+    {
+      "locale": "fr",
+      "revision": 1,
+      "path": "packs/fr/1-8d0043d72f58b34f0a0a83ddc782d553029ff6a9e62100d49df8c3450ded12dd.json",
+      "size": 108788,
+      "sha256": "8d0043d72f58b34f0a0a83ddc782d553029ff6a9e62100d49df8c3450ded12dd"
     },
     {
       "locale": "pt-BR",
