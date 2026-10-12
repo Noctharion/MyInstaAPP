@@ -14,6 +14,13 @@
       "sha256": "5b97f4b8074b54ba31ef75183bed1b66ad068e7d31fbe98e47de5554dd9552d7"
     },
     {
+      "locale": "pt-BR",
+      "revision": 1,
+      "path": "packs/pt-BR/1-6ad53c2d91f6de7e5bf0b21b43f6c29ac2fc96e30f3d22e4c2b344d39dc8f419.json",
+      "size": 104846,
+      "sha256": "6ad53c2d91f6de7e5bf0b21b43f6c29ac2fc96e30f3d22e4c2b344d39dc8f419"
+    },
+    {
       "locale": "pt-PT",
       "revision": 2,
       "path": "packs/pt-PT/2-4ead6a62d744e03a5aefab973a519d96cd8d6bb01c15d8d05553ea6d3fc9b056.json",
