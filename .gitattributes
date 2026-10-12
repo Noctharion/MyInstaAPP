@@ -1,0 +1,4 @@
+# Keep editable translation JSON consistent across Windows and other checkouts.
+translations/**/*.json text eol=lf
+# Content-addressed packs must be published byte for byte without Git conversion.
+translations/packs/** -text

@@ -66,7 +66,7 @@ public final class TranslationCatalogTool {
             }
             case "prepare": {
                 if (args.length < 4) throw new IllegalArgumentException("prepare requires a MyInstaAPP directory");
-                byte[] bytes = Files.readAllBytes(Paths.get(args[2])); TranslationPack pack = TranslationPack.parse(bytes, english);
+                byte[] bytes = publicationBytes(Files.readAllBytes(Paths.get(args[2]))); TranslationPack pack = TranslationPack.parse(bytes, english);
                 if (pack.locale.equals("en") || pack.locale.equals("pt-PT")) TranslationPack.requireComplete(pack, english);
                 Path repo = Paths.get(args[3]).toAbsolutePath().normalize();
                 if (!Files.isDirectory(repo.resolve(".git"))) throw new IllegalArgumentException("Expected MyInstaAPP Git checkout");
@@ -105,6 +105,12 @@ public final class TranslationCatalogTool {
     private static void report(TranslationPack pack, TranslationPack english) {
         int total = english.strings.size() + english.plurals.size(), count = pack.strings.size() + pack.plurals.size();
         System.out.printf(Locale.ROOT, "%s revision %d: %d/%d entries (%.1f%% coverage)%n", pack.locale, pack.revision, count, total, total == 0 ? 100d : 100d * count / total);
+    }
+    private static byte[] publicationBytes(byte[] input) {
+        // Hash the bytes that Git and HTTP will publish, independent of author checkout endings.
+        // Escaped JSON \r and \n sequences remain literal; raw newlines inside strings still fail parsing.
+        String json = TranslationPack.decode(input, TranslationPack.MAX_BYTES);
+        return json.replace("\r\n", "\n").replace('\r', '\n').getBytes(StandardCharsets.UTF_8);
     }
     private static void write(Path path, Object root) throws Exception { atomic(path, (json(root, 0) + "\n").getBytes(StandardCharsets.UTF_8)); }
     private static void atomic(Path path, byte[] bytes) throws Exception {
