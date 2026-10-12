@@ -8,17 +8,17 @@
   "packs": [
     {
       "locale": "en",
-      "revision": 1,
-      "path": "packs/en/1-8075a5bddd4a98635a530b103dec9f086157887bbd02e36b462c18aecee6916a.json",
-      "size": 95064,
-      "sha256": "8075a5bddd4a98635a530b103dec9f086157887bbd02e36b462c18aecee6916a"
+      "revision": 2,
+      "path": "packs/en/2-5b97f4b8074b54ba31ef75183bed1b66ad068e7d31fbe98e47de5554dd9552d7.json",
+      "size": 93678,
+      "sha256": "5b97f4b8074b54ba31ef75183bed1b66ad068e7d31fbe98e47de5554dd9552d7"
     },
     {
       "locale": "pt-PT",
-      "revision": 1,
-      "path": "packs/pt-PT/1-976f356416f23cee69208b14af6475fc84bd5e8b1ffeadd7e61e0ca9b2054c94.json",
-      "size": 106683,
-      "sha256": "976f356416f23cee69208b14af6475fc84bd5e8b1ffeadd7e61e0ca9b2054c94"
+      "revision": 2,
+      "path": "packs/pt-PT/2-4ead6a62d744e03a5aefab973a519d96cd8d6bb01c15d8d05553ea6d3fc9b056.json",
+      "size": 105297,
+      "sha256": "4ead6a62d744e03a5aefab973a519d96cd8d6bb01c15d8d05553ea6d3fc9b056"
     }
   ]
 }

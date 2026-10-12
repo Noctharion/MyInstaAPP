@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "catalogId": "myinsta-ui-v1",
   "locale": "pt-PT",
-  "revision": 1,
+  "revision": 2,
   "strings": {
     "appearance.common.cancel": "Cancelar",
     "appearance.common.done": "Concluído",
