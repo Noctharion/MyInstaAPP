@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "myinsta-ui-v1",
+  "defaults": {
+    "en": "en",
+    "pt": "pt-PT"
+  },
+  "packs": [
+    {
+      "locale": "en",
+      "revision": 1,
+      "path": "packs/en/1-8075a5bddd4a98635a530b103dec9f086157887bbd02e36b462c18aecee6916a.json",
+      "size": 95064,
+      "sha256": "8075a5bddd4a98635a530b103dec9f086157887bbd02e36b462c18aecee6916a"
+    },
+    {
+      "locale": "pt-PT",
+      "revision": 1,
+      "path": "packs/pt-PT/1-976f356416f23cee69208b14af6475fc84bd5e8b1ffeadd7e61e0ca9b2054c94.json",
+      "size": 106683,
+      "sha256": "976f356416f23cee69208b14af6475fc84bd5e8b1ffeadd7e61e0ca9b2054c94"
+    }
+  ]
+}
