@@ -2144,6 +2144,18 @@
       ],
       "placeholders": {}
     },
+    "media.download.refreshing": {
+      "kind": "strings",
+      "context": "media / download; progress while requesting a missing Direct media source, before creating a download job",
+      "sources": ["extensions/myinsta/src/main/java/app/myinsta/runtime/download/DirectMediaRefresh.java"],
+      "placeholders": {}
+    },
+    "media.download.refresh_failed": {
+      "kind": "strings",
+      "context": "media / download; Instagram returned no usable source or the source request failed; no download job was created",
+      "sources": ["extensions/myinsta/src/main/java/app/myinsta/runtime/download/DirectMediaRefresh.java"],
+      "placeholders": {}
+    },
     "media.download.results": {
       "kind": "strings",
       "context": "media / download",
@@ -3129,6 +3141,14 @@
       ],
       "placeholders": {}
     },
+    "media.unsent.details_saved": {
+      "kind": "strings",
+      "context": "Saved message metadata is present; this does not claim a local attachment.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {}
+    },
     "media.unsent.empty_help": {
       "kind": "strings",
       "context": "media / unsent",
@@ -3215,6 +3235,14 @@
       "placeholders": {
         "name": "Runtime value: name. Keep the name intact; move the placeholder to fit the translated sentence."
       }
+    },
+    "media.unsent.instagram_share": {
+      "kind": "strings",
+      "context": "Instagram share, including a post, Reel, profile or Story. Do not translate as only a post.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {}
     },
     "media.unsent.keep_copies": {
       "kind": "strings",
@@ -10037,6 +10065,321 @@
       "placeholders": {
         "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
       }
+    },
+    "calls.confirm.message": {
+      "kind": "strings",
+      "context": "Outgoing-call confirmation explanation. A voice or video call starts only after the explicit confirmation action.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "calls.confirm.video_action": {
+      "kind": "strings",
+      "context": "Action button that confirms and starts the pending outgoing video call.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "calls.confirm.video_title": {
+      "kind": "strings",
+      "context": "Question in the outgoing video-call confirmation heading. Preserve the question meaning.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "calls.confirm.voice_action": {
+      "kind": "strings",
+      "context": "Action button that confirms and starts the pending outgoing voice call.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "calls.confirm.voice_title": {
+      "kind": "strings",
+      "context": "Question in the outgoing voice-call confirmation heading. Preserve the question meaning.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.action": {
+      "kind": "strings",
+      "context": "Download menu action that opens available metadata for the selected post or Reel.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.author": {
+      "kind": "strings",
+      "context": "Post-details field label for the author's username. The label key is passed through detailField; the username itself is not translated.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.caption": {
+      "kind": "strings",
+      "context": "Post-details field label for the original caption. The label key is passed through detailField; the caption content is not translated.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.dimensions": {
+      "kind": "strings",
+      "context": "Pixel dimensions of the selected downloadable media variant. Keep the width and height order appropriate to dimensions.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {
+        "width": "Pixel width of the selected media variant. Do not rename the placeholder.",
+        "height": "Pixel height of the selected media variant. Do not rename the placeholder."
+      }
+    },
+    "media.details.post_id": {
+      "kind": "strings",
+      "context": "Post-details field label for the native post identifier. The key is passed through detailField; keep the ID value unchanged.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.posted": {
+      "kind": "strings",
+      "context": "Post-details field label for when the post was published. The key is passed through detailField; its date and time use the effective locale.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.resolution": {
+      "kind": "strings",
+      "context": "Post-details field label for the currently selected download resolution, rather than every available variant. The key is passed through detailField.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.title": {
+      "kind": "strings",
+      "context": "Heading of the metadata dialog for a post or Reel opened from the download menu.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.unavailable": {
+      "kind": "strings",
+      "context": "Value shown when an individual post-details field has no available data.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.download.cover": {
+      "kind": "strings",
+      "context": "Download content choice for the original cover image supplied with a post or Reel video. Keep it distinct from an extracted first frame.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.download.cover_help": {
+      "kind": "strings",
+      "context": "Explanation below the original video-cover download choice. This saves the supplied cover image.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "reels.playback.position": {
+      "kind": "strings",
+      "context": "Accessibility state description added to the Reel seek bar; announces elapsed playback time and total duration without replacing native seek actions.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/ReelPlaybackControls.java"
+      ],
+      "placeholders": {
+        "elapsed": "Elapsed playback time formatted as minutes and seconds, for example 0:10. Do not rename the placeholder.",
+        "duration": "Total playback duration formatted as minutes and seconds, for example 0:55. Do not rename the placeholder."
+      }
+    },
+    "settings.confirm_calls.summary": {
+      "kind": "strings",
+      "context": "Description of the optional outgoing voice/video-call confirmation toggle in Messages. Includes calling back from a chat and starts off. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.confirm_calls.title": {
+      "kind": "strings",
+      "context": "Name of the outgoing-call confirmation toggle in Messages. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home.messages": {
+      "kind": "strings",
+      "context": "Short caption of the Messages icon card on the settings home screen. Refers to calls, Notes and sharing controls.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home.profiles": {
+      "kind": "strings",
+      "context": "Short caption of the Profiles icon card on the settings home screen. Refers to relationship indicators, photos and highlights.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home.reels": {
+      "kind": "strings",
+      "context": "Short caption of the Reels icon card on the settings home screen. Refers to playback progress, time and viewer gestures.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.messages_settings.summary": {
+      "kind": "strings",
+      "context": "Introduction to Messages settings; identifies calls, Notes and sharing while directing read receipts and preserved messages to their dedicated areas. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.messages_settings.title": {
+      "kind": "strings",
+      "context": "Name of the dedicated Messages settings area and its home icon card. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.profiles_settings.summary": {
+      "kind": "strings",
+      "context": "Introduction to Profiles settings; identifies relationship indicators, profile photos and highlights and locates shared controls in Appearance. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.profiles_settings.title": {
+      "kind": "strings",
+      "context": "Name of the dedicated Profiles settings area and its home icon card. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_seekbar_enabled.summary": {
+      "kind": "strings",
+      "context": "Description of the opt-in Reel progress/time control. Includes short Reels and the instruction to reopen Reels to apply. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_seekbar_enabled.title": {
+      "kind": "strings",
+      "context": "Name of the Reel progress/time control in the dedicated Reels settings area. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_settings.summary": {
+      "kind": "strings",
+      "context": "Introduction to Reels settings; identifies playback progress and viewer gestures and locates shared controls in their central areas. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_settings.title": {
+      "kind": "strings",
+      "context": "Name of the dedicated Reels settings area and its home icon card. Reels is the Instagram product name. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.calls": {
+      "kind": "strings",
+      "context": "Messages settings section heading for outgoing-call controls.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.gestures": {
+      "kind": "strings",
+      "context": "Reels settings section heading for viewer swipe and double-tap controls.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.media_display": {
+      "kind": "strings",
+      "context": "Appearance settings section heading for shared photo quality and text selection controls.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.notes": {
+      "kind": "strings",
+      "context": "Messages settings section heading for the inbox Notes tray. Notes is the Instagram feature name.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.photos_highlights": {
+      "kind": "strings",
+      "context": "Profiles settings section heading for profile photos and saved Story highlights.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.profile_details": {
+      "kind": "strings",
+      "context": "Profiles settings section heading for account relationship indicators.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.sharing": {
+      "kind": "strings",
+      "context": "Messages settings section heading for share-sheet and Notes-sharing controls; these can affect sharing from several areas.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
     }
   }
 }
