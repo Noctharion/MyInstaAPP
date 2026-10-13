@@ -761,9 +761,8 @@
     },
     "fonts.default": {
       "kind": "strings",
-      "context": "fonts",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontLabels.java",
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
       "placeholders": {}
@@ -1176,7 +1175,7 @@
     },
     "fonts.error.use_emoji_import": {
       "kind": "strings",
-      "context": "fonts / error",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontErrors.java"
       ],
@@ -1283,7 +1282,7 @@
     },
     "fonts.introduction": {
       "kind": "strings",
-      "context": "fonts",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
@@ -10498,6 +10497,132 @@
       "context": "Feed startup preference. Select the native Following feed only at a fresh normal launcher start. Preserve manual choices, position, restored state and notification/link destinations. Default off; no separate feed ordering or viewed-post history.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.import_any": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.import_any_description": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.import_destination": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.emoji_data": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.integrity": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.missing": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.unavailable": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.unsupported": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.loaded_fallback": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "reason": "string"
+      }
+    },
+    "fonts.loaded_inherited": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "font": "string"
+      }
+    },
+    "fonts.loaded_pending": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "font": "string"
+      }
+    },
+    "fonts.reimport_notice": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.repair": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.story_native": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.unavailable_choice": {
+      "kind": "strings",
+      "context": "A saved font id is no longer present in the library. Do not label this choice as the Instagram default.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontLabels.java"
       ],
       "placeholders": {}
     }
