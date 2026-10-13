@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "catalogId": "myinsta-ui-v1",
   "locale": "fr",
-  "revision": 3,
+  "revision": 4,
   "strings": {
     "appearance.common.cancel": "Annuler",
     "appearance.common.done": "Terminé",
@@ -799,6 +799,8 @@
     "settings.navigation_tabs_settings.summary": "Réorganiser, afficher ou masquer les onglets de navigation disponibles.",
     "settings.navigation_tabs_settings.title": "Onglets de navigation",
     "settings.not_available": "Pas encore disponible",
+    "settings.open_home_following.summary": "Ouvre Following au démarrage normal de l’application. Conserve les changements manuels de fil et la position pendant la session ; les notifications et les liens gardent leurs destinations.",
+    "settings.open_home_following.title": "Ouvrir Home sur Following",
     "settings.options_description": "Options de {title}",
     "settings.original_credits.summary": "Personnes et projets mentionnés dans les remerciements du MyInsta d’origine.",
     "settings.original_credits.title": "Remerciements d’origine",
