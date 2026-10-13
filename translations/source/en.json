@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "catalogId": "myinsta-ui-v1",
   "locale": "en",
-  "revision": 4,
+  "revision": 5,
   "strings": {
     "appearance.common.cancel": "Cancel",
     "appearance.common.done": "Done",
@@ -799,6 +799,8 @@
     "settings.navigation_tabs_settings.summary": "Reorder and show or hide your available navigation tabs.",
     "settings.navigation_tabs_settings.title": "Navigation tabs",
     "settings.not_available": "Not available yet",
+    "settings.open_home_following.summary": "Open Following at a normal app start. Keep manual feed changes and position during the session; notifications and links keep their destinations.",
+    "settings.open_home_following.title": "Open Home on Following",
     "settings.options_description": "{title} options",
     "settings.original_credits.summary": "People and projects acknowledged by the original MyInsta.",
     "settings.original_credits.title": "Original credits",
