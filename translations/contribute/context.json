@@ -10484,6 +10484,22 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
       "placeholders": {}
+    },
+    "settings.open_home_following.title": {
+      "kind": "strings",
+      "context": "Feed startup preference. Select the native Following feed only at a fresh normal launcher start. Preserve manual choices, position, restored state and notification/link destinations. Default off; no separate feed ordering or viewed-post history.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.open_home_following.summary": {
+      "kind": "strings",
+      "context": "Feed startup preference. Select the native Following feed only at a fresh normal launcher start. Preserve manual choices, position, restored state and notification/link destinations. Default off; no separate feed ordering or viewed-post history.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
     }
   }
 }
