@@ -2147,13 +2147,17 @@
     "media.download.refreshing": {
       "kind": "strings",
       "context": "media / download; progress while requesting a missing Direct media source, before creating a download job",
-      "sources": ["extensions/myinsta/src/main/java/app/myinsta/runtime/download/DirectMediaRefresh.java"],
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DirectMediaRefresh.java"
+      ],
       "placeholders": {}
     },
     "media.download.refresh_failed": {
       "kind": "strings",
       "context": "media / download; Instagram returned no usable source or the source request failed; no download job was created",
-      "sources": ["extensions/myinsta/src/main/java/app/myinsta/runtime/download/DirectMediaRefresh.java"],
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DirectMediaRefresh.java"
+      ],
       "placeholders": {}
     },
     "media.download.results": {
@@ -4854,13 +4858,17 @@
     "settings.disable_swipe_to_navigate.summary": {
       "kind": "strings",
       "context": "settings / disable_swipe_to_navigate",
-      "sources": [],
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.disable_swipe_to_navigate.title": {
       "kind": "strings",
       "context": "settings / disable_swipe_to_navigate",
-      "sources": [],
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.disable_twotap_likes_comments.summary": {
@@ -10376,6 +10384,102 @@
     "settings.section.sharing": {
       "kind": "strings",
       "context": "Messages settings section heading for share-sheet and Notes-sharing controls; these can affect sharing from several areas.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.clean_shared_links.summary": {
+      "kind": "strings",
+      "context": "settings / clean_shared_links",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.clean_shared_links.title": {
+      "kind": "strings",
+      "context": "settings / clean_shared_links",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.disable_swipe_to_camera.summary": {
+      "kind": "strings",
+      "context": "settings / disable_swipe_to_camera",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.disable_swipe_to_camera.title": {
+      "kind": "strings",
+      "context": "settings / disable_swipe_to_camera",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.disable_twotap_reactions_dms.summary": {
+      "kind": "strings",
+      "context": "settings / disable_twotap_reactions_dms",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.disable_twotap_reactions_dms.title": {
+      "kind": "strings",
+      "context": "settings / disable_twotap_reactions_dms",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hide_meta_ai_direct.summary": {
+      "kind": "strings",
+      "context": "settings / hide_meta_ai_direct",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hide_meta_ai_direct.title": {
+      "kind": "strings",
+      "context": "settings / hide_meta_ai_direct",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hide_meta_ai_search.summary": {
+      "kind": "strings",
+      "context": "settings / hide_meta_ai_search",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hide_meta_ai_search.title": {
+      "kind": "strings",
+      "context": "settings / hide_meta_ai_search",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.meta_ai": {
+      "kind": "strings",
+      "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.search": {
+      "kind": "strings",
+      "context": "settings / section",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
