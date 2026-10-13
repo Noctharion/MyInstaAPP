@@ -11,10 +11,10 @@
   "packs": [
     {
       "locale": "de",
-      "revision": 1,
-      "path": "packs/de/1-dbd342d82ae251af2662036641c9c1807c447d34e378e19451dadd1f631831ff.json",
-      "size": 107420,
-      "sha256": "dbd342d82ae251af2662036641c9c1807c447d34e378e19451dadd1f631831ff"
+      "revision": 2,
+      "path": "packs/de/2-e98fde3a4f1c9fdb6d1eb6af2216cdcf917a7ac2163031c293f7e26a2da74720.json",
+      "size": 110679,
+      "sha256": "e98fde3a4f1c9fdb6d1eb6af2216cdcf917a7ac2163031c293f7e26a2da74720"
     },
     {
       "locale": "en",
