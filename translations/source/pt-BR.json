@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "catalogId": "myinsta-ui-v1",
   "locale": "pt-BR",
-  "revision": 3,
+  "revision": 4,
   "strings": {
     "appearance.common.cancel": "Cancelar",
     "appearance.common.done": "Concluído",
@@ -799,6 +799,8 @@
     "settings.navigation_tabs_settings.summary": "Reordenar e mostrar ou ocultar as abas de navegação disponíveis.",
     "settings.navigation_tabs_settings.title": "Abas de navegação",
     "settings.not_available": "Ainda indisponível",
+    "settings.open_home_following.summary": "Abre Following ao iniciar o aplicativo normalmente. Mantém as mudanças manuais de feed e a posição durante a sessão; notificações e links mantêm seus destinos.",
+    "settings.open_home_following.title": "Abrir Home em Following",
     "settings.options_description": "Opções de {title}",
     "settings.original_credits.summary": "Pessoas e projetos reconhecidos pelo MyInsta original.",
     "settings.original_credits.title": "Créditos originais",
