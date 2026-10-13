@@ -46,10 +46,10 @@
     },
     {
       "locale": "pt-PT",
-      "revision": 5,
-      "path": "packs/pt-PT/5-0f0859e612995be2e37244406688bcd3d2c32b0841449297750e157478415c40.json",
-      "size": 110604,
-      "sha256": "0f0859e612995be2e37244406688bcd3d2c32b0841449297750e157478415c40"
+      "revision": 6,
+      "path": "packs/pt-PT/6-4a2bd5f4fc6e01370e218e3a1414dee0ce045c2b12e0b981cdd8ff4a85cbfdec.json",
+      "size": 111996,
+      "sha256": "4a2bd5f4fc6e01370e218e3a1414dee0ce045c2b12e0b981cdd8ff4a85cbfdec"
     }
   ]
 }
