@@ -25,10 +25,10 @@
     },
     {
       "locale": "es",
-      "revision": 2,
-      "path": "packs/es/2-1c047b34538f9b60359f34d96656aeabfe92f854b3e8cf20abdebb7ab390e86d.json",
-      "size": 110479,
-      "sha256": "1c047b34538f9b60359f34d96656aeabfe92f854b3e8cf20abdebb7ab390e86d"
+      "revision": 3,
+      "path": "packs/es/3-3073ce08bd32d5d3d93b6d56ff6e84ad94e712f11dc9d7f55a65212916744054.json",
+      "size": 112269,
+      "sha256": "3073ce08bd32d5d3d93b6d56ff6e84ad94e712f11dc9d7f55a65212916744054"
     },
     {
       "locale": "fr",
