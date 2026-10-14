@@ -2,7 +2,7 @@
 
 These packs localize MyInsta's own interface from v27.0.1 onward. The app follows Instagram's chosen language. English and European Portuguese are included in the APK for offline first use; corrections and additional languages can be published here without rebuilding the APK.
 
-The catalogues contain 1,392 entries each, with complete English (`en`), European Portuguese (`pt-PT`), Brazilian Portuguese (`pt-BR`), Spanish (`es`), German (`de`) and French (`fr`) translations. Brazilian Portuguese, Spanish, German and French are downloaded when needed and then remain available from the local cache.
+The catalogues contain 1,415 entries each, with complete English (`en`), European Portuguese (`pt-PT`), Brazilian Portuguese (`pt-BR`), Spanish (`es`), German (`de`) and French (`fr`) translations. Brazilian Portuguese, Spanish, German and French are downloaded when needed and then remain available from the local cache.
 
 Start with [contribute/template.json](contribute/template.json) and [contribute/context.json](contribute/context.json). The template contains English source text. Change its `locale`, translate string/plural values, and preserve stable keys and named placeholders. Every plural needs `other`. Partial additional languages are supported; missing entries fall back to English. The exact Brazilian Portuguese pack takes precedence for `pt-BR`; `pt-PT` remains the default for other Portuguese variants without an exact pack.
 

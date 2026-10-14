@@ -10625,6 +10625,148 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontLabels.java"
       ],
       "placeholders": {}
+    },
+    "media.download.dimensions_bitrate": {
+      "kind": "strings",
+      "context": "media / download",
+      "sources": [],
+      "placeholders": {
+        "width": "number",
+        "height": "number",
+        "bitrate": "number"
+      }
+    },
+    "settings.fullscreen_home.summary": {
+      "kind": "strings",
+      "context": "settings / fullscreen_home",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_home.title": {
+      "kind": "strings",
+      "context": "settings / fullscreen_home",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_reels.summary": {
+      "kind": "strings",
+      "context": "settings / fullscreen_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_reels.title": {
+      "kind": "strings",
+      "context": "settings / fullscreen_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_follow_lists.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_follow_lists",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_follow_lists.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_follow_lists",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_reels.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_reels.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_search.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_search",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_search.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_search",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_stories.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_stories",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_stories.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_stories",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.story_upload_quality.summary": {
+      "kind": "strings",
+      "context": "settings / story_upload_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.story_upload_quality.title": {
+      "kind": "strings",
+      "context": "settings / story_upload_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_playback_quality.summary": {
+      "kind": "strings",
+      "context": "settings / video_playback_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_playback_quality.title": {
+      "kind": "strings",
+      "context": "settings / video_playback_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.1080p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.480p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.720p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.auto": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.highest": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.lowest": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
     }
   }
 }
