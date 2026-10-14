@@ -17,6 +17,7 @@ Updated October 14, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55
 - (Add) Separate account-suggestion controls for Search, follower lists, Reels and Stories.
 - (Add) One import flow for app fonts, chat fonts, Story fonts and emoji packs.
 - (Add) Clear font and emoji selectors with Instagram default, a separate native chat font choice and visible loading status.
+- (Fix) Fixed startup crashes caused by invalid swipe-navigation jumps and nullable Reel metadata return types.
 - (Fix) Removed additional Reel zoom and cropping caused by floating navigation.
 - (Fix) Improved Gallery-to-Feed/Reels compatibility with the app's signing identity and theme lifecycle.
 - (Fix) Expanded theme handling for late color changes, stateful controls, profiles and inherited Android resources.
@@ -39,7 +40,7 @@ Updated October 14, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55
 - (Fix) Reorganized settings into clearer app areas and simplified the Fonts & emojis screen.
 - (Fix) Prevented older translation caches from replacing newer bundled text.
 
-The current source passed **565 JVM tests**, and all **17 patches** load from the bundle. All six language packs contain **1,415 entries**. Device validation of the new changes is ongoing. Download and playback quality depend on the sources Instagram provides; Story uploads remain subject to Instagram's server compression. These changes do not establish universal theme coverage or successful phone validation of every Gallery, Story export and video transition path.
+The current source passed **567 JVM tests**, and all **17 patches** load from the bundle. All six language packs contain **1,415 entries**. The corrected ARM64 UnClone passed two cold starts on a phone after an update preserving app data; the corrected ARM64 Clone passed artifact checks but has not been installed for this check. Device validation of the remaining changes is ongoing. Download and playback quality depend on the sources Instagram provides; Story uploads remain subject to Instagram's server compression. These changes do not establish universal theme coverage or successful phone validation of every Gallery, Story export and video transition path.
 
 The published v27.0.0 APKs and update metadata retain their existing identity. Test APK generation and source publication do not publish a release on the official website.
 
