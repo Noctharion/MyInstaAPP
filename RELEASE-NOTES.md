@@ -1,3 +1,48 @@
+# MyInsta v27.0.1 (Development)
+
+Updated October 14, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55.81**. The current build identifies as **v27.0.1-dev**; this changelog does not announce a final release.
+
+- (Add) MyInsta translations follow Instagram's selected language, with English, Portuguese (Portugal and Brazil), Spanish, German and French packs.
+- (Add) Translation updates without reinstalling the app.
+- (Add) Open Home on Following at normal startup, preserving manual feed choices and notification/link destinations.
+- (Add) Optional confirmation before starting voice or video calls.
+- (Add) Reel seek bar with elapsed time and duration, including short Reels.
+- (Add) Video playback quality choices: Auto, Lowest, 480p, 720p, 1080p and Highest available.
+- (Add) Independent full-screen modes for Home and Reels, preserving photo and video framing.
+- (Add) Higher quality Story video uploads through Instagram's native preparation options.
+- (Add) Original post cover downloads and media details, including author, date, caption and available resolution.
+- (Add) Independent controls to hide Meta AI in Search and Messages.
+- (Add) Separate controls for swipes between tabs, swipes into the camera and double-tap message reactions.
+- (Add) Independent shared-link cleanup, including copied links, sharing actions and profile bio redirects.
+- (Add) Separate account-suggestion controls for Search, follower lists, Reels and Stories.
+- (Add) One import flow for app fonts, chat fonts, Story fonts and emoji packs.
+- (Add) Clear font and emoji selectors with Instagram default, a separate native chat font choice and visible loading status.
+- (Fix) Removed additional Reel zoom and cropping caused by floating navigation.
+- (Fix) Improved Gallery-to-Feed/Reels compatibility with the app's signing identity and theme lifecycle.
+- (Fix) Expanded theme handling for late color changes, stateful controls, profiles and inherited Android resources.
+- (Fix) Preserved custom conversation themes while applying MyInsta colors to supported default conversations.
+- (Fix) Applied AMOLED colors earlier during app startup and corrected Instants background ownership.
+- (Fix) Improved Liquid Glass navbar sampling, opacity and blending with visible content behind the bar.
+- (Fix) Restored Glass recovery after capture errors and separated capture state between windows.
+- (Fix) Reimporting fonts or emoji packs repairs damaged files, including corruption that keeps the original file size.
+- (Fix) Preserved native emoji measurements to prevent extra spacing and unexpected line breaks.
+- (Fix) Restored custom emoji spans after native Story editor styling while keeping Story fonts independent.
+- (Fix) Improved available download sources across supported Feed, Reels, Stories and Direct media.
+- (Fix) Supported compatible separate video/audio download tracks without re-encoding.
+- (Fix) Improved higher-resolution photo selection while preserving the original framing.
+- (Fix) Prevented unavailable videos from silently downloading as cover images.
+- (Fix) Improved Direct and View-Once download source selection and refresh, with account and conversation ownership checks.
+- (Fix) Restored photo and GIF download actions in supported comment menus and improved supplied GIF variant selection.
+- (Fix) Removed the redundant First frame choice from Story downloads.
+- (Fix) Preserved received Instagram shares in Unsent Messages and displayed their availability more accurately.
+- (Fix) Extended suggestion filtering across profile cards, Story trays, Reels, Stories and Threads promotions.
+- (Fix) Reorganized settings into clearer app areas and simplified the Fonts & emojis screen.
+- (Fix) Prevented older translation caches from replacing newer bundled text.
+
+The current source passed **565 JVM tests**, and all **17 patches** load from the bundle. All six language packs contain **1,415 entries**. Device validation of the new changes is ongoing. Download and playback quality depend on the sources Instagram provides; Story uploads remain subject to Instagram's server compression. These changes do not establish universal theme coverage or successful phone validation of every Gallery, Story export and video transition path.
+
+The published v27.0.0 APKs and update metadata retain their existing identity. Test APK generation and source publication do not publish a release on the official website.
+
 # MyInsta v27.0.0 (Final)
 
 Prepared October 10, 2026, based on Instagram **447.0.0.55.81**, for Android **9 (API 28) and later**. Eight APKs cover **Clone and UnClone** for **arm64-v8a, armeabi-v7a, x86_64 and x86**. This final release consolidates the features and corrections developed through Beta 3, Beta 4 and Beta 5. Downloads and website publication are managed on the [official releases page](https://myinsta.dev/releases).
