@@ -669,9 +669,25 @@
       ],
       "placeholders": {}
     },
+    "fonts.available_choices": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.available_offline": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "fonts.back": {
       "kind": "strings",
-      "context": "fonts",
+      "context": "fonts / library navigation and preview",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
@@ -782,6 +798,16 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
       "placeholders": {}
+    },
+    "fonts.download_pack": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "size": "Value displayed to the user."
+      }
     },
     "fonts.download_progress": {
       "kind": "strings",
@@ -1280,6 +1306,14 @@
       ],
       "placeholders": {}
     },
+    "fonts.included": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "fonts.introduction": {
       "kind": "strings",
       "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
@@ -1309,6 +1343,14 @@
       "context": "fonts",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/StoryFonts.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.operation_interrupted": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
       "placeholders": {}
     },
@@ -1352,6 +1394,14 @@
       ],
       "placeholders": {}
     },
+    "fonts.preview_fallback": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "fonts.preview_sample": {
       "kind": "strings",
       "context": "fonts",
@@ -1363,6 +1413,22 @@
     "fonts.preview_story": {
       "kind": "strings",
       "context": "fonts",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.preview_title": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.reimport_short": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
@@ -1395,6 +1461,14 @@
     "fonts.restart_title": {
       "kind": "strings",
       "context": "fonts",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.retry_preview": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
@@ -1435,6 +1509,14 @@
     "fonts.section.text": {
       "kind": "strings",
       "context": "fonts / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.selected": {
+      "kind": "strings",
+      "context": "fonts / library navigation and preview",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
@@ -6403,6 +6485,32 @@
       ],
       "placeholders": {}
     },
+    "settings.search.main_menu": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.search.results": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {
+        "count": "Value displayed to the user."
+      }
+    },
+    "settings.search.unavailable": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.secret_voice_notes.summary": {
       "kind": "strings",
       "context": "settings / secret_voice_notes",
@@ -6415,9 +6523,25 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.section.action_buttons": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.ads_tracking": {
       "kind": "strings",
       "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.app_tools": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
@@ -6466,6 +6590,14 @@
     "settings.section.doubletap": {
       "kind": "strings",
       "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.download_buttons": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
@@ -6567,6 +6699,14 @@
       ],
       "placeholders": {}
     },
+    "settings.section.photos": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.playback": {
       "kind": "strings",
       "context": "settings / section",
@@ -6647,6 +6787,14 @@
       ],
       "placeholders": {}
     },
+    "settings.section.screenshots": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.storage": {
       "kind": "strings",
       "context": "settings / section",
@@ -6711,6 +6859,14 @@
       ],
       "placeholders": {}
     },
+    "settings.section.text_selection": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.time_appearance": {
       "kind": "strings",
       "context": "settings / section",
@@ -6719,9 +6875,25 @@
       ],
       "placeholders": {}
     },
+    "settings.section.upload_quality": {
+      "kind": "strings",
+      "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.where_protect": {
       "kind": "strings",
       "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.zoom": {
+      "kind": "strings",
+      "context": "settings / gestures / pinch to zoom",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
