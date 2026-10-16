@@ -4,7 +4,7 @@ Everything needed by a translator is in this **public MyInstaAPP repository**. D
 
 ## Translate
 
-The complete English catalogue is [source/en.json](source/en.json), with 1,436 entries (1,418 strings and 18 plurals). [European Portuguese](source/pt-PT.json) is also complete. [Brazilian Portuguese](source/pt-BR.json), [Spanish](source/es.json), [German](source/de.json) and [French](source/fr.json) currently contain 1,415 entries each (98.5%); the 21 new entries fall back to English, and existing wording awaits review against the updated settings and font screens. English and European Portuguese are bundled in the APK; the other four are downloaded when needed. The [template](contribute/template.json) and [context](contribute/context.json) include the current source keys and are ready to download, or export a new template:
+The complete English catalogue is [source/en.json](source/en.json), with 1,567 entries (1,549 strings and 18 plurals), including the reorganized settings, presentation controls, developer support and import guidance. [European Portuguese](source/pt-PT.json) is also complete. [Brazilian Portuguese](source/pt-BR.json), [Spanish](source/es.json), [German](source/de.json) and [French](source/fr.json) currently contain 1,415 entries each (90.3%); the 152 missing entries fall back to English, and existing wording awaits review against the updated settings and font screens. English and European Portuguese are bundled in the APK; the other four are downloaded when needed. The [template](contribute/template.json) and [context](contribute/context.json) include the current source keys and are ready to download, or export a new template:
 
 ```powershell
 ./translations/tools/Translations.ps1 -Command export -Locale es -Output ./translation-es
