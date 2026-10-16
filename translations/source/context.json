@@ -20,6 +20,46 @@
       ],
       "placeholders": {}
     },
+    "calls.confirm.message": {
+      "kind": "strings",
+      "context": "Outgoing-call confirmation explanation. A voice or video call starts only after the explicit confirmation action.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "calls.confirm.video_action": {
+      "kind": "strings",
+      "context": "Action button that confirms and starts the pending outgoing video call.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "calls.confirm.video_title": {
+      "kind": "strings",
+      "context": "Question in the outgoing video-call confirmation heading. Preserve the question meaning.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "calls.confirm.voice_action": {
+      "kind": "strings",
+      "context": "Action button that confirms and starts the pending outgoing voice call.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
+    "calls.confirm.voice_title": {
+      "kind": "strings",
+      "context": "Question in the outgoing voice-call confirmation heading. Preserve the question meaning.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
+      ],
+      "placeholders": {}
+    },
     "common.apply": {
       "kind": "strings",
       "context": "common",
@@ -552,6 +592,64 @@
         "reason": "Runtime value: reason. Keep the name intact; move the placeholder to fit the translated sentence."
       }
     },
+    "experiments.import.confirm": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
+      ],
+      "placeholders": {}
+    },
+    "experiments.import.developer_required": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
+      ],
+      "placeholders": {}
+    },
+    "experiments.import.help": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
+      ],
+      "placeholders": {}
+    },
+    "experiments.import.mode.overwrite": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
+      ],
+      "placeholders": {}
+    },
+    "experiments.import.mode.preserve": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
+      ],
+      "placeholders": {}
+    },
+    "experiments.import.mode.replace": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
+      ],
+      "placeholders": {}
+    },
+    "experiments.import.preview": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
+      ],
+      "placeholders": {
+        "count": "Localized dynamic label or count"
+      }
+    },
     "experiments.import_changed": {
       "kind": "strings",
       "context": "experiments",
@@ -568,6 +666,16 @@
       ],
       "placeholders": {
         "reason": "Runtime value: reason. Keep the name intact; move the placeholder to fit the translated sentence."
+      }
+    },
+    "experiments.imported_restart": {
+      "kind": "plurals",
+      "context": "experiments",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
       }
     },
     "experiments.imported_title": {
@@ -1264,9 +1372,33 @@
       ],
       "placeholders": {}
     },
+    "fonts.import_any": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.import_any_description": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "fonts.import_description": {
       "kind": "strings",
       "context": "fonts",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.import_destination": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
@@ -1337,6 +1469,76 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
       "placeholders": {}
+    },
+    "fonts.load_error.emoji_data": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.integrity": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.missing": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.unavailable": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.load_error.unsupported": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.loaded_fallback": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "reason": "string"
+      }
+    },
+    "fonts.loaded_inherited": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "font": "string"
+      }
+    },
+    "fonts.loaded_pending": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {
+        "font": "string"
+      }
     },
     "fonts.open_library": {
       "kind": "strings",
@@ -1426,9 +1628,25 @@
       ],
       "placeholders": {}
     },
+    "fonts.reimport_notice": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "fonts.reimport_short": {
       "kind": "strings",
       "context": "fonts / library navigation and preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.repair": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
       ],
@@ -1579,6 +1797,14 @@
       ],
       "placeholders": {}
     },
+    "fonts.story_native": {
+      "kind": "strings",
+      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "fonts.story_picker_notice": {
       "kind": "strings",
       "context": "fonts",
@@ -1646,6 +1872,89 @@
       "context": "fonts",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.unavailable_choice": {
+      "kind": "strings",
+      "context": "A saved font id is no longer present in the library. Do not label this choice as the Instagram default.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontLabels.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.action": {
+      "kind": "strings",
+      "context": "Download menu action that opens available metadata for the selected post or Reel.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.author": {
+      "kind": "strings",
+      "context": "Post-details field label for the author's username. The label key is passed through detailField; the username itself is not translated.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.caption": {
+      "kind": "strings",
+      "context": "Post-details field label for the original caption. The label key is passed through detailField; the caption content is not translated.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.dimensions": {
+      "kind": "strings",
+      "context": "Pixel dimensions of the selected downloadable media variant. Keep the width and height order appropriate to dimensions.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {
+        "width": "Pixel width of the selected media variant. Do not rename the placeholder.",
+        "height": "Pixel height of the selected media variant. Do not rename the placeholder."
+      }
+    },
+    "media.details.post_id": {
+      "kind": "strings",
+      "context": "Post-details field label for the native post identifier. The key is passed through detailField; keep the ID value unchanged.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.posted": {
+      "kind": "strings",
+      "context": "Post-details field label for when the post was published. The key is passed through detailField; its date and time use the effective locale.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.resolution": {
+      "kind": "strings",
+      "context": "Post-details field label for the currently selected download resolution, rather than every available variant. The key is passed through detailField.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.title": {
+      "kind": "strings",
+      "context": "Heading of the metadata dialog for a post or Reel opened from the download menu.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.details.unavailable": {
+      "kind": "strings",
+      "context": "Value shown when an individual post-details field has no available data.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
       ],
       "placeholders": {}
     },
@@ -1864,6 +2173,22 @@
       ],
       "placeholders": {}
     },
+    "media.download.cover": {
+      "kind": "strings",
+      "context": "Download content choice for the original cover image supplied with a post or Reel video. Keep it distinct from an extracted first frame.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.download.cover_help": {
+      "kind": "strings",
+      "context": "Explanation below the original video-cover download choice. This saves the supplied cover image.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
     "media.download.current": {
       "kind": "strings",
       "context": "media / download",
@@ -1890,6 +2215,16 @@
       "placeholders": {
         "height": "Runtime value: height. Keep the name intact; move the placeholder to fit the translated sentence.",
         "width": "Runtime value: width. Keep the name intact; move the placeholder to fit the translated sentence."
+      }
+    },
+    "media.download.dimensions_bitrate": {
+      "kind": "strings",
+      "context": "media / download",
+      "sources": [],
+      "placeholders": {
+        "width": "number",
+        "height": "number",
+        "bitrate": "number"
       }
     },
     "media.download.error.choose_a_download_folder_in_myinsta_settings_first": {
@@ -2128,6 +2463,16 @@
         "number": "Runtime value: number. Keep the name intact; move the placeholder to fit the translated sentence."
       }
     },
+    "media.download.items": {
+      "kind": "plurals",
+      "context": "media / download",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
+    },
     "media.download.media": {
       "kind": "strings",
       "context": "media / download",
@@ -2225,17 +2570,17 @@
       ],
       "placeholders": {}
     },
-    "media.download.refreshing": {
+    "media.download.refresh_failed": {
       "kind": "strings",
-      "context": "media / download; progress while requesting a missing Direct media source, before creating a download job",
+      "context": "media / download; Instagram returned no usable source or the source request failed; no download job was created",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DirectMediaRefresh.java"
       ],
       "placeholders": {}
     },
-    "media.download.refresh_failed": {
+    "media.download.refreshing": {
       "kind": "strings",
-      "context": "media / download; Instagram returned no usable source or the source request failed; no download job was created",
+      "context": "media / download; progress while requesting a missing Direct media source, before creating a download job",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DirectMediaRefresh.java"
       ],
@@ -2304,6 +2649,16 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadCenter.java"
       ],
       "placeholders": {}
+    },
+    "media.download.started_many": {
+      "kind": "plurals",
+      "context": "media / download",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadCenter.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
     },
     "media.download.state.cancelled": {
       "kind": "strings",
@@ -2585,6 +2940,16 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/instants/GalleryPicker.java"
       ],
       "placeholders": {}
+    },
+    "media.like.pending": {
+      "kind": "plurals",
+      "context": "media / like",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/LikeProtectionNotice.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
     },
     "media.like.undo": {
       "kind": "strings",
@@ -2940,6 +3305,26 @@
       ],
       "placeholders": {}
     },
+    "media.story.mention_count": {
+      "kind": "plurals",
+      "context": "media / story",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/experience/StoryMentions.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
+    },
+    "media.story.mention_description": {
+      "kind": "plurals",
+      "context": "media / story",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/experience/StoryMentions.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
+    },
     "media.story.mentions": {
       "kind": "strings",
       "context": "media / story",
@@ -2964,6 +3349,16 @@
       ],
       "placeholders": {}
     },
+    "media.story.more_accounts": {
+      "kind": "plurals",
+      "context": "media / story",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/experience/StoryDetails.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
+    },
     "media.story.profile_failed": {
       "kind": "strings",
       "context": "media / story",
@@ -2979,6 +3374,16 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ghost/StoryActions.java"
       ],
       "placeholders": {}
+    },
+    "media.story.unseen_count": {
+      "kind": "plurals",
+      "context": "media / story",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/experience/StoryOrganizer.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
     },
     "media.story.view_mentions": {
       "kind": "strings",
@@ -3063,6 +3468,16 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
       ],
       "placeholders": {}
+    },
+    "media.unsent.attachments": {
+      "kind": "plurals",
+      "context": "media / unsent",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
     },
     "media.unsent.audio_label": {
       "kind": "strings",
@@ -3178,6 +3593,27 @@
       ],
       "placeholders": {}
     },
+    "media.unsent.conversation_count": {
+      "kind": "plurals",
+      "context": "media / unsent",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
+    },
+    "media.unsent.conversation_description": {
+      "kind": "plurals",
+      "context": "media / unsent",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename.",
+        "name": "Runtime value: name. Keep the name intact; move the placeholder to fit the translated sentence."
+      }
+    },
     "media.unsent.conversation_tab": {
       "kind": "strings",
       "context": "media / unsent",
@@ -3218,17 +3654,17 @@
       ],
       "placeholders": {}
     },
-    "media.unsent.detected": {
+    "media.unsent.details_saved": {
       "kind": "strings",
-      "context": "media / unsent",
+      "context": "Saved message metadata is present; this does not claim a local attachment.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
       ],
       "placeholders": {}
     },
-    "media.unsent.details_saved": {
+    "media.unsent.detected": {
       "kind": "strings",
-      "context": "Saved message metadata is present; this does not claim a local attachment.",
+      "context": "media / unsent",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
       ],
@@ -3743,6 +4179,17 @@
       ],
       "placeholders": {}
     },
+    "media.unsent.remove_count": {
+      "kind": "plurals",
+      "context": "media / unsent",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename.",
+        "name": "Runtime value: name. Keep the name intact; move the placeholder to fit the translated sentence."
+      }
+    },
     "media.unsent.remove_from": {
       "kind": "strings",
       "context": "media / unsent",
@@ -3824,6 +4271,26 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
       ],
       "placeholders": {}
+    },
+    "media.unsent.saved_count": {
+      "kind": "plurals",
+      "context": "media / unsent",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
+    },
+    "media.unsent.saved_in_conversation": {
+      "kind": "plurals",
+      "context": "media / unsent",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
     },
     "media.unsent.saved_kind": {
       "kind": "strings",
@@ -4052,6 +4519,16 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
       ],
       "placeholders": {}
+    },
+    "media.unsent.view_count": {
+      "kind": "plurals",
+      "context": "media / unsent",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
     },
     "media.unsent.view_saved": {
       "kind": "strings",
@@ -4385,6 +4862,49 @@
       "sources": [],
       "placeholders": {}
     },
+    "reels.playback.position": {
+      "kind": "strings",
+      "context": "Accessibility state description added to the Reel seek bar; announces elapsed playback time and total duration without replacing native seek actions.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/ReelPlaybackControls.java"
+      ],
+      "placeholders": {
+        "elapsed": "Elapsed playback time formatted as minutes and seconds, for example 0:10. Do not rename the placeholder.",
+        "duration": "Total playback duration formatted as minutes and seconds, for example 0:55. Do not rename the placeholder."
+      }
+    },
+    "settings.about_backup.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.about_backup.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.about_help.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.about_help.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.about_settings.summary": {
       "kind": "strings",
       "context": "settings / about_settings",
@@ -4415,6 +4935,30 @@
       "kind": "strings",
       "context": "settings / add_follows_indicator",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.advanced_settings.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.advanced_settings.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.allow_screenshots_dms.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.allow_screenshots_dms.summary": {
@@ -4605,6 +5149,14 @@
       ],
       "placeholders": {}
     },
+    "settings.backup.flags_session_changed": {
+      "kind": "strings",
+      "context": "Optional developer flags cannot be applied after an Instagram account/owner session change or lost document-picker context. MyInsta-only restore remains possible. Ask for fresh selection; never silently apply flags to another account.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.backup.flags_unavailable": {
       "kind": "strings",
       "context": "settings / backup",
@@ -4649,6 +5201,16 @@
       "placeholders": {
         "settings": "Runtime value: settings. Keep the name intact; move the placeholder to fit the translated sentence.",
         "themes": "Runtime value: themes. Keep the name intact; move the placeholder to fit the translated sentence."
+      }
+    },
+    "settings.backup.imported_flags": {
+      "kind": "plurals",
+      "context": "settings / backup",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
       }
     },
     "settings.backup.imported_title": {
@@ -4754,6 +5316,30 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.backup_settings.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.backup_settings.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.backup_settings.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.build_variant": {
       "kind": "strings",
       "context": "settings",
@@ -4771,6 +5357,14 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.category_backupexperiments.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.category_backupexperiments.summary": {
       "kind": "strings",
       "context": "settings / category_backupexperiments",
@@ -4781,6 +5375,14 @@
       "kind": "strings",
       "context": "settings / category_backupexperiments",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.category_restoreexperiments.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.category_restoreexperiments.summary": {
@@ -4818,6 +5420,22 @@
         "title": "Runtime value: title. Keep the name intact; move the placeholder to fit the translated sentence."
       }
     },
+    "settings.clean_shared_links.summary": {
+      "kind": "strings",
+      "context": "settings / clean_shared_links",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.clean_shared_links.title": {
+      "kind": "strings",
+      "context": "settings / clean_shared_links",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.coming_later": {
       "kind": "strings",
       "context": "settings",
@@ -4827,6 +5445,24 @@
       "placeholders": {
         "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
       }
+    },
+    "settings.confirm_calls.summary": {
+      "kind": "strings",
+      "context": "Description of the optional outgoing voice/video-call confirmation toggle in Messages. Includes calling back from a chat and starts off. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.confirm_calls.title": {
+      "kind": "strings",
+      "context": "Name of the outgoing-call confirmation toggle in Messages. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
     },
     "settings.copy_comments.summary": {
       "kind": "strings",
@@ -4874,6 +5510,14 @@
       "kind": "strings",
       "context": "settings / credits_translators",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.dev_settings.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.dev_settings.summary": {
@@ -4936,6 +5580,22 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.disable_swipe_to_camera.summary": {
+      "kind": "strings",
+      "context": "settings / disable_swipe_to_camera",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.disable_swipe_to_camera.title": {
+      "kind": "strings",
+      "context": "settings / disable_swipe_to_camera",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.disable_swipe_to_navigate.summary": {
       "kind": "strings",
       "context": "settings / disable_swipe_to_navigate",
@@ -4988,6 +5648,22 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.disable_twotap_reactions_dms.summary": {
+      "kind": "strings",
+      "context": "settings / disable_twotap_reactions_dms",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.disable_twotap_reactions_dms.title": {
+      "kind": "strings",
+      "context": "settings / disable_twotap_reactions_dms",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.disable_video_autoplay.summary": {
       "kind": "strings",
       "context": "settings / disable_video_autoplay",
@@ -5012,11 +5688,115 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.discovery_follow_lists.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_follow_lists.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_home.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_home.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_messages.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_messages.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_profiles.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_profiles.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_reels.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_reels.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_stories.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.discovery_stories.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.distraction.summary": {
       "kind": "strings",
       "context": "settings / distraction",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.distraction_settings.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
       ],
       "placeholders": {}
     },
@@ -5178,6 +5958,16 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.duration.seconds": {
+      "kind": "plurals",
+      "context": "settings / duration",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
+    },
     "settings.employee_stuff.summary": {
       "kind": "strings",
       "context": "settings / employee_stuff",
@@ -5214,6 +6004,46 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.feed_comments.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.feed_comments.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.feed_refresh.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.feed_refresh.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.feed_settings.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.feed_settings.summary": {
       "kind": "strings",
       "context": "settings / feed_settings",
@@ -5224,6 +6054,38 @@
       "kind": "strings",
       "context": "settings / feed_settings",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_home.summary": {
+      "kind": "strings",
+      "context": "settings / fullscreen_home",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_home.title": {
+      "kind": "strings",
+      "context": "settings / fullscreen_home",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_reels.summary": {
+      "kind": "strings",
+      "context": "settings / fullscreen_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.fullscreen_reels.title": {
+      "kind": "strings",
+      "context": "settings / fullscreen_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.gestures_settings.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.gestures_settings.summary": {
@@ -5238,6 +6100,54 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.ghost.active": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.ghost.inactive": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.ghost_instants.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.ghost_instants.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.ghost_messages.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.ghost_messages.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.ghost_mode_settings.summary": {
       "kind": "strings",
       "context": "settings / ghost_mode_settings",
@@ -5250,6 +6160,22 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.ghost_stories.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.ghost_stories.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.ghostmod_status_navbar.summary": {
       "kind": "strings",
       "context": "settings / ghostmod_status_navbar",
@@ -5259,6 +6185,34 @@
     "settings.ghostmod_status_navbar.title": {
       "kind": "strings",
       "context": "settings / ghostmod_status_navbar",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.help_settings.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.help_settings.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hide_discover_follow_lists.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_follow_lists",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_follow_lists.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_follow_lists",
       "sources": [],
       "placeholders": {}
     },
@@ -5310,6 +6264,42 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.hide_discover_reels.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_reels.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_reels",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_search.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_search",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_search.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_search",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_stories.summary": {
+      "kind": "strings",
+      "context": "settings / hide_discover_stories",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_discover_stories.title": {
+      "kind": "strings",
+      "context": "settings / hide_discover_stories",
+      "sources": [],
+      "placeholders": {}
+    },
     "settings.hide_home_highlights.summary": {
       "kind": "strings",
       "context": "settings / hide_home_highlights",
@@ -5320,6 +6310,38 @@
       "kind": "strings",
       "context": "settings / hide_home_highlights",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_meta_ai_direct.summary": {
+      "kind": "strings",
+      "context": "settings / hide_meta_ai_direct",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hide_meta_ai_direct.title": {
+      "kind": "strings",
+      "context": "settings / hide_meta_ai_direct",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hide_meta_ai_search.summary": {
+      "kind": "strings",
+      "context": "settings / hide_meta_ai_search",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hide_meta_ai_search.title": {
+      "kind": "strings",
+      "context": "settings / hide_meta_ai_search",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.hide_note_reshare.summary": {
@@ -5526,9 +6548,33 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.home.about": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home.advanced": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.home.appearance": {
       "kind": "strings",
       "context": "settings / home",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home.backup": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
@@ -5574,6 +6620,14 @@
       ],
       "placeholders": {}
     },
+    "settings.home.help": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.home.instants": {
       "kind": "strings",
       "context": "settings / home",
@@ -5582,10 +6636,37 @@
       ],
       "placeholders": {}
     },
+    "settings.home.messages": {
+      "kind": "strings",
+      "context": "Short caption of the Messages icon card on the settings home screen. Refers to calls, Notes and sharing controls.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.home.privacy": {
       "kind": "strings",
       "context": "settings / home",
       "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home.profiles": {
+      "kind": "strings",
+      "context": "Short caption of the Profiles icon card on the settings home screen. Refers to relationship indicators, photos and highlights.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home.reels": {
+      "kind": "strings",
+      "context": "Short caption of the Reels icon card on the settings home screen. Refers to playback progress, time and viewer gestures.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
       "placeholders": {}
@@ -5606,6 +6687,94 @@
       ],
       "placeholders": {}
     },
+    "settings.home.updates": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.choose_again": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.error.ambiguous": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/settings/ImportFileClassifier.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.error.invalid": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/settings/ImportFileClassifier.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.error.unknown": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/settings/ImportFileClassifier.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.error.unsupported": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/settings/ImportFileClassifier.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.open_backup": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.open_devflags": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.wrong.backup": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.wrong.devflags": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.import.wrong.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.improve_photo_viewing.summary": {
       "kind": "strings",
       "context": "settings / improve_photo_viewing",
@@ -5622,6 +6791,14 @@
       "kind": "strings",
       "context": "settings / insta_version_num",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.instants_allow_screenshots.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.instants_allow_screenshots.summary": {
@@ -5646,6 +6823,22 @@
       "kind": "strings",
       "context": "settings / instants_download_button",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.instants_download_folder.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.instants_download_folder.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.instants_gallery_upload.summary": {
@@ -5896,6 +7089,40 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.messages_settings.summary": {
+      "kind": "strings",
+      "context": "Introduction to Messages settings; identifies calls, Notes and sharing while directing read receipts and preserved messages to their dedicated areas. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.messages_settings.title": {
+      "kind": "strings",
+      "context": "Name of the dedicated Messages settings area and its home icon card. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.messages_typography.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.messages_typography.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.modded_pfp_viewing.summary": {
       "kind": "strings",
       "context": "settings / modded_pfp_viewing",
@@ -5928,6 +7155,14 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.myinsta_typography.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.myinsta_typography.summary": {
       "kind": "strings",
       "context": "settings / myinsta_typography",
@@ -5957,6 +7192,22 @@
       "context": "settings",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.open_home_following.summary": {
+      "kind": "strings",
+      "context": "Feed startup preference. Select the native Following feed only at a fresh normal launcher start. Preserve manual choices, position, restored state and notification/link destinations. Default off; no separate feed ordering or viewed-post history.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.open_home_following.title": {
+      "kind": "strings",
+      "context": "Feed startup preference. Select the native Following feed only at a fresh normal launcher start. Preserve manual choices, position, restored state and notification/link destinations. Default off; no separate feed ordering or viewed-post history.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
       ],
       "placeholders": {}
     },
@@ -6066,6 +7317,66 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.presentation.choose": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {
+        "layout": "Localized dynamic label or count"
+      }
+    },
+    "settings.presentation.grid": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.presentation.list": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.presentation.selected": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {
+        "layout": "Localized dynamic label or count"
+      }
+    },
+    "settings.presentation.state_selected": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.presentation.state_unselected": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.presentation.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.privacy_analytics.summary": {
       "kind": "strings",
       "context": "settings / privacy_analytics",
@@ -6112,6 +7423,40 @@
       "kind": "strings",
       "context": "settings / privacy_settings",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.profiles_settings.summary": {
+      "kind": "strings",
+      "context": "Introduction to Profiles settings; identifies relationship indicators, profile photos and highlights and locates shared controls in Appearance. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.profiles_settings.title": {
+      "kind": "strings",
+      "context": "Name of the dedicated Profiles settings area and its home icon card. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.profiles_text_selection.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.profiles_text_selection.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.project_developers.summary": {
@@ -6210,6 +7555,122 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.reels_comments.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_comments.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_like_protection.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_like_protection.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_refresh.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_refresh.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_seekbar_enabled.summary": {
+      "kind": "strings",
+      "context": "Description of the opt-in Reel progress/time control. Includes short Reels and the instruction to reopen Reels to apply. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_seekbar_enabled.title": {
+      "kind": "strings",
+      "context": "Name of the Reel progress/time control in the dedicated Reels settings area. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_settings.summary": {
+      "kind": "strings",
+      "context": "Introduction to Reels settings; identifies playback progress and viewer gestures and locates shared controls in their central areas. Derived from the Node summary.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_settings.title": {
+      "kind": "strings",
+      "context": "Name of the dedicated Reels settings area and its home icon card. Reels is the Instagram product name. Derived from the Node title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_text_selection.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_text_selection.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_video_quality.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.reels_video_quality.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.remove_comments.summary": {
       "kind": "strings",
       "context": "settings / remove_comments",
@@ -6270,6 +7731,14 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.remove_screenshot_notification.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.remove_screenshot_notification.summary": {
       "kind": "strings",
       "context": "settings / remove_screenshot_notification",
@@ -6280,6 +7749,14 @@
       "kind": "strings",
       "context": "settings / remove_screenshot_notification",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.remove_seen_dms.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.remove_seen_dms.summary": {
@@ -6352,6 +7829,54 @@
       "kind": "strings",
       "context": "settings / repost_button_settings",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.repost_feed.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.repost_feed.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.repost_posts.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.repost_posts.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.repost_reels.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.repost_reels.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.restart.action": {
@@ -6469,6 +7994,54 @@
       ],
       "placeholders": {}
     },
+    "settings.save_feed.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.save_feed.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.save_posts.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.save_posts.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.save_reels.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.save_reels.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.search.empty": {
       "kind": "strings",
       "context": "settings / search",
@@ -6563,6 +8136,14 @@
       ],
       "placeholders": {}
     },
+    "settings.section.calls": {
+      "kind": "strings",
+      "context": "Messages settings section heading for outgoing-call controls.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.comments": {
       "kind": "strings",
       "context": "settings / section",
@@ -6619,6 +8200,14 @@
       ],
       "placeholders": {}
     },
+    "settings.section.gestures": {
+      "kind": "strings",
+      "context": "Reels settings section heading for viewer swipe and double-tap controls.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.highlights": {
       "kind": "strings",
       "context": "settings / section",
@@ -6646,6 +8235,14 @@
     "settings.section.look_focus": {
       "kind": "strings",
       "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.media_display": {
+      "kind": "strings",
+      "context": "Appearance settings section heading for shared photo quality and text selection controls.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
@@ -6683,9 +8280,41 @@
       ],
       "placeholders": {}
     },
+    "settings.section.meta_ai": {
+      "kind": "strings",
+      "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.myinsta": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.navigation": {
       "kind": "strings",
       "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.notes": {
+      "kind": "strings",
+      "context": "Messages settings section heading for the inbox Notes tray. Notes is the Instagram feature name.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.on_instagram": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
@@ -6699,9 +8328,25 @@
       ],
       "placeholders": {}
     },
+    "settings.section.personalization": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.photos": {
       "kind": "strings",
       "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.photos_highlights": {
+      "kind": "strings",
+      "context": "Profiles settings section heading for profile photos and saved Story highlights.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
@@ -6739,9 +8384,25 @@
       ],
       "placeholders": {}
     },
+    "settings.section.privacy_control": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.private_media": {
       "kind": "strings",
       "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.profile_details": {
+      "kind": "strings",
+      "context": "Profiles settings section heading for account relationship indicators.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
@@ -6771,6 +8432,22 @@
       ],
       "placeholders": {}
     },
+    "settings.section.receipts": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.related": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.releases": {
       "kind": "strings",
       "context": "settings / section",
@@ -6790,6 +8467,22 @@
     "settings.section.screenshots": {
       "kind": "strings",
       "context": "settings / navigation and category headings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.search": {
+      "kind": "strings",
+      "context": "settings / section",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.sharing": {
+      "kind": "strings",
+      "context": "Messages settings section heading for share-sheet and Notes-sharing controls; these can affect sharing from several areas.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
@@ -6875,6 +8568,14 @@
       ],
       "placeholders": {}
     },
+    "settings.section.unsent": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "settings.section.upload_quality": {
       "kind": "strings",
       "context": "settings / navigation and category headings",
@@ -6933,6 +8634,14 @@
         "description": "Runtime value: description. Keep the name intact; move the placeholder to fit the translated sentence."
       }
     },
+    "settings.settings_export.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.settings_export.summary": {
       "kind": "strings",
       "context": "settings / settings_export",
@@ -6943,6 +8652,14 @@
       "kind": "strings",
       "context": "settings / settings_export",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.settings_import.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.settings_import.summary": {
@@ -6981,6 +8698,22 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.stories_highlights.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.stories_highlights.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.stories_settings.summary": {
       "kind": "strings",
       "context": "settings / stories_settings",
@@ -7003,6 +8736,22 @@
       "kind": "strings",
       "context": "settings / stories_sound_autoplay",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.stories_typography.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.stories_typography.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.story.continuous_loop": {
@@ -7273,6 +9022,18 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.story_upload_quality.summary": {
+      "kind": "strings",
+      "context": "settings / story_upload_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.story_upload_quality.title": {
+      "kind": "strings",
+      "context": "settings / story_upload_quality",
+      "sources": [],
+      "placeholders": {}
+    },
     "settings.suggested_content_settings.summary": {
       "kind": "strings",
       "context": "settings / suggested_content_settings",
@@ -7283,6 +9044,54 @@
       "kind": "strings",
       "context": "settings / suggested_content_settings",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.suggestions_posts.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.suggestions_posts.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.suggestions_reels.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.suggestions_reels.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.support_myinsta.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.support_myinsta.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.toggle_allow_screenshots_dms.summary": {
@@ -7489,6 +9298,14 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.unsent_log.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.unsent_log.summary": {
       "kind": "strings",
       "context": "settings / unsent_log",
@@ -7547,6 +9364,14 @@
       "kind": "strings",
       "context": "settings / unsent_preview",
       "sources": [],
+      "placeholders": {}
+    },
+    "settings.unsent_settings.aliases": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
       "placeholders": {}
     },
     "settings.unsent_settings.summary": {
@@ -7788,6 +9613,54 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.video_playback_quality.summary": {
+      "kind": "strings",
+      "context": "settings / video_playback_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_playback_quality.title": {
+      "kind": "strings",
+      "context": "settings / video_playback_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.1080p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.480p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.720p": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.auto": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.highest": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.video_quality.lowest": {
+      "kind": "strings",
+      "context": "settings / video_quality",
+      "sources": [],
+      "placeholders": {}
+    },
     "settings.view_story_mentions.summary": {
       "kind": "strings",
       "context": "settings / view_story_mentions",
@@ -8010,6 +9883,16 @@
       ],
       "placeholders": {}
     },
+    "story.organizer.last_hours": {
+      "kind": "plurals",
+      "context": "story / organizer",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/StoryOrganizerMenu.java"
+      ],
+      "placeholders": {
+        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
+      }
+    },
     "story.organizer.order.explanation": {
       "kind": "strings",
       "context": "story / organizer / order",
@@ -8223,6 +10106,56 @@
       "context": "story / organizer / summary",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/StoryOrganizerMenu.java"
+      ],
+      "placeholders": {}
+    },
+    "support.action": {
+      "kind": "strings",
+      "context": "Short toolbar button label opening the optional support panel. Keep concise; the longer accessible title uses support.title.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "support.button": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SupportSheet.java"
+      ],
+      "placeholders": {
+        "name": "Localized dynamic label or count"
+      }
+    },
+    "support.external": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SupportSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "support.optional": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SupportSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "support.summary": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SupportSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "support.title": {
+      "kind": "strings",
+      "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SupportSheet.java"
       ],
       "placeholders": {}
     },
@@ -10061,883 +11994,6 @@
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/theme/ThemesActivity.java"
       ],
-      "placeholders": {}
-    },
-    "experiments.imported_restart": {
-      "kind": "plurals",
-      "context": "experiments",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/internal/DeveloperControls.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.download.items": {
-      "kind": "plurals",
-      "context": "media / download",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.download.started_many": {
-      "kind": "plurals",
-      "context": "media / download",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadCenter.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.like.pending": {
-      "kind": "plurals",
-      "context": "media / like",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/LikeProtectionNotice.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.story.mention_count": {
-      "kind": "plurals",
-      "context": "media / story",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/experience/StoryMentions.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.story.mention_description": {
-      "kind": "plurals",
-      "context": "media / story",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/experience/StoryMentions.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.story.more_accounts": {
-      "kind": "plurals",
-      "context": "media / story",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/experience/StoryDetails.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.story.unseen_count": {
-      "kind": "plurals",
-      "context": "media / story",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/experience/StoryOrganizer.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.unsent.attachments": {
-      "kind": "plurals",
-      "context": "media / unsent",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.unsent.conversation_count": {
-      "kind": "plurals",
-      "context": "media / unsent",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.unsent.conversation_description": {
-      "kind": "plurals",
-      "context": "media / unsent",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename.",
-        "name": "Runtime value: name. Keep the name intact; move the placeholder to fit the translated sentence."
-      }
-    },
-    "media.unsent.remove_count": {
-      "kind": "plurals",
-      "context": "media / unsent",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename.",
-        "name": "Runtime value: name. Keep the name intact; move the placeholder to fit the translated sentence."
-      }
-    },
-    "media.unsent.saved_count": {
-      "kind": "plurals",
-      "context": "media / unsent",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.unsent.saved_in_conversation": {
-      "kind": "plurals",
-      "context": "media / unsent",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "media.unsent.view_count": {
-      "kind": "plurals",
-      "context": "media / unsent",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "settings.backup.imported_flags": {
-      "kind": "plurals",
-      "context": "settings / backup",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "settings.duration.seconds": {
-      "kind": "plurals",
-      "context": "settings / duration",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "story.organizer.last_hours": {
-      "kind": "plurals",
-      "context": "story / organizer",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/StoryOrganizerMenu.java"
-      ],
-      "placeholders": {
-        "count": "A quantity, formatted in Instagram’s effective locale. Do not rename."
-      }
-    },
-    "calls.confirm.message": {
-      "kind": "strings",
-      "context": "Outgoing-call confirmation explanation. A voice or video call starts only after the explicit confirmation action.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
-      ],
-      "placeholders": {}
-    },
-    "calls.confirm.video_action": {
-      "kind": "strings",
-      "context": "Action button that confirms and starts the pending outgoing video call.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
-      ],
-      "placeholders": {}
-    },
-    "calls.confirm.video_title": {
-      "kind": "strings",
-      "context": "Question in the outgoing video-call confirmation heading. Preserve the question meaning.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
-      ],
-      "placeholders": {}
-    },
-    "calls.confirm.voice_action": {
-      "kind": "strings",
-      "context": "Action button that confirms and starts the pending outgoing voice call.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
-      ],
-      "placeholders": {}
-    },
-    "calls.confirm.voice_title": {
-      "kind": "strings",
-      "context": "Question in the outgoing voice-call confirmation heading. Preserve the question meaning.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/CallProtectionDialog.java"
-      ],
-      "placeholders": {}
-    },
-    "media.details.action": {
-      "kind": "strings",
-      "context": "Download menu action that opens available metadata for the selected post or Reel.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.details.author": {
-      "kind": "strings",
-      "context": "Post-details field label for the author's username. The label key is passed through detailField; the username itself is not translated.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.details.caption": {
-      "kind": "strings",
-      "context": "Post-details field label for the original caption. The label key is passed through detailField; the caption content is not translated.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.details.dimensions": {
-      "kind": "strings",
-      "context": "Pixel dimensions of the selected downloadable media variant. Keep the width and height order appropriate to dimensions.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {
-        "width": "Pixel width of the selected media variant. Do not rename the placeholder.",
-        "height": "Pixel height of the selected media variant. Do not rename the placeholder."
-      }
-    },
-    "media.details.post_id": {
-      "kind": "strings",
-      "context": "Post-details field label for the native post identifier. The key is passed through detailField; keep the ID value unchanged.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.details.posted": {
-      "kind": "strings",
-      "context": "Post-details field label for when the post was published. The key is passed through detailField; its date and time use the effective locale.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.details.resolution": {
-      "kind": "strings",
-      "context": "Post-details field label for the currently selected download resolution, rather than every available variant. The key is passed through detailField.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.details.title": {
-      "kind": "strings",
-      "context": "Heading of the metadata dialog for a post or Reel opened from the download menu.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.details.unavailable": {
-      "kind": "strings",
-      "context": "Value shown when an individual post-details field has no available data.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.download.cover": {
-      "kind": "strings",
-      "context": "Download content choice for the original cover image supplied with a post or Reel video. Keep it distinct from an extracted first frame.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "media.download.cover_help": {
-      "kind": "strings",
-      "context": "Explanation below the original video-cover download choice. This saves the supplied cover image.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
-      ],
-      "placeholders": {}
-    },
-    "reels.playback.position": {
-      "kind": "strings",
-      "context": "Accessibility state description added to the Reel seek bar; announces elapsed playback time and total duration without replacing native seek actions.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/ReelPlaybackControls.java"
-      ],
-      "placeholders": {
-        "elapsed": "Elapsed playback time formatted as minutes and seconds, for example 0:10. Do not rename the placeholder.",
-        "duration": "Total playback duration formatted as minutes and seconds, for example 0:55. Do not rename the placeholder."
-      }
-    },
-    "settings.confirm_calls.summary": {
-      "kind": "strings",
-      "context": "Description of the optional outgoing voice/video-call confirmation toggle in Messages. Includes calling back from a chat and starts off. Derived from the Node summary.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.confirm_calls.title": {
-      "kind": "strings",
-      "context": "Name of the outgoing-call confirmation toggle in Messages. Derived from the Node title.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.home.messages": {
-      "kind": "strings",
-      "context": "Short caption of the Messages icon card on the settings home screen. Refers to calls, Notes and sharing controls.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.home.profiles": {
-      "kind": "strings",
-      "context": "Short caption of the Profiles icon card on the settings home screen. Refers to relationship indicators, photos and highlights.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.home.reels": {
-      "kind": "strings",
-      "context": "Short caption of the Reels icon card on the settings home screen. Refers to playback progress, time and viewer gestures.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.messages_settings.summary": {
-      "kind": "strings",
-      "context": "Introduction to Messages settings; identifies calls, Notes and sharing while directing read receipts and preserved messages to their dedicated areas. Derived from the Node summary.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.messages_settings.title": {
-      "kind": "strings",
-      "context": "Name of the dedicated Messages settings area and its home icon card. Derived from the Node title.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.profiles_settings.summary": {
-      "kind": "strings",
-      "context": "Introduction to Profiles settings; identifies relationship indicators, profile photos and highlights and locates shared controls in Appearance. Derived from the Node summary.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.profiles_settings.title": {
-      "kind": "strings",
-      "context": "Name of the dedicated Profiles settings area and its home icon card. Derived from the Node title.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.reels_seekbar_enabled.summary": {
-      "kind": "strings",
-      "context": "Description of the opt-in Reel progress/time control. Includes short Reels and the instruction to reopen Reels to apply. Derived from the Node summary.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.reels_seekbar_enabled.title": {
-      "kind": "strings",
-      "context": "Name of the Reel progress/time control in the dedicated Reels settings area. Derived from the Node title.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.reels_settings.summary": {
-      "kind": "strings",
-      "context": "Introduction to Reels settings; identifies playback progress and viewer gestures and locates shared controls in their central areas. Derived from the Node summary.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.reels_settings.title": {
-      "kind": "strings",
-      "context": "Name of the dedicated Reels settings area and its home icon card. Reels is the Instagram product name. Derived from the Node title.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java",
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.calls": {
-      "kind": "strings",
-      "context": "Messages settings section heading for outgoing-call controls.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.gestures": {
-      "kind": "strings",
-      "context": "Reels settings section heading for viewer swipe and double-tap controls.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.media_display": {
-      "kind": "strings",
-      "context": "Appearance settings section heading for shared photo quality and text selection controls.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.notes": {
-      "kind": "strings",
-      "context": "Messages settings section heading for the inbox Notes tray. Notes is the Instagram feature name.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.photos_highlights": {
-      "kind": "strings",
-      "context": "Profiles settings section heading for profile photos and saved Story highlights.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.profile_details": {
-      "kind": "strings",
-      "context": "Profiles settings section heading for account relationship indicators.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.sharing": {
-      "kind": "strings",
-      "context": "Messages settings section heading for share-sheet and Notes-sharing controls; these can affect sharing from several areas.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.clean_shared_links.summary": {
-      "kind": "strings",
-      "context": "settings / clean_shared_links",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.clean_shared_links.title": {
-      "kind": "strings",
-      "context": "settings / clean_shared_links",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.disable_swipe_to_camera.summary": {
-      "kind": "strings",
-      "context": "settings / disable_swipe_to_camera",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.disable_swipe_to_camera.title": {
-      "kind": "strings",
-      "context": "settings / disable_swipe_to_camera",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.disable_twotap_reactions_dms.summary": {
-      "kind": "strings",
-      "context": "settings / disable_twotap_reactions_dms",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.disable_twotap_reactions_dms.title": {
-      "kind": "strings",
-      "context": "settings / disable_twotap_reactions_dms",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.hide_meta_ai_direct.summary": {
-      "kind": "strings",
-      "context": "settings / hide_meta_ai_direct",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.hide_meta_ai_direct.title": {
-      "kind": "strings",
-      "context": "settings / hide_meta_ai_direct",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.hide_meta_ai_search.summary": {
-      "kind": "strings",
-      "context": "settings / hide_meta_ai_search",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.hide_meta_ai_search.title": {
-      "kind": "strings",
-      "context": "settings / hide_meta_ai_search",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.meta_ai": {
-      "kind": "strings",
-      "context": "settings / section",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.section.search": {
-      "kind": "strings",
-      "context": "settings / section",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.open_home_following.title": {
-      "kind": "strings",
-      "context": "Feed startup preference. Select the native Following feed only at a fresh normal launcher start. Preserve manual choices, position, restored state and notification/link destinations. Default off; no separate feed ordering or viewed-post history.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "settings.open_home_following.summary": {
-      "kind": "strings",
-      "context": "Feed startup preference. Select the native Following feed only at a fresh normal launcher start. Preserve manual choices, position, restored state and notification/link destinations. Default off; no separate feed ordering or viewed-post history.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.import_any": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.import_any_description": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.import_destination": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.load_error.emoji_data": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.load_error.integrity": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.load_error.missing": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.load_error.unavailable": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.load_error.unsupported": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.loaded_fallback": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {
-        "reason": "string"
-      }
-    },
-    "fonts.loaded_inherited": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {
-        "font": "string"
-      }
-    },
-    "fonts.loaded_pending": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {
-        "font": "string"
-      }
-    },
-    "fonts.reimport_notice": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.repair": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.story_native": {
-      "kind": "strings",
-      "context": "Typography settings. Native default, saved versus active font, and a single import destination picker.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
-      ],
-      "placeholders": {}
-    },
-    "fonts.unavailable_choice": {
-      "kind": "strings",
-      "context": "A saved font id is no longer present in the library. Do not label this choice as the Instagram default.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontLabels.java"
-      ],
-      "placeholders": {}
-    },
-    "media.download.dimensions_bitrate": {
-      "kind": "strings",
-      "context": "media / download",
-      "sources": [],
-      "placeholders": {
-        "width": "number",
-        "height": "number",
-        "bitrate": "number"
-      }
-    },
-    "settings.fullscreen_home.summary": {
-      "kind": "strings",
-      "context": "settings / fullscreen_home",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.fullscreen_home.title": {
-      "kind": "strings",
-      "context": "settings / fullscreen_home",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.fullscreen_reels.summary": {
-      "kind": "strings",
-      "context": "settings / fullscreen_reels",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.fullscreen_reels.title": {
-      "kind": "strings",
-      "context": "settings / fullscreen_reels",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.hide_discover_follow_lists.summary": {
-      "kind": "strings",
-      "context": "settings / hide_discover_follow_lists",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.hide_discover_follow_lists.title": {
-      "kind": "strings",
-      "context": "settings / hide_discover_follow_lists",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.hide_discover_reels.summary": {
-      "kind": "strings",
-      "context": "settings / hide_discover_reels",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.hide_discover_reels.title": {
-      "kind": "strings",
-      "context": "settings / hide_discover_reels",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.hide_discover_search.summary": {
-      "kind": "strings",
-      "context": "settings / hide_discover_search",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.hide_discover_search.title": {
-      "kind": "strings",
-      "context": "settings / hide_discover_search",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.hide_discover_stories.summary": {
-      "kind": "strings",
-      "context": "settings / hide_discover_stories",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.hide_discover_stories.title": {
-      "kind": "strings",
-      "context": "settings / hide_discover_stories",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.story_upload_quality.summary": {
-      "kind": "strings",
-      "context": "settings / story_upload_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.story_upload_quality.title": {
-      "kind": "strings",
-      "context": "settings / story_upload_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.video_playback_quality.summary": {
-      "kind": "strings",
-      "context": "settings / video_playback_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.video_playback_quality.title": {
-      "kind": "strings",
-      "context": "settings / video_playback_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.video_quality.1080p": {
-      "kind": "strings",
-      "context": "settings / video_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.video_quality.480p": {
-      "kind": "strings",
-      "context": "settings / video_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.video_quality.720p": {
-      "kind": "strings",
-      "context": "settings / video_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.video_quality.auto": {
-      "kind": "strings",
-      "context": "settings / video_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.video_quality.highest": {
-      "kind": "strings",
-      "context": "settings / video_quality",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.video_quality.lowest": {
-      "kind": "strings",
-      "context": "settings / video_quality",
-      "sources": [],
       "placeholders": {}
     }
   }
