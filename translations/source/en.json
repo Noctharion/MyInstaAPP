@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "catalogId": "myinsta-ui-v1",
   "locale": "en",
-  "revision": 13,
+  "revision": 1,
   "strings": {
     "settings.section.local_reading": "LOCAL READING",
     "settings.local_read_conversations.title": "Mark conversations as read for me",
@@ -1582,7 +1582,8 @@
     "themes.undo": "↶ Undo",
     "themes.unsaved": "Unsaved changes",
     "themes.use_hex": "Use hex color",
-    "themes.wallpaper_colors": "Wallpaper colors when available"
+    "themes.wallpaper_colors": "Wallpaper colors when available",
+    "text.clipboard_label": "Instagram text"
   },
   "plurals": {
     "experiments.imported_restart": {
