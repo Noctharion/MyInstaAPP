@@ -1,0 +1,20 @@
+{
+  "catalogId": "myinsta-ui-v1",
+  "strings": 1580,
+  "plurals": 18,
+  "entries": 1598,
+  "frozenTranslationCheckpoint": {
+    "revision": 14,
+    "englishSha256": "60b1116b2409bbb957a2d3f4ad4f309eee59ff9524405485bccbb4f8c50f86c3",
+    "contextSha256": "56d80596278d8b37009c349786772c47c21819735fdc29b1962c09d3f8d9d28c"
+  },
+  "delivery": {
+    "revision": 1,
+    "englishSha256": "d044392f8ba9b6ec2225006e91810da57a1a68fae457177571c37e2c8e6b36e6",
+    "contextSha256": "fe038d3357f9e8491f10ca231ef83fb6dcb77461dcde60d60be094a65125c697",
+    "metadataOnlyReset": true,
+    "contextPhysicalLineEndings": "LF normalized for Git publication; parsed context and per-entry hashes unchanged"
+  },
+  "revisionPolicy": "Owner requested one current pack per locale and all active delivery revisions1 for clean-install v27.0.1. Historical pack files were retired without rewriting Git history. Future corrections must increment revisions and use new immutable paths.",
+  "perEntrySourceAndReviewHashes": "review-state.json"
+}

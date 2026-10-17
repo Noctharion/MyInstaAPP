@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "catalogId": "myinsta-ui-v1",
-  "locale": "pt-PT",
+  "locale": "en",
   "revision": 1,
   "strings": {
     "settings.section.local_reading": "LOCAL READING",
@@ -1582,7 +1582,8 @@
     "themes.undo": "↶ Undo",
     "themes.unsaved": "Unsaved changes",
     "themes.use_hex": "Use hex color",
-    "themes.wallpaper_colors": "Wallpaper colors when available"
+    "themes.wallpaper_colors": "Wallpaper colors when available",
+    "text.clipboard_label": "Instagram text"
   },
   "plurals": {
     "experiments.imported_restart": {

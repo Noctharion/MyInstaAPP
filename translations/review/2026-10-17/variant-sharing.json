@@ -1,0 +1,40 @@
+{
+  "en-US/en-GB": {
+    "pack": "en",
+    "decision": "Retain existing English family default and canonical source spelling. Meaning and functional arguments are compatible; no claim of region-specific native style."
+  },
+  "es-ES/es-LA": {
+    "pack": "es",
+    "decision": "Neutral Spanish wording preserves the same feature contracts. Videos/vídeos and app-setting vocabulary are intelligible regional choices; no new broad-region alias is introduced. es-LA is the native code; es-419 is its semantic region, not a Java alias."
+  },
+  "fr-FR/fr-CA": {
+    "pack": "fr",
+    "decision": "Shared French app register (tu) and explicit functional nouns avoid region-specific legal/currency assumptions. Preserve the existing fr family default; community regional style review remains open."
+  },
+  "pt-PT/pt-BR": {
+    "pack": [
+      "pt-PT",
+      "pt-BR"
+    ],
+    "decision": "Keep separate exact variants; pt-PT remains the intentional pt default."
+  },
+  "zh-CN/zh-HK/zh-TW": {
+    "pack": [
+      "zh-CN",
+      "zh-HK",
+      "zh-TW"
+    ],
+    "decision": "Separate exact regional packs; no broad zh default, and no claim that mechanical script conversion is sufficient."
+  },
+  "system-identities": {
+    "packs": {
+      "zh-Hans-CN": "zh-CN",
+      "zh-Hant-HK": "zh-HK",
+      "zh-Hant-TW": "zh-TW",
+      "sr-Cyrl-RS": "sr",
+      "fil-PH": "tl"
+    },
+    "decision": "Chinese script tags and Serbian Cyrillic carry identical reviewed text from their corresponding region/script. Native tl-PH is labelled Filipino; CLDR48 maps legacy tl to fil. Strict modern fil-PH needs its own pack identity; fil family default points there. No extra translated language is counted.",
+    "reference": "https://www.unicode.org/cldr/charts/48/supplemental/aliases.html"
+  }
+}

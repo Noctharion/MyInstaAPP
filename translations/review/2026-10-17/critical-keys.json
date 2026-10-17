@@ -1,0 +1,2386 @@
+[
+  {
+    "kind": "strings",
+    "key": "settings.local_read_conversations.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.local_read_conversations.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.local_read_media.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.local_read_media.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.hidden_chats_enabled.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.hidden_chats_enabled.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.hidden_chats.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.hidden_chats.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "media.hidden_chats.unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "media.hidden_chats.open_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "media.hidden_chats.archive_notice"
+  },
+  {
+    "kind": "strings",
+    "key": "media.ghost.preset_on"
+  },
+  {
+    "kind": "strings",
+    "key": "media.ghost.preset_off"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost.preset_help"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.access_unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.error.account"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.error.empty"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.error.ids"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.error.json"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.error.manager"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.export_complete"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.export_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import.confirm"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import.developer_required"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import.help"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import.mode.overwrite"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import.mode.preserve"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import.mode.replace"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import.preview"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import_changed"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.import_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.imported_title"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.interrupted_title"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.open_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.restart_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "experiments.saved_unprepared"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.bmp_map"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.bmp_range"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.cancelled"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.catalog_large"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.character_map"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.character_offset"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.color_emoji"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.destination"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.details"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.download_first"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.download_size"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.download_unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.download_verification"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.duplicate_table"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.emoji_variation"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.emoji_variations"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.empty"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.encoding_map"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.file_large"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.file_unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.font_directory"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.glyph_offset"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.invalid_entry"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.library"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.load"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.maximum_size"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.no_data"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.prepare"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.prepare_first"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.preview"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.removed"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.selection"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.source"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.story_name"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.story_storage"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.story_text"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.table_bounds"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.table_directory"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.unicode_map"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.unicode_range"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.unsupported"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.use_emoji_import"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.valid_file"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.variation_codepoint"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.variation_map"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.error.verification"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.import"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.import_any"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.import_any_description"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.import_description"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.import_destination"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.import_emoji"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.import_emoji_description"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.imported"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.importing"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.operation_interrupted"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.reimport_notice"
+  },
+  {
+    "kind": "strings",
+    "key": "fonts.reimport_short"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.action"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.already"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.animated_image"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.animation"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.animation_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.audio"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.audio_only"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.audio_quality"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.best"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.cancel"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.carousel"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.carousel.advanced"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.carousel.best"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.channel"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.choice.selected"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.choice.unselected"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.choose"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.clear"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.close"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.comment_open_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.complete"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.complete_story"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.cover"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.cover_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.current"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.current_item"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.dimensions"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.dimensions_bitrate"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.choose_a_download_folder_in_myinsta_settings_first"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.connection_timed_out_tap_to_retry"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.could_not_create_the_destination_file"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.could_not_create_the_username_folder"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.could_not_finish_saving_the_file"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.could_not_save_the_first_frame"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.download_folder_is_not_writable"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.download_interrupted_tap_to_retry"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.encrypted_audio_cannot_be_exported"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.folder_access_was_revoked_choose_a_download_folder_again"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.generic"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.incomplete_file_tap_to_retry"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.media_link_expired_or_unavailable_reopen_the_media_and_download_again"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.open_instagram_and_tap_to_retry"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.the_selected_image_returned_a_video_instead"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.the_server_did_not_return_a_supported_media_file"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.the_server_returned_a_different_media_type"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.this_file_exceeds_the_2_gb_download_limit"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.this_video_has_no_audio_track"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.this_video_has_no_decodable_first_frame"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.error.unsupported_audio_sample_size"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.expired"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.extract_audio"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.failed"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.folder"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.frame"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.frame_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.image_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.item"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.media"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.no_media"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.open_saved"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.original_audio"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.original_quality"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.photo"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.photo_music"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.photo_only"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.preparing"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.quality"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.quality_accessibility"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.read"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.refresh_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.refreshing"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.results"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.retry"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.save_audio"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.select_all"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.select_one"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.select_text"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.start_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.started"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.state.cancelled"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.state.completed"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.state.downloading"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.state.failed"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.state.interrupted"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.state.queued"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.state.saving"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.state.unknown"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.story"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.story_read"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.video"
+  },
+  {
+    "kind": "strings",
+    "key": "media.download.video_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.ghost.choose"
+  },
+  {
+    "kind": "strings",
+    "key": "media.ghost.off"
+  },
+  {
+    "kind": "strings",
+    "key": "media.ghost.on"
+  },
+  {
+    "kind": "strings",
+    "key": "media.ghost.partial"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.all_messages"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.all_types"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.allow_replay"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.any_date"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.apply_filters"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.archive_storage"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.attachment_description"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.attachment_missing_description"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.attachment_unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.audio_label"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.avatar"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.bad_dates"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clear_all"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clear_archive"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clear_archive_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clear_archive_warning"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clear_conversation"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clear_conversation_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clear_filters"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clear_media"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.clipboard"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.close"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.close_attachment"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.conversation_tab"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.conversations"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.copied"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.copies_keep"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.copy"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.details_saved"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.detected"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.empty_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.filter_accessibility"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.filter_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.filter_title"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.filtered"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.from"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.from_sender"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.gifs"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.inline_description"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.inline_label"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.instagram_share"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.keep_copies"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.keep_information"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.keep_records"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.limit"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.limit_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.link"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.links"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.load_earlier"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.loading"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.local_only"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.message"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.message_description"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.messages"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.missing_attachment"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.mode"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.next"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.no_match"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.not_captured"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.not_preserved"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.notification_channel"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.notification_description"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.notification_title"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.off"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.offline"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.offline_suffix"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.on"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.once"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.open_conversation"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.pause"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.photo"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.photos"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.play"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.play_position"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.play_saved"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.position"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.precapture"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.audio"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.gifs"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.links"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.message"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.photos"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.shares"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.stickers"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.text"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.preview.videos"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.previous"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove_all_attachments"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove_attachments"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove_copies"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove_from"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove_local"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove_message"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove_messages_title"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.remove_saved"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.reset_filters"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.retry_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.save_copy"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.saved"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.saved_conversation"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.saved_kind"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.saved_message"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.saved_on_device"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.search"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.search_help"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.selected"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.sender_id"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.sender_section"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.sender_unknown"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.sent"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.shared_post"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.shares_label"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.starts"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.sticker"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.stickers"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.subtitle"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.switch_account"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.text"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.this_conversation"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.title"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.unlimited"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.unlimited_label"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.unsent"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.until"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.username"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.video"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.videos"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.view_saved"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.view_saved_attachment"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.voice"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.zoom"
+  },
+  {
+    "kind": "strings",
+    "key": "media.unsent.zoom_description"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.allow_screenshots_dms.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.allow_screenshots_dms.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.allow_screenshots_dms.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.busy"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.choose_document"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.error.file"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.error.invalid"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.error.large"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.error.profile"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.error.save"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.error.session"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.error.themes"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.export_complete"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.export_destination"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.export_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.export_flags"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.export_help"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.file_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.flags"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.flags_import_unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.flags_missing"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.flags_session_changed"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.flags_unavailable"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.import_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.import_flags"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.import_help"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.imported_counts"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.imported_title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.picker_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.preview"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.restart_description"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.restart_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.restart_help"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.saved"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.saved_restart"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.warning.folder"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.warning.other"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup.warning.pack"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup_experiments.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup_experiments.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup_settings.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup_settings.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.backup_settings.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.category_backupexperiments.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.category_backupexperiments.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.category_backupexperiments.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.category_restoreexperiments.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.category_restoreexperiments.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.category_restoreexperiments.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.chat_seen_button.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.chat_seen_button.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.disable_twotap_likes_comments.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.disable_twotap_likes_comments.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.disable_twotap_likes_posts.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.disable_twotap_likes_posts.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.disable_twotap_likes_reels.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.disable_twotap_likes_reels.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.disable_twotap_reactions_dms.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.disable_twotap_reactions_dms.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost.active"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost.inactive"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost_instants.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost_instants.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost_messages.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost_messages.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost_mode_settings.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost_mode_settings.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost_stories.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghost_stories.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghostmod_status_navbar.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.ghostmod_status_navbar.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.hide_view_once_opened.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.hide_view_once_opened.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_delay.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_delay.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_enabled.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_enabled.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_notice.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_notice.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_posts.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_posts.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_reels.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_reels.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_settings.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.like_protection_settings.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.mark_chat_read.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.mark_chat_read.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.permanent_view_once_media.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.permanent_view_once_media.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.privacy_analytics.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.privacy_analytics.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.privacy_cachebatch.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.privacy_cachebatch.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.privacy_disableads.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.privacy_disableads.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.privacy_settings.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.privacy_settings.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_comments.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_comments.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_empty_space.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_empty_space.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_explore.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_explore.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_posts.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_posts.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_reels.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_reels.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_screenshot_notification.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_screenshot_notification.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_screenshot_notification.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_seen_dms.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_seen_dms.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_seen_dms.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_seen_lives.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_seen_lives.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_seen_stories.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_seen_stories.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_stories.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_stories.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_typing_status.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.remove_typing_status.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.restore_experiments.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.restore_experiments.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.restore_merge_experiments.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.restore_merge_experiments.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.restore_mergeoverwrite_experiments.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.restore_mergeoverwrite_experiments.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.secret_voice_notes.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.secret_voice_notes.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.seen_after_reacting.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.seen_after_reacting.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.seen_after_reply.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.seen_after_reply.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.settings_export.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.settings_export.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.settings_export.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.settings_import.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.settings_import.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.settings_import.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.story_mark_seen.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.story_mark_seen.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.story_seen_after_interaction.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.story_seen_after_interaction.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_allow_screenshots_dms.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_allow_screenshots_dms.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_hide_view_once_opened.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_hide_view_once_opened.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_mode_settings.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_mode_settings.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_permanent_view_once_media.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_permanent_view_once_media.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_screenshot_notification.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_screenshot_notification.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_seen_dms.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_seen_dms.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_seen_lives.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_seen_lives.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_seen_stories.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_seen_stories.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_typing_status.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_remove_typing_status.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_secret_voice_notes.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_secret_voice_notes.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_unlimited_view_once_replays.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.toggle_unlimited_view_once_replays.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unlimited_view_once_replays.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unlimited_view_once_replays.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_audio.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_audio.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_enabled.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_enabled.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_gifs.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_gifs.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_inline.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_inline.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_links.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_links.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_log.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_log.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_log.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_notifications.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_notifications.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_once.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_once.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_photos.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_photos.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_preview.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_preview.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_settings.aliases"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_settings.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_settings.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_shares.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_shares.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_stickers.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_stickers.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_storage.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_storage.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_text.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_text.title"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_videos.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "settings.unsent_videos.title"
+  },
+  {
+    "kind": "strings",
+    "key": "support.action"
+  },
+  {
+    "kind": "strings",
+    "key": "support.button"
+  },
+  {
+    "kind": "strings",
+    "key": "support.external"
+  },
+  {
+    "kind": "strings",
+    "key": "support.optional"
+  },
+  {
+    "kind": "strings",
+    "key": "support.summary"
+  },
+  {
+    "kind": "strings",
+    "key": "support.title"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.delete"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.delete_action"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.delete_confirmation"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.builtin_delete"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.builtin_reset"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.color"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.components"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.delete_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.duplicate"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.engine"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.field"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.generic"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.glass_area"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.hex"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.invalid_field"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.json"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.library"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.library_not_ready"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.limit"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.local_id"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.material_selection"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.missing_field"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.name"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.object"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.opacity"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.opaque"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.range"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.remove"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.reset_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.row_area"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.save_selection"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.saved_selection"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.schema"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.selection"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.size"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.source"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.stream"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.string"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.structure"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.error.unsupported_field"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.export"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.export_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.export_lost"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.export_recipe"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.exported"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.import"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.import_apply"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.import_failed"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.import_notice"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.import_only"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.import_recipe_notice"
+  },
+  {
+    "kind": "strings",
+    "key": "themes.import_title"
+  },
+  {
+    "kind": "plurals",
+    "key": "experiments.imported_restart"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.download.items"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.download.started_many"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.unsent.attachments"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.unsent.conversation_count"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.unsent.conversation_description"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.unsent.remove_count"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.unsent.saved_count"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.unsent.saved_in_conversation"
+  },
+  {
+    "kind": "plurals",
+    "key": "media.unsent.view_count"
+  },
+  {
+    "kind": "plurals",
+    "key": "settings.backup.imported_flags"
+  }
+]

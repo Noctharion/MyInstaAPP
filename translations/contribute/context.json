@@ -12235,6 +12235,14 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/theme/ThemesActivity.java"
       ],
       "placeholders": {}
+    },
+    "text.clipboard_label": {
+      "kind": "strings",
+      "context": "Android clipboard label for text copied from Instagram through MyInsta text selection. This describes the clip in platform UI/accessibility; never translate or change the selected user text.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/feed/TextSelection.java"
+      ],
+      "placeholders": {}
     }
   }
 }
