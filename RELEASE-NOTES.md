@@ -1,9 +1,12 @@
 # MyInsta v27.0.1 (Development)
 
-Updated October 14, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55.81**. The current build identifies as **v27.0.1-dev**; this changelog does not announce a final release.
+Updated October 17, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55.81**. The current build identifies as **v27.0.1-dev**; this changelog does not announce a final release.
 
 - (Add) MyInsta translations follow Instagram's selected language, with English, Portuguese (Portugal and Brazil), Spanish, German and French packs.
 - (Add) Translation updates without reinstalling the app.
+- (Add) Independent, default-off device-local conversation-read and opened-media markers in Ghost Mode. Verified automatic observations do not generate additional receipts or alter native consumption/replay; unsupported video players retain native indicators. New incoming items stay unread, including arrivals during an older read observation. Native unread filters, aggregate counts, notifications and launcher badges retain their existing behavior.
+- (Add) With local media reading enabled, explicit header Seen and inbox Mark as read actions can send real receipts and consume protected media even with Keep View-Once Media on. Reply and reaction shortcuts retain that protection; conversation reading alone does not enable the header exception. Disabling local reading does not submit its history.
+- (Fix) Protected-media Download appears only for a matching full native source with a current URL lease or validated cache bytes. It preserves the existing downloader for leased sources and supports full-photo and complete, committed progressive-MP4 cache recovery. Stale IDs/URLs, thumbnails, partial bodies and unsupported adaptive, fragmented or encrypted cache sources do not qualify. A valid native lease does not guarantee later CDN delivery.
 - (Add) Open Home on Following at normal startup, preserving manual feed choices and notification/link destinations.
 - (Add) Optional confirmation before starting voice or video calls.
 - (Add) Reel seek bar with elapsed time and duration, including short Reels.
@@ -40,7 +43,7 @@ Updated October 14, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55
 - (Fix) Reorganized settings into clearer app areas and simplified the Fonts & emojis screen.
 - (Fix) Prevented older translation caches from replacing newer bundled text.
 
-The current source passed **567 JVM tests**, and all **17 patches** load from the bundle. All six language packs contain **1,415 entries**. The corrected ARM64 UnClone passed two cold starts on a phone after an update preserving app data; the corrected ARM64 Clone passed artifact checks but has not been installed for this check. Device validation of the remaining changes is ongoing. Download and playback quality depend on the sources Instagram provides; Story uploads remain subject to Instagram's server compression. These changes do not establish universal theme coverage or successful phone validation of every Gallery, Story export and video transition path.
+All four ABI development builds (arm64-v8a, armeabi-v7a, x86_64 and x86) passed **689 JVM tests** and **19 exact-APK integration gates** each, plus separate package identity, native packaging and source provenance checks; all **17 foundation patches** load from their bundles. These APKs are unsigned and have not been installed for this validation. English and European Portuguese revision **13** each contain **1,597 entries**; the other four packs retain **1,415 translated entries** with English fallback. Host tests and serialized DEX checks cover local state, receipt/consumption separation, scoped UI hooks and supported cache sources; they do not establish installed Android rendering, live receipt behavior or download delivery. Fresh phone acceptance of this development work remains pending. Earlier ARM64 cold-start evidence belongs to its earlier artifact. Download and playback quality depend on the sources Instagram provides; Story uploads remain subject to Instagram's server compression.
 
 The published v27.0.0 APKs and update metadata retain their existing identity. Test APK generation and source publication do not publish a release on the official website.
 

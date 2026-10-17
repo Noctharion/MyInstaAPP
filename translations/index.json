@@ -18,10 +18,10 @@
     },
     {
       "locale": "en",
-      "revision": 9,
-      "path": "packs/en/9-b23ebac0b0c4b7f42adb3b96675dcf23dccf03da5e6e27c566115981240c745e.json",
-      "size": 113670,
-      "sha256": "b23ebac0b0c4b7f42adb3b96675dcf23dccf03da5e6e27c566115981240c745e"
+      "revision": 13,
+      "path": "packs/en/13-6a0001a014d174853231dc395d748dfc8df3874d2e244a421a5ef4a58eef5e6e.json",
+      "size": 117662,
+      "sha256": "6a0001a014d174853231dc395d748dfc8df3874d2e244a421a5ef4a58eef5e6e"
     },
     {
       "locale": "es",
@@ -46,10 +46,10 @@
     },
     {
       "locale": "pt-PT",
-      "revision": 9,
-      "path": "packs/pt-PT/9-80777fb6d8490185244256ab8da542099e8825d8ed4e0ed983f2ac464a74c82a.json",
-      "size": 127915,
-      "sha256": "80777fb6d8490185244256ab8da542099e8825d8ed4e0ed983f2ac464a74c82a"
+      "revision": 13,
+      "path": "packs/pt-PT/13-5ebe77a711fc86670dcaf440e62e19c270de0bb88e200eebd54937bd18274353.json",
+      "size": 132595,
+      "sha256": "5ebe77a711fc86670dcaf440e62e19c270de0bb88e200eebd54937bd18274353"
     }
   ]
 }

@@ -1,7 +1,247 @@
 {
   "catalogId": "myinsta-ui-v1",
-  "instructions": "Translate values only. Keep keys, named placeholders, brands and proper names. All plural entries require other. Only en/pt-PT bundled catalogues must be complete. See docs/TRANSLATIONS.md.",
+  "instructions": "Translate values only. Keep keys, named placeholders, brands and proper names. All plural entries require other. Only en/pt-PT bundled catalogues must be complete. See translations/CONTRIBUTING.md.",
   "entries": {
+    "settings.section.local_reading": {
+      "kind": "strings",
+      "context": "Heading for the two independent, default-off device-local reading settings in Ghost Mode.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.local_read_conversations.title": {
+      "kind": "strings",
+      "context": "Toggle label for device-local conversation-read presentation, independently of whether media was opened.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.local_read_conversations.summary": {
+      "kind": "strings",
+      "context": "Explains device-only read markers, independence from media opening, existing receipt/manual-action rules, and the default-off setting. Do not imply account-wide synchronization or additional privacy guarantees.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.local_read_media.title": {
+      "kind": "strings",
+      "context": "Toggle label for device-local opened-photo and supported-video presentation.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.local_read_media.summary": {
+      "kind": "strings",
+      "context": "Explains verified viewing and unsupported players. Preserve the explicit warning: when enabled, manual Mark as read/seen actions can send receipts and consume protected media; reply/reaction shortcuts keep Keep View-Once protection. Automatic local markers do not grant this manual exception. Default off.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hidden_chats_enabled.title": {
+      "kind": "strings",
+      "context": "Toggle label enabling new protected-conversation locks.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hidden_chats_enabled.summary": {
+      "kind": "strings",
+      "context": "Disabling prevents new locks without exposing already hidden chats; existing protected chats remain accessible through their separate entry. Reopening the inbox applies the change.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hidden_chats.title": {
+      "kind": "strings",
+      "context": "Settings action opening protected conversations, not a command that hides another conversation.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.hidden_chats.summary": {
+      "kind": "strings",
+      "context": "Explains device biometrics/screen-lock authentication and that existing conversations can be unhidden even if new hiding is disabled.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "media.hidden_chats.unavailable": {
+      "kind": "strings",
+      "context": "Notice when a supported Instagram account or device screen lock is unavailable.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/HiddenChats.java"
+      ],
+      "placeholders": {}
+    },
+    "media.hidden_chats.open_failed": {
+      "kind": "strings",
+      "context": "Recovery notice after protected conversations could not be opened.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/HiddenChats.java"
+      ],
+      "placeholders": {}
+    },
+    "media.hidden_chats.archive_notice": {
+      "kind": "strings",
+      "context": "Notice in the local Unsent archive: protected or unresolved-lock-status conversations and their archive notifications remain hidden. Unhiding in Instagram restores local visibility.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentScreen.java"
+      ],
+      "placeholders": {}
+    },
+    "media.ghost.preset_on": {
+      "kind": "strings",
+      "context": "Short notice after enabling the temporary Ghost quick preset. Saved manual settings are unchanged.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ghost/GhostQuickToggle.java"
+      ],
+      "placeholders": {}
+    },
+    "media.ghost.preset_off": {
+      "kind": "strings",
+      "context": "Short notice after disabling the temporary Ghost quick preset and restoring saved settings.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ghost/GhostQuickToggle.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.ghost.preset_help": {
+      "kind": "strings",
+      "context": "Explains that holding Direct temporarily adds selected preset protections and holding again restores saved manual switches.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_result_toast.title": {
+      "kind": "strings",
+      "context": "Toggle label selecting a brief Android toast for final download results. Progress notifications remain separate.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_result_toast.summary": {
+      "kind": "strings",
+      "context": "Explains completed/failed result toasts while download progress remains visible; default off.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.story.timestamp_date12": {
+      "kind": "strings",
+      "context": "Story timestamp format choice combining date and 12-hour time. Preserve its distinction from time-only and 24-hour choices.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.title": {
+      "kind": "strings",
+      "context": "Heading for supported bottom-navigation bar size and spacing controls.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.help": {
+      "kind": "strings",
+      "context": "Explains immediate dimension changes, dp units, minimum touch targets and safe fitting in narrow windows without overwriting saved choices.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.unavailable": {
+      "kind": "strings",
+      "context": "Notice when the current native navigation layout does not support these dimensions.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.icon": {
+      "kind": "strings",
+      "context": "Slider label for navigation icon size.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.height": {
+      "kind": "strings",
+      "context": "Slider label for navigation bar height, excluding the Android system inset.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.width": {
+      "kind": "strings",
+      "context": "Slider label for horizontal occupancy as a percentage of available navigation bar width.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.gap": {
+      "kind": "strings",
+      "context": "Slider label for the minimum gap between navigation tab touch targets.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.bottom": {
+      "kind": "strings",
+      "context": "Slider label for distance from the bottom, applicable only to floating Glass navigation.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.reset": {
+      "kind": "strings",
+      "context": "Action resetting only navigation dimensions, preserving other navigation choices.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.dimensions.native": {
+      "kind": "strings",
+      "context": "Slider value retaining the original Instagram dimension rather than an explicit custom size.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.navigation_tabs_settings.aliases": {
+      "kind": "strings",
+      "context": "Search aliases for the navigation editor. Translate useful search terms; preserve the separation between terms.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.section.doubletap_reactions": {
+      "kind": "strings",
+      "context": "Section heading for Direct double-tap reaction settings.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "appearance.common.cancel": {
       "kind": "strings",
       "context": "appearance / common",
