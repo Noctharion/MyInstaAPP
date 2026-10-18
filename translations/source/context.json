@@ -52,7 +52,7 @@
     },
     "settings.hidden_chats_enabled.summary": {
       "kind": "strings",
-      "context": "Disabling prevents new locks without exposing already hidden chats; existing protected chats remain accessible through their separate entry. Reopening the inbox applies the change.",
+      "context": "Local MyInsta hiding by stable account and conversation ID; turning the master switch off prevents new hiding but preserves already hidden conversations. Does not require Instagram native locked-chat eligibility.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
       ],
@@ -68,7 +68,7 @@
     },
     "settings.hidden_chats.summary": {
       "kind": "strings",
-      "context": "Explains device biometrics/screen-lock authentication and that existing conversations can be unhidden even if new hiding is disabled.",
+      "context": "Manage this account's local hidden folder. Holding the inbox New message button opens this folder; normal tap still creates a message. Independent area authentication settings apply.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
       ],
@@ -7187,7 +7187,7 @@
     },
     "settings.like_protection_enabled.summary": {
       "kind": "strings",
-      "context": "settings / like_protection_enabled",
+      "context": "Master delayed-send control for new likes and reactions in independently selected surfaces. Undo cancels the pending action and its associated interaction receipt; off by default.",
       "sources": [],
       "placeholders": {}
     },
@@ -7211,13 +7211,13 @@
     },
     "settings.like_protection_posts.summary": {
       "kind": "strings",
-      "context": "settings / like_protection_posts",
+      "context": "Independent protection for contextual single-post pages opened from profiles or other posts. Feed/Home has its own setting.",
       "sources": [],
       "placeholders": {}
     },
     "settings.like_protection_posts.title": {
       "kind": "strings",
-      "context": "settings / like_protection_posts",
+      "context": "Title for protecting contextual opened-post pages, independent of the Feed/Home setting.",
       "sources": [],
       "placeholders": {}
     },
@@ -7235,7 +7235,7 @@
     },
     "settings.like_protection_settings.summary": {
       "kind": "strings",
-      "context": "settings / like_protection_settings",
+      "context": "Delayed likes and Direct conversation reactions reuse the common Undo policy. Ghost Mode and successful-interaction read preferences remain authoritative.",
       "sources": [],
       "placeholders": {}
     },
@@ -12241,6 +12241,880 @@
       "context": "Android clipboard label for text copied from Instagram through MyInsta text selection. This describes the clip in platform UI/accessibility; never translate or change the selected user text.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/feed/TextSelection.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_notes.title": {
+      "kind": "strings",
+      "context": "Independent opt-in protection for likes on Notes, using the same delayed-send and Undo controls as other like surfaces.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_notes.summary": {
+      "kind": "strings",
+      "context": "Includes Notes in inbox, Friend Map and media Notes on posts or Reels. Ambient location reactions and repeated Live hearts are separate actions and are not protected by this setting.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "media.like.note_unavailable": {
+      "kind": "strings",
+      "context": "A protected Note like cannot be held or replayed safely because its current identity, state or expiry is unavailable. No like is sent; the user can reopen the Note.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/privacy/NoteLikeActions.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_comments.title": {
+      "kind": "strings",
+      "context": "Independent opt-in protection for native comment likes, distinct from publication likes and Direct reactions.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_comments.summary": {
+      "kind": "strings",
+      "context": "Native comment lists, inline post comments and comment likes from Activity/notifications; delayed send with shared Undo. This does not refer to push notification delivery.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "hidden.archive_notice": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Hidden conversations stay out of the general archive. Open an exact conversation after unlocking both protected areas. Copies with an unknown Instagram privacy status remain unavailable until Instagram loads that conversation.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.unavailable": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Hidden Chats are not ready for the current session. Open your inbox and try again.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_direct.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Delay conversation and card-gallery likes and reactions from buttons and double taps. Undo does not mark messages read.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_direct.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Protect conversation likes and reactions",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "media.hidden_chats.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Hidden Chats",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.conversation": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Hidden conversation",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.empty": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: No hidden conversations for this account.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.hidden": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Conversation hidden locally. New messages stay hidden.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.hide": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Hide conversation",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.menu": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: MyInsta conversation actions",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.open": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Open conversation",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.save_failed": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Could not save hidden conversations. Please try again.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.unhide": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Show conversation",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.unsent_shortcut": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Mark as read. Hold to open saved Unsent Messages for this conversation.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "hidden.visible": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Conversation is visible again.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.create": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Create",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.direct": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Direct messages",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.explore": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Explore",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.homecoming_opt_in": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Home navigation opt in",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.homecoming_opt_out_replace": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Home navigation opt out",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.homecoming_reorder_subtabs": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Reorder Home feeds",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.manage_feeds": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Manage feeds",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.menu": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Menu",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.myinsta": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: MyInsta settings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.news": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Notifications",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.quick_snap": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Instants",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.reels_second_opt_in": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Reels navigation opt in",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.actions.stories_tab": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Stories",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.empty": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Open Home first to detect the actions available in this layout. Layouts without a supported right-side button group retain their native header. The settings icon is shown only when there is enough room.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.help": {
+      "kind": "strings",
+      "context": "Explains Home upper-right native actions: drag reorder or accessible Move earlier/later row menu; independent show/hide; native badges and gestures preserved; independent from bottom navigation.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.move_down": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Move later",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.move_up": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Move earlier",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.myinsta": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: MyInsta settings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.reset": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Reset Home icon order",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.edits.edited": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Edited: {time}",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {
+        "time": "Displayed value; preserve this placeholder."
+      }
+    },
+    "media.edits.empty": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: No previous versions saved for this message.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.edits.failed": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Could not load this message history. Please try again.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.edits.limit": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Shows previous text observed since recording was enabled, plus history Instagram supplied to this account. Earlier unavailable versions cannot be recovered. Observed time is not the actual edit time.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.edits.loading": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Loading saved versions…",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.edits.more": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Load more versions",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.edits.observed": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Change observed: {time}",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {
+        "time": "Displayed value; preserve this placeholder."
+      }
+    },
+    "media.edits.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Edit history",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.first.found": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Reached the first accessible message.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.first.incomplete": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Could not confirm the beginning of the conversation. Check your connection and try again; the messages already loaded remain available.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.first.loading": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Loading older messages… {count} items available. Cancel to stop.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {
+        "count": "Displayed value; preserve this placeholder."
+      }
+    },
+    "media.first.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Jump to first message",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.first.unavailable": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: The beginning of this conversation cannot be verified with its current history backend. No read action was requested.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.instant.crop_help": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Move and pinch to choose the square crop. Sending confirms this framing for your current audience.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.poll": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Poll",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.quiz": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Quiz",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.quiz_correct": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Correct answer",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.results": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Poll, slider and quiz results",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.results_empty": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: No responses yet",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.results_help": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Shows results already available in this Story's data. This does not vote, answer or send a read receipt.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.results_loading": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Loading available results…",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.results_unavailable": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Results unavailable",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.results_unavailable_help": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Instagram has not supplied this result to this account. No vote or answer was submitted to unlock it.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.results_votes": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Responses",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.slider": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Slider",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "media.story.slider_average": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Average response",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "navigation.startup.default": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Instagram default",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "navigation.startup.help": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Choose the visible native tab used for a fresh launch from the app icon. Links, notifications, restored sessions and later tab changes keep their own destination.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "navigation.startup.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Startup Tab",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "navigation.startup.unavailable": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: The saved tab is hidden or unavailable in this layout. A visible Home tab will be used until it becomes available again.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "security.authenticate": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Unlock MyInsta",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "security.cancel": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Cancel",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "security.close": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Close",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "security.device_lock": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Use device lock",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "security.unavailable": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Set up biometrics or explicitly allow your device screen lock before enabling protection.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_device_credential.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Explicitly allow your device PIN, pattern or password as an alternative to biometrics. Configure a device lock first.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_device_credential.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Allow device screen lock",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_edit_history.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Authenticate before viewing previous message versions.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_edit_history.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Protect edit history",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_hidden_chats.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Authenticate before opening the local hidden conversations folder.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_hidden_chats.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Protect Hidden Chats",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_settings.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Authenticate at every settings entry, including direct shortcuts.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_settings.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Protect MyInsta settings",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_unsent.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Authenticate before viewing archived messages, attachments or storage.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_unsent.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Protect Unsent Messages",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.edit_history_enabled.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Preserve observed text versions and any history supplied by Instagram, separately for each account and conversation. Earlier unavailable versions cannot be recovered.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.edit_history_enabled.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Record message edit history",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.exact_post_dates.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Show the original publication date and time using your device language and time zone instead of relative dates.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.exact_post_dates.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Exact post dates",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home_myinsta_icon.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Show a direct settings shortcut when there is enough space in the upper-right toolbar. Settings area protection applies.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home_myinsta_icon.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: MyInsta icon on Home",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home_toolbar_settings.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Reorder the available upper-right Home icons independently of the bottom navigation.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.home_toolbar_settings.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Home toolbar",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.jump_first_message.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Add a conversation menu action that loads older accessible messages using the native pager. Loading can be cancelled.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.jump_first_message.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Jump to first message",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_feed.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Delay new likes in Home, Following and Favorites before they enter the native send queue.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_feed.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Protect Feed / Home likes",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_other.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Delay publication likes from saved collections and other native post surfaces.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_other.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Protect other publication likes",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_stories.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Delay Story likes and superlikes before sending or changing quota. Undo sends neither the like nor its interaction read receipt. Internal developer bulk actions are excluded.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_protection_stories.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Protect Story likes",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.security_settings.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Choose independently which MyInsta areas require authentication. Unlock sessions expire after one minute and close when you leave the app or switch accounts.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.security_settings.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Area protection",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.story_results.summary": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: Add a Story menu action for received Poll, Slider and Quiz results. No vote or response is submitted; unavailable server data is shown explicitly.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.story_results.title": {
+      "kind": "strings",
+      "context": "MyInsta v27.0.1 source UI: View available sticker results",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.drag": {
+      "kind": "strings",
+      "context": "Accessibility label on the drag handle for one Home toolbar action. The action placeholder is the localized name of that action, not an identifier.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/HomeToolbarSettingsView.java"
+      ],
+      "placeholders": {
+        "action": "Localized name of the toolbar action."
+      }
+    },
+    "home_toolbar.show": {
+      "kind": "strings",
+      "context": "Label for the independent visibility switch for one Home toolbar action. The action placeholder is the localized name of that action.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/HomeToolbarSettingsView.java"
+      ],
+      "placeholders": {
+        "action": "Localized name of the toolbar action."
+      }
+    },
+    "home_toolbar.visible": {
+      "kind": "strings",
+      "context": "Row status when this action is configured to be shown in the upper-right Home toolbar; actual availability still depends on native layout and space.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/HomeToolbarSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "home_toolbar.hidden": {
+      "kind": "strings",
+      "context": "Row status when this action is configured to be hidden in the upper-right Home toolbar.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/HomeToolbarSettingsView.java"
       ],
       "placeholders": {}
     }
