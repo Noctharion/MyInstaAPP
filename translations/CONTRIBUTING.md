@@ -4,7 +4,7 @@ Everything needed is in this public repository. PowerShell and Java 11+ (`java` 
 
 ## Translate and review
 
-[source/en.json](source/en.json) is canonical: **1,688 strings and 18 plurals, 1,706 entries**. The existing 45 primary authoring catalogues and five documented system identity variants are complete at source revision **2**. English and pt-PT are bundled for offline first use; other locales use downloaded packs. The immutable delivery packs and index remain unchanged at revision **1**, with **1,598 entries**, pending later preparation of the new source. Missing new keys in an older downloaded pack use English fallback. [The delivery record](review/2026-10-17/README.md) describes the earlier delivery; its review flags do not certify the new delta. Technical coverage, AI review, human review and Android acceptance remain separate.
+[source/en.json](source/en.json) is canonical: **1,730 strings and 18 plurals, 1,748 entries**, at source revision **2**. English and pt-PT are complete and synchronized with the application bundle. The other **48 authoring files remain at 1,708 entries**; translate the 40 missing Hidden Chats keys and review changed existing source/context before claiming current completeness. Preserve their existing translated values while doing that work. English and pt-PT are bundled for offline first use; other locales use downloaded packs. The immutable delivery packs and index remain unchanged at revision **1**, with **1,598 entries**, pending later preparation of updated source. Missing new keys in an older downloaded pack use English fallback. [The delivery record](review/2026-10-17/README.md) describes the earlier delivery; its review flags do not certify the current delta. Technical coverage, AI review, human review and Android acceptance remain separate.
 
 Export a fresh template:
 
@@ -24,7 +24,7 @@ Validate with the real strict parser:
 ./translations/tools/Translations.ps1 -Command validate -File ./translation-es/template.json
 ```
 
-Validation rejects malformed UTF-8/JSON, duplicate keys, unsupported schema/catalogue, missing `other` and incompatible placeholders. It reports key coverage, not language quality. Partial extra languages may omit untranslated entries and fall back to English; an omitted entry is not translated coverage. Never fill missing entries with empty text or copied English prose. The current authoring key set is complete for the existing target locales; the unchanged revision-1 downloadable packs predate the new source entries.
+Validation rejects malformed UTF-8/JSON, duplicate keys, unsupported schema/catalogue, missing `other` and incompatible placeholders. It reports key coverage, not language quality. Partial extra languages may omit untranslated entries and fall back to English; an omitted entry is not translated coverage. Never fill missing entries with empty text or copied English prose. The 48 pending authoring files can validate at **1,708/1,748 entries (97.7%)** without being complete or reviewed against the latest wording. Only bundled English and pt-PT must be complete; the unchanged revision-1 downloadable packs also predate the new source entries.
 
 ## Prepare a contribution
 
