@@ -1,6 +1,8 @@
 # MyInsta v27.0.1 (Development)
 
-Updated October 17, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55.81**. The current build identifies as **v27.0.1-dev**; this changelog does not announce a final release.
+Updated October 18, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55.81**. The current build identifies as **v27.0.1-dev**; this changelog does not announce a final release.
+
+- (Fix) Removed main-thread retry sleeps when native analytics looks up generated view IDs during scrolling. Valid resource lookup, visual effects and existing controls retain their behavior.
 
 - (Add) MyInsta translations follow Instagram's selected language, with English, Portuguese (Portugal and Brazil), Spanish, German and French packs.
 - (Add) Translation updates without reinstalling the app.
@@ -44,6 +46,8 @@ Updated October 17, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55
 - (Fix) Prevented older translation caches from replacing newer bundled text.
 
 All four ABI development builds (arm64-v8a, armeabi-v7a, x86_64 and x86) passed **689 JVM tests** and **19 exact-APK integration gates** each, plus separate package identity, native packaging and source provenance checks; all **17 foundation patches** load from their bundles. These APKs are unsigned and have not been installed for this validation. English and European Portuguese revision **13** each contain **1,597 entries**; the other four packs retain **1,415 translated entries** with English fallback. Host tests and serialized DEX checks cover local state, receipt/consumption separation, scoped UI hooks and supported cache sources; they do not establish installed Android rendering, live receipt behavior or download delivery. Fresh phone acceptance of this development work remains pending. Earlier ARM64 cold-start evidence belongs to its earlier artifact. Download and playback quality depend on the sources Instagram provides; Story uploads remain subject to Instagram's server compression.
+
+**October 18 ARM64 scroll checkpoint:** 780 JVM tests and all 20 exact-APK integration gates passed for signed Clone and UnClone candidates. On one SM-F966B running Android 17 at 120 Hz, the installed UnClone's warmed scroll samples had fewer missed frame deadlines in Home, Explore and Reels; generated-ID lookup dropped from 3.3–3.8 ms to 0.043–0.176 ms with the same exception result. Current effects and controls remained active. Residual native-list and rendering stalls remain, live content varied, and some FrameTimeline tail metrics did not improve. This is a scoped improvement, not a claim of universally smooth scrolling or device acceptance of the Clone and other ABIs. The four-ABI figures above describe the earlier checkpoint.
 
 The published v27.0.0 APKs and update metadata retain their existing identity. Test APK generation and source publication do not publish a release on the official website.
 
