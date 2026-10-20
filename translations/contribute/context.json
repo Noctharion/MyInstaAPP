@@ -5495,11 +5495,483 @@
       ],
       "placeholders": {}
     },
+    "navigation.appearance.apply": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Apply",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.blur": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Blur",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.classic": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Classic",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.compact": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Compact while scrolling",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.compact_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. In the separated layout, scrolling can reduce the bar to the selected tab and Search. Off by default.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.continue": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Keep editing",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.contrast": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Some icon colors may have low contrast over bright or dark content. Increase opacity or adjust navigation colors in Themes.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.dimensions": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Size and spacing",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.discard": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Discard changes",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.editor_replaced": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Navigation is being edited in another window. Reopen this page to continue.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.effects_reduced": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Reduced Glass effects are enabled. The navigation bar uses a solid surface without blur or refraction.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.glass_disabled": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Glass navigation is off. Your choices will be used when it is enabled.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.haptics": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Selection haptics",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.haptics_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Add a light tick when selection changes. Respects device touch feedback settings. Off by default.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.hardware_support": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Blur requires Android 12 or later. Edge refraction requires Android 13 or later. Unsupported effects keep a readable fallback.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.inherit": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Follow general Glass",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.inherit_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Follow general Glass uses its opacity, blur and refraction. Saturation and the preset finish remain specific to navigation.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.inherited_controls": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Opacity, blur and refraction are inherited. Choose Navigation only under Appearance to edit them here.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.integrated": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Integrated",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.layout": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Layout",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.material": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Navigation material",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.material_source": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Material source",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.motion": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Selection motion",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.motion_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. System animation settings are respected. These choices do not change the native tab destinations.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.motion_off": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. No animation",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.motion_reduced": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Reduced motion",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.motion_system": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Follow system",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.native_padding": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Compact native padding",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.native_padding_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Remove extra padding from the native bar while keeping room for system controls. Existing choices are kept until you change this control.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.opacity_dark": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Opacity in dark appearance",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.opacity_light": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Opacity in light appearance",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.open_editor": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Customize navigation bar",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.own": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Navigation only",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preset": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Preset",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preset_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Presets set the material, lighting, outline and selection animation. Tab order and dimensions are preserved.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Navigation bar preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.refined": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Refined",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.refraction": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Edge refraction",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.reset": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Reset appearance to Refined",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.saturation": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Background saturation",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.saving": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Saving…",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.scope": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Appearance and size stay the same across themes. Preview changes, then Apply or Cancel. Tab order, visibility and startup changes are saved immediately.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.separated": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Separate Search",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.separated_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Separate Search keeps its native tab in a circle beside the other tabs. If Search is hidden, unavailable or there is not enough room, the bar stays integrated.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.slide": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Slide to select a tab",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.slide_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Drag across the navigation bar, then release on a tab. Off by default; native taps and long presses are preserved.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.unsaved": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Apply navigation changes?",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.unsaved_help": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Appearance and size are still a preview. Apply them, discard them, or continue editing.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.sections.advanced": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Advanced",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.sections.appearance": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Appearance",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.sections.movement": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Motion",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.sections.tabs": {
+      "kind": "strings",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Tabs",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.compact_disabled": {
+      "kind": "strings",
+      "context": "Navbar editor presentation. Compacting is available in the separate Search layout. Does not erase stored preferences or claim Android device acceptance.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.dimensions_limited": {
+      "kind": "strings",
+      "context": "Navbar editor presentation. Size or spacing is temporarily limited by the room in this preview. Your requested values are kept. Does not erase stored preferences or claim Android device acceptance.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.haptics_disabled": {
+      "kind": "strings",
+      "context": "Navbar editor presentation. Enable Slide to select a tab to use selection haptics. Does not erase stored preferences or claim Android device acceptance.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.layout_fallback": {
+      "kind": "strings",
+      "context": "Navbar editor presentation. Search stays integrated in this preview because it is unavailable or there is not enough room. Your separate-layout choice is kept. Does not erase stored preferences or claim Android device acceptance.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.movement_disabled": {
+      "kind": "strings",
+      "context": "Navbar editor presentation. Enable Glass navigation to use these movement controls. Your choices are kept while they are inactive. Does not erase stored preferences or claim Android device acceptance.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.native_layout_unknown": {
+      "kind": "strings",
+      "context": "Navbar editor presentation. This sample uses illustrative tabs. Open Instagram Home first to detect the tabs available in your layout. Does not erase stored preferences or claim Android device acceptance.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.search_fixed": {
+      "kind": "strings",
+      "context": "Navbar editor presentation. Fixed at the edge while Search is separate. Its saved position returns in the integrated layout. Does not erase stored preferences or claim Android device acceptance.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+      ],
+      "placeholders": {}
+    },
     "navigation.dimensions.bottom": {
       "kind": "strings",
       "context": "Slider label for distance from the bottom, applicable only to floating Glass navigation.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -5507,7 +5979,7 @@
       "kind": "strings",
       "context": "Slider label for the minimum gap between navigation tab touch targets.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -5515,15 +5987,15 @@
       "kind": "strings",
       "context": "Slider label for navigation bar height, excluding the Android system inset.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
     "navigation.dimensions.help": {
       "kind": "strings",
-      "context": "Explains immediate dimension changes, dp units, minimum touch targets and safe fitting in narrow windows without overwriting saved choices.",
+      "context": "Navbar size is a draft: preview, then Apply or Cancel. Touch targets remain at least 48x48dp; narrow-window clamping never changes saved choices.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -5531,7 +6003,7 @@
       "kind": "strings",
       "context": "Slider label for navigation icon size.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -5539,7 +6011,7 @@
       "kind": "strings",
       "context": "Slider value retaining the original Instagram dimension rather than an explicit custom size.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -5547,7 +6019,7 @@
       "kind": "strings",
       "context": "Action resetting only navigation dimensions, preserving other navigation choices.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -5555,7 +6027,7 @@
       "kind": "strings",
       "context": "Heading for supported bottom-navigation bar size and spacing controls.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -5563,7 +6035,7 @@
       "kind": "strings",
       "context": "Notice when the current native navigation layout does not support these dimensions.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -5571,7 +6043,7 @@
       "kind": "strings",
       "context": "Slider label for horizontal occupancy as a percentage of available navigation bar width.",
       "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationSettingsView.java"
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
       "placeholders": {}
     },
@@ -8605,7 +9077,7 @@
     },
     "settings.navigation_tabs_settings.aliases": {
       "kind": "strings",
-      "context": "Search aliases for the navigation editor. Translate useful search terms; preserve the separation between terms.",
+      "context": "Search aliases for the global navbar editor, including appearance, animation, haptics, native padding and dimensions.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
       ],
@@ -8613,13 +9085,13 @@
     },
     "settings.navigation_tabs_settings.summary": {
       "kind": "strings",
-      "context": "settings / navigation_tabs_settings",
+      "context": "Entry summary for the global navigation editor; tab order/visibility/startup apply immediately while appearance/size require Apply.",
       "sources": [],
       "placeholders": {}
     },
     "settings.navigation_tabs_settings.title": {
       "kind": "strings",
-      "context": "settings / navigation_tabs_settings",
+      "context": "Main global navigation editor: Tabs, Appearance, Motion and Advanced. Includes integrated/separate layout, Refined/Classic presets, reversible appearance and size edits.",
       "sources": [],
       "placeholders": {}
     },
@@ -9121,13 +9593,13 @@
     },
     "settings.remove_empty_space.summary": {
       "kind": "strings",
-      "context": "settings / remove_empty_space",
+      "context": "Search opens Navigation bar Advanced and focuses compact native padding. It is part of the same appearance/size Apply or Cancel transaction, not an immediate legacy toggle.",
       "sources": [],
       "placeholders": {}
     },
     "settings.remove_empty_space.title": {
       "kind": "strings",
-      "context": "settings / remove_empty_space",
+      "context": "Historical setting ID is retained for search/compatibility. The active navbar editor owns the nullable compact-native-padding override.",
       "sources": [],
       "placeholders": {}
     },

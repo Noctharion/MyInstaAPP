@@ -1,6 +1,30 @@
 # MyInsta v27.0.1 (Development)
 
-Updated October 19, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55.81**. The current build identifies as **v27.0.1-dev**; this changelog does not announce a final release.
+Updated October 20, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55.81**. The current build identifies as **v27.0.1-dev**; this changelog does not announce a final release.
+
+## October 20 development update: navigation and reported regressions
+
+These changes are implemented in development source. Android visual, gesture, animation, accessibility and live account/server acceptance remain pending for this checkpoint. Earlier phone results below apply to their recorded artifacts.
+
+- (Add) Appearance > Navigation bar combines Tabs, Appearance, Motion and Advanced. Refined is the new finish for an already enabled Glass navbar; existing Glass-off choices, native colors, saved tab choices and dimensions are retained. Classic and Follow general Glass remain available.
+- (Add) Integrated and Separate Search layouts share native buttons, badges and actions. Separate Search follows layout direction, keeps its original saved order and falls back to Integrated when the native destinations or space cannot support it.
+- (Add) Preview with Apply/Cancel for navbar appearance and size, separate resets, global settings across themes and backup support. Advanced collects the existing dimensions, material/refraction and native-padding controls. Reduce transparency remains separate from Reduced motion.
+- (Add) Optional slide selection, system-respecting selection haptics and scroll compaction start off. Compaction requires Separate Search and confirmed supported content scrolling; it excludes Reels and fullscreen video. First tapping the compact capsule expands it.
+- (Fix) Preserve captured Instagram share/link content through partial updates. Saved HTTP(S) links gain an explicit Open link action, and available original native type labels remain visible, including unknown types. Content never captured cannot be recovered.
+- (Improve) Use the Unsent messages archive title, compact counts and an information action to leave more room for saved content. Recheck current account/protection before publishing or opening local inline rows.
+- (Fix) Retain verified local-read inbox presentation across same-session screen recreation. New or unknown incoming content remains unread and automatic local markers do not add receipts.
+- (Fix) Preserve download availability for supported retained native/full-cache sources across viewer-owner recreation. Pause the supported current view-once/Story viewer while its download chooser is open, with ownership checks before resuming. Receipt and consumption policies are retained.
+- (Fix) Keep the Fonts page stable during fast Apply operations. Correct the supported Direct long-press menu's measurement and theme handling; apply AMOLED to comments, dynamic Profile tab roots, relevant Story/Direct dialogs and the Unsent media viewer while retaining native geometry/actions.
+- (Fix) Show Like protection's remaining cancellation time beside Undo. Preserve the native UI lifecycle when hiding Direct Meta AI and restrict its unwanted automatic launch to the identified native flags.
+- (Fix) Correct Direct screen-visibility ownership during notification entry and preserve completed Glass frames still used by native drawing. Other notification categories and the timing-specific whole-screen Reels report have not received device acceptance.
+- (Fix) Retain the observed Home toolbar catalog for supported native layouts, including Direct and News variants exposed by account flags. Accounts without Internal Menu access open Developer Menu directly from DevOptions.
+
+**Still under investigation:** an empty profile after tapping a Threads suggestion's username/avatar, and the Home Activity badge flicker on returning to Home. Neither has a demonstrated causal repair. The confirmed Glass source defect does not prove the cause or resolution of every reported black screen.
+
+The released v27.0.0 APKs, OTA data and downloadable translation-pack/index revisions remain unchanged by this source update. The final source/JVM/serialized-APK matrix reconciled Clone and UnClone for arm64-v8a, armeabi-v7a, x86 and x86_64. Each of the three newly ported ABI bundles passed 852 tests across 158 suites; each new APK has 20 native integration gates, three additional checks and 14 targeted reflection rules. ARM64 preserves its focused 53-test/13-suite run plus a separate whole-Privacy/Experience regression, with changed shared validators rerun on both preserved APKs. These checks do not establish Android rendering, physical touch, ART or server behavior.
+
+## Earlier v27.0.1 development changes
+
 
 - (Fix) Removed main-thread retry sleeps when native analytics looks up generated view IDs during scrolling. Valid resource lookup, visual effects and existing controls retain their behavior.
 - (Fix) Preserved native pixel precision when preparing Home post footers. Fractional display density could make preparation use a different width from the visible item, forcing layout to be repeated during scrolling. Existing margins, content updates and visual effects remain active.
