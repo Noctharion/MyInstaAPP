@@ -13967,6 +13967,174 @@
         "extensions/myinsta/src/main/java/app/myinsta/runtime/theme/ThemesActivity.java"
       ],
       "placeholders": {}
+    },
+    "settings.myinsta_glass.title": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.myinsta_glass.summary": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.myinsta_glass.aliases": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.enabled": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.reflect_above": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.reflect_above_help": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.help": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview_options": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview_compact": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview_expanded": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview_collapsed": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview_background": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview_light": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview_dark": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.preview_colorful": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.disabled": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.global_disabled": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "themes.glass.global_description": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/theme/ModeGlassPanel.java"
+      ],
+      "placeholders": {}
+    },
+    "themes.glass.global_action": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/theme/ModeGlassPanel.java"
+      ],
+      "placeholders": {}
+    },
+    "themes.error.save_failed": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/theme/ModeGlassPanel.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.appearance.contrast_short": {
+      "kind": "strings",
+      "context": "Global Glass and navigation bar editor",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
+      ],
+      "placeholders": {}
     }
   }
 }

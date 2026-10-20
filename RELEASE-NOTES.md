@@ -2,11 +2,20 @@
 
 Updated October 20, 2026. Changes since v27.0.0, based on Instagram **447.0.0.55.81**. The current build identifies as **v27.0.1-dev**; this changelog does not announce a final release.
 
-## October 20 development update: navigation and reported regressions
+## October 20 development update: global Glass and upper reflection
+
+- (Change) Appearance now starts with Themes, Liquid Glass and Navigation bar. Glass effects persist across themes while colors follow the active palette. Refined and Classic both own editable navbar material; global activation and Reduce transparency still prevail.
+- (Add) Optional, initially off **Reflect content above** mirrors each capsule's adjacent upper strip. Scroll direction does not switch the source. Reels/fullscreen retain the real backdrop; incompatible video, incomplete coverage and unsupported transforms use the existing fallback.
+- (Change) The navbar editor has a floating compact/expanded/collapsed preview above fixed Apply/Cancel, selectable sample backgrounds, contextual help and keyboard/window handling. Tabs save immediately; activation, appearance, motion and dimensions share the draft.
+- (Change) Versioned migration preserves active legacy material and commits both new models before publishing completion. Full backup includes global Glass/navbar preferences with validation and rollback; individual theme imports/exports retain color and row recipes. English and pt-PT authoring catalogs are revision5; downloadable packs and OTA remain unchanged.
+
+Android visual, physical touch, accessibility and GPU acceptance remain pending. Code and serialized-APK checks are technical evidence only.
+
+## Earlier October 20 checkpoint: navigation and reported regressions
 
 These changes are implemented in development source. Android visual, gesture, animation, accessibility and live account/server acceptance remain pending for this checkpoint. Earlier phone results below apply to their recorded artifacts.
 
-- (Add) Appearance > Navigation bar combines Tabs, Appearance, Motion and Advanced. Refined is the new finish for an already enabled Glass navbar; existing Glass-off choices, native colors, saved tab choices and dimensions are retained. Classic and Follow general Glass remain available.
+- (Add) Appearance > Navigation bar combines Tabs, Appearance, Motion and Advanced. Refined is the new finish for an already enabled Glass navbar; existing Glass-off choices, native colors, saved tab choices and dimensions are retained. Classic remains available; the newer update above replaces its former material inheritance with local values.
 - (Add) Integrated and Separate Search layouts share native buttons, badges and actions. Separate Search follows layout direction, keeps its original saved order and falls back to Integrated when the native destinations or space cannot support it.
 - (Add) Preview with Apply/Cancel for navbar appearance and size, separate resets, global settings across themes and backup support. Advanced collects the existing dimensions, material/refraction and native-padding controls. Reduce transparency remains separate from Reduced motion.
 - (Add) Optional slide selection, system-respecting selection haptics and scroll compaction start off. Compaction requires Separate Search and confirmed supported content scrolling; it excludes Reels and fullscreen video. First tapping the compact capsule expands it.
