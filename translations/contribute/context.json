@@ -5529,7 +5529,7 @@
     },
     "navigation.appearance.compact_help": {
       "kind": "strings",
-      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. In the separated layout, scrolling can reduce the bar to the selected tab and Search. Off by default.",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. In the separated layout, scrolling can reduce the bar to the selected tab and Search.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
@@ -5601,7 +5601,7 @@
     },
     "navigation.appearance.haptics_help": {
       "kind": "strings",
-      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Add a light tick when selection changes. Respects device touch feedback settings. Off by default.",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Add a light tick when selection changes. Respects device touch feedback settings.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
@@ -5857,7 +5857,7 @@
     },
     "navigation.appearance.slide_help": {
       "kind": "strings",
-      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Drag across the navigation bar, then release on a tab. Off by default; native taps and long presses are preserved.",
+      "context": "Navbar editor. Global appearance/size preview requires Apply; Cancel never writes. Drag across the navigation bar, then release on a tab. Native taps and long presses are preserved.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationAppearanceEditor.java"
       ],
