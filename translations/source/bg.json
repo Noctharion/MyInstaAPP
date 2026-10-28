@@ -276,7 +276,7 @@
     "media.details.title": "Подробности за публикацията",
     "media.details.unavailable": "Не е налично",
     "media.direct.mark_failed": "Този разговор не можа да бъде маркиран като видян. Опитайте отново.",
-    "media.direct.mark_requested": "Поискано е маркиране като видяно",
+    "media.direct.mark_requested": "Маркирано като видяно",
     "media.direct.mark_seen": "Маркиране на разговора като видян",
     "media.direct.read_failed": "Някои съобщения не можаха да бъдат маркирани като прочетени. Отворете разговора и опитайте отново.",
     "media.download.action": "Изтегляне",

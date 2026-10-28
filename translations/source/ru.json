@@ -276,7 +276,7 @@
     "media.details.title": "Сведения о публикации",
     "media.details.unavailable": "Недоступно",
     "media.direct.mark_failed": "Не удалось отметить этот чат как просмотренный. Попробуйте ещё раз.",
-    "media.direct.mark_requested": "Запрошена отметка о просмотре",
+    "media.direct.mark_requested": "Отмечено как просмотренное",
     "media.direct.mark_seen": "Отметить чат как просмотренный",
     "media.direct.read_failed": "Не удалось отметить некоторые сообщения прочитанными. Откройте чат и повторите попытку.",
     "media.download.action": "Скачать",

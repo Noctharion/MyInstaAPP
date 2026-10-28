@@ -276,7 +276,7 @@
     "media.details.title": "Opslagsoplysninger",
     "media.details.unavailable": "Ikke tilgængelig",
     "media.direct.mark_failed": "Denne samtale kunne ikke markeres som set. Prøv igen.",
-    "media.direct.mark_requested": "Markering som set anmodet",
+    "media.direct.mark_requested": "Markeret som set",
     "media.direct.mark_seen": "Markér samtale som set",
     "media.direct.read_failed": "Nogle beskeder kunne ikke markeres som læst. Åbn samtalen, og prøv igen.",
     "media.download.action": "Hent",

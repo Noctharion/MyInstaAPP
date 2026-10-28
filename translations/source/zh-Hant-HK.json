@@ -276,7 +276,7 @@
     "media.details.title": "帖子詳情",
     "media.details.unavailable": "不可用",
     "media.direct.mark_failed": "無法將此對話標為已看。請重試。",
-    "media.direct.mark_requested": "已請求標為已看",
+    "media.direct.mark_requested": "已標為已看",
     "media.direct.mark_seen": "將對話標為已看",
     "media.direct.read_failed": "部分訊息無法標為已讀。請開啟對話後重試。",
     "media.download.action": "下載",

@@ -276,7 +276,7 @@
     "media.details.title": "Inläggsdetaljer",
     "media.details.unavailable": "Inte tillgängligt",
     "media.direct.mark_failed": "Kunde inte markera konversationen som sedd. Försök igen.",
-    "media.direct.mark_requested": "Begäran att markera som sedd skickad",
+    "media.direct.mark_requested": "Markerad som sedd",
     "media.direct.mark_seen": "Markera konversation som sedd",
     "media.direct.read_failed": "Vissa meddelanden kunde inte markeras som lästa. Öppna konversationen och försök igen.",
     "media.download.action": "Hämta",

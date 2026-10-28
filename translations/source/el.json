@@ -276,7 +276,7 @@
     "media.details.title": "Στοιχεία δημοσίευσης",
     "media.details.unavailable": "Μη διαθέσιμο",
     "media.direct.mark_failed": "Δεν ήταν δυνατή η σήμανση αυτής της συνομιλίας ως προβληθείσας. Δοκιμάστε ξανά.",
-    "media.direct.mark_requested": "Ζητήθηκε σήμανση ως «Προβλήθηκε»",
+    "media.direct.mark_requested": "Σημάνθηκε ως «Προβλήθηκε»",
     "media.direct.mark_seen": "Σήμανση συνομιλίας ως «Προβλήθηκε»",
     "media.direct.read_failed": "Δεν ήταν δυνατή η σήμανση ορισμένων μηνυμάτων ως διαβασμένων. Ανοίξτε τη συνομιλία και δοκιμάστε ξανά.",
     "media.download.action": "Λήψη",

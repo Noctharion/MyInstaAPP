@@ -276,7 +276,7 @@
     "media.details.title": "Детаљи објаве",
     "media.details.unavailable": "Није доступно",
     "media.direct.mark_failed": "Није могуће означити овај разговор као виђен. Покушајте поново.",
-    "media.direct.mark_requested": "Затражено означавање као виђено",
+    "media.direct.mark_requested": "Означено као виђено",
     "media.direct.mark_seen": "Означи разговор као виђен",
     "media.direct.read_failed": "Неке поруке није могуће означити као прочитане. Отворите разговор и покушајте поново.",
     "media.download.action": "Преузми",

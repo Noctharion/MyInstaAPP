@@ -276,7 +276,7 @@
     "media.details.title": "Szczegóły posta",
     "media.details.unavailable": "Niedostępne",
     "media.direct.mark_failed": "Nie udało się oznaczyć tej rozmowy jako wyświetlonej. Spróbuj ponownie.",
-    "media.direct.mark_requested": "Zażądano oznaczenia jako wyświetlone",
+    "media.direct.mark_requested": "Oznaczono jako wyświetlone",
     "media.direct.mark_seen": "Oznacz rozmowę jako wyświetloną",
     "media.direct.read_failed": "Niektórych wiadomości nie udało się oznaczyć jako przeczytane. Otwórz rozmowę i spróbuj ponownie.",
     "media.download.action": "Pobierz",

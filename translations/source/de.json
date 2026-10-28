@@ -276,7 +276,7 @@
     "media.details.title": "Beitragsdetails",
     "media.details.unavailable": "Nicht verfügbar",
     "media.direct.mark_failed": "Diese Unterhaltung konnte nicht als gesehen markiert werden. Versuche es erneut.",
-    "media.direct.mark_requested": "Markierung als gesehen angefordert",
+    "media.direct.mark_requested": "Als gesehen markiert",
     "media.direct.mark_seen": "Unterhaltung als gesehen markieren",
     "media.direct.read_failed": "Einige Nachrichten konnten nicht als gelesen markiert werden. Öffne die Unterhaltung und versuche es erneut.",
     "media.download.action": "Herunterladen",

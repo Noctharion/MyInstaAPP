@@ -276,7 +276,7 @@
     "media.details.title": "Julkaisun tiedot",
     "media.details.unavailable": "Ei saatavilla",
     "media.direct.mark_failed": "Keskustelua ei voitu merkitä nähdyksi. Yritä uudelleen.",
-    "media.direct.mark_requested": "Nähdyksi merkitsemistä pyydetty",
+    "media.direct.mark_requested": "Merkitty nähdyksi",
     "media.direct.mark_seen": "Merkitse keskustelu nähdyksi",
     "media.direct.read_failed": "Joitakin viestejä ei voitu merkitä luetuiksi. Avaa keskustelu ja yritä uudelleen.",
     "media.download.action": "Lataa",

@@ -276,7 +276,7 @@
     "media.details.title": "帖子详情",
     "media.details.unavailable": "不可用",
     "media.direct.mark_failed": "无法将此对话标为已看。请重试。",
-    "media.direct.mark_requested": "已请求标为已看",
+    "media.direct.mark_requested": "已标为已看",
     "media.direct.mark_seen": "将对话标为已看",
     "media.direct.read_failed": "部分消息无法标为已读。请打开对话后重试。",
     "media.download.action": "下载",

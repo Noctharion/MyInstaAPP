@@ -276,7 +276,7 @@
     "media.details.title": "جزئیات پست",
     "media.details.unavailable": "در دسترس نیست",
     "media.direct.mark_failed": "علامت‌گذاری این گفتگو به‌عنوان دیده‌شده ممکن نشد. دوباره تلاش کنید.",
-    "media.direct.mark_requested": "درخواست علامت‌گذاری به‌عنوان دیده‌شده فرستاده شد",
+    "media.direct.mark_requested": "به‌عنوان دیده‌شده علامت‌گذاری شد",
     "media.direct.mark_seen": "علامت‌گذاری گفتگو به‌عنوان دیده‌شده",
     "media.direct.read_failed": "علامت‌گذاری برخی پیام‌ها به‌عنوان خوانده‌شده ممکن نشد. گفتگو را باز کنید و دوباره تلاش کنید.",
     "media.download.action": "بارگیری",

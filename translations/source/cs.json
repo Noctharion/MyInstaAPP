@@ -276,7 +276,7 @@
     "media.details.title": "Podrobnosti příspěvku",
     "media.details.unavailable": "Není dostupné",
     "media.direct.mark_failed": "Tuto konverzaci se nepodařilo označit jako zobrazenou. Zkuste to znovu.",
-    "media.direct.mark_requested": "Označení jako zobrazené vyžádáno",
+    "media.direct.mark_requested": "Označeno jako zobrazené",
     "media.direct.mark_seen": "Označit konverzaci jako zobrazenou",
     "media.direct.read_failed": "Některé zprávy se nepodařilo označit jako přečtené. Otevřete konverzaci a zkuste to znovu.",
     "media.download.action": "Stáhnout",

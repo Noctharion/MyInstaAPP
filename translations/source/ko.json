@@ -276,7 +276,7 @@
     "media.details.title": "게시물 정보",
     "media.details.unavailable": "사용할 수 없음",
     "media.direct.mark_failed": "이 대화를 읽음으로 표시할 수 없습니다. 다시 시도하세요.",
-    "media.direct.mark_requested": "읽음 표시 요청됨",
+    "media.direct.mark_requested": "읽음으로 표시됨",
     "media.direct.mark_seen": "대화를 읽음으로 표시",
     "media.direct.read_failed": "일부 메시지를 읽음으로 표시할 수 없습니다. 대화를 열고 다시 시도하세요.",
     "media.download.action": "다운로드",

@@ -317,7 +317,7 @@
     "media.details.title": "Post details",
     "media.details.unavailable": "Not available",
     "media.direct.mark_failed": "Could not mark this conversation as seen. Try again.",
-    "media.direct.mark_requested": "Mark as seen requested",
+    "media.direct.mark_requested": "Marked as seen",
     "media.direct.mark_seen": "Mark conversation as seen",
     "media.direct.read_failed": "Some messages could not be marked as read. Open the conversation and try again.",
     "media.download.action": "Download",

@@ -276,7 +276,7 @@
     "media.details.title": "Відомості про допис",
     "media.details.unavailable": "Недоступно",
     "media.direct.mark_failed": "Не вдалося позначити цю розмову як переглянуту. Спробуйте ще раз.",
-    "media.direct.mark_requested": "Запитано позначення як переглянутого",
+    "media.direct.mark_requested": "Позначено як переглянуте",
     "media.direct.mark_seen": "Позначити розмову як переглянуту",
     "media.direct.read_failed": "Не вдалося позначити деякі повідомлення як прочитані. Відкрийте розмову й повторіть спробу.",
     "media.download.action": "Завантажити",

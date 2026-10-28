@@ -276,7 +276,7 @@
     "media.details.title": "Détails de la publication",
     "media.details.unavailable": "Indisponible",
     "media.direct.mark_failed": "Impossible de marquer cette conversation comme vue. Réessaie.",
-    "media.direct.mark_requested": "Demande de marquage comme vu envoyée",
+    "media.direct.mark_requested": "Marquée comme vue",
     "media.direct.mark_seen": "Marquer la conversation comme vue",
     "media.direct.read_failed": "Certains messages n’ont pas pu être marqués comme lus. Ouvre la conversation et réessaie.",
     "media.download.action": "Télécharger",

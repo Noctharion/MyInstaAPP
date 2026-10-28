@@ -317,7 +317,7 @@
     "media.details.title": "Detalhes da publicação",
     "media.details.unavailable": "Não disponível",
     "media.direct.mark_failed": "Não foi possível marcar esta conversa como vista. Tenta novamente.",
-    "media.direct.mark_requested": "Pedido para marcar como vista enviado",
+    "media.direct.mark_requested": "Marcada como vista",
     "media.direct.mark_seen": "Marcar conversa como vista",
     "media.direct.read_failed": "Não foi possível marcar algumas mensagens como lidas. Abre a conversa e tenta novamente.",
     "media.download.action": "Transferir",

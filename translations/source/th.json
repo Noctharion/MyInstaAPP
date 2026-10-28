@@ -276,7 +276,7 @@
     "media.details.title": "รายละเอียดโพสต์",
     "media.details.unavailable": "ไม่พร้อมใช้งาน",
     "media.direct.mark_failed": "ทำเครื่องหมายการสนทนานี้ว่าดูแล้วไม่ได้ ลองอีกครั้ง",
-    "media.direct.mark_requested": "ส่งคำขอทำเครื่องหมายเป็น “ดูแล้ว” แล้ว",
+    "media.direct.mark_requested": "ทำเครื่องหมายว่าดูแล้ว",
     "media.direct.mark_seen": "ทำเครื่องหมายการสนทนาว่าดูแล้ว",
     "media.direct.read_failed": "ทำเครื่องหมายบางข้อความว่าอ่านแล้วไม่ได้ เปิดการสนทนาแล้วลองอีกครั้ง",
     "media.download.action": "ดาวน์โหลด",

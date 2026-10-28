@@ -276,7 +276,7 @@
     "media.details.title": "投稿の詳細",
     "media.details.unavailable": "利用できません",
     "media.direct.mark_failed": "この会話を既読にできませんでした。もう一度お試しください。",
-    "media.direct.mark_requested": "既読にする操作をリクエストしました",
+    "media.direct.mark_requested": "既読にしました",
     "media.direct.mark_seen": "会話を既読にする",
     "media.direct.read_failed": "一部のメッセージを既読にできませんでした。会話を開いて、もう一度お試しください。",
     "media.download.action": "ダウンロード",

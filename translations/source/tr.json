@@ -276,7 +276,7 @@
     "media.details.title": "Gönderi ayrıntıları",
     "media.details.unavailable": "Kullanılamıyor",
     "media.direct.mark_failed": "Bu sohbet görüldü olarak işaretlenemedi. Yeniden deneyin.",
-    "media.direct.mark_requested": "Görüldü olarak işaretleme istendi",
+    "media.direct.mark_requested": "Görüldü olarak işaretlendi",
     "media.direct.mark_seen": "Sohbeti görüldü olarak işaretle",
     "media.direct.read_failed": "Bazı mesajlar okundu olarak işaretlenemedi. Sohbeti açıp yeniden deneyin.",
     "media.download.action": "İndir",
