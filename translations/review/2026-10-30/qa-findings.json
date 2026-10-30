@@ -1,0 +1,2806 @@
+{
+  "af": [
+    {
+      "key": "media.download.repeat.keep_help",
+      "severity": "HIGH",
+      "issue": "keep_help and replace values swapped (help sentence shown as Replace button, \"Replace\" shown as Keep-both help)",
+      "fixed": true
+    },
+    {
+      "key": "media.download.repeat.replace",
+      "severity": "HIGH",
+      "issue": "swapped with keep_help",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "hidden.hide set to the lock-chat meaning per owner UPDATE; help texts name it; bare \"Sluit klets\" can read as \"close chat\"",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.contrast",
+      "severity": "HIGH",
+      "issue": "\"Verhoog die deursigtigheid\" = increase transparency, opposite of \"increase opacity\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.diagnostic_report.summary",
+      "severity": "MEDIUM",
+      "issue": "typo \"teksleêr\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_composer_gallery.summary",
+      "severity": "MEDIUM",
+      "issue": "typo \"galerynoppie\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_composer_gallery.title",
+      "severity": "MEDIUM",
+      "issue": "typo \"galerynoppie\"",
+      "fixed": true
+    },
+    {
+      "key": "hidden.notifications_general_help",
+      "severity": "MEDIUM",
+      "issue": "\"ignoreer\" (ignore) does not mean override",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.continue",
+      "severity": "LOW",
+      "issue": "\"Gaan voort met wysig\" ungrammatical",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.unsaved_help",
+      "severity": "LOW",
+      "issue": "same",
+      "fixed": true
+    }
+  ],
+  "ar": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat uses lock wording; hidden.hide changed from hide wording to the lock label already named in the help texts",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.social",
+      "severity": "MEDIUM",
+      "issue": "Section label SOCIAL left untranslated in English",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.legacy",
+      "severity": "MEDIUM",
+      "issue": "LEGACY left in English; now matches the translated Legacy icon names",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.separated_help",
+      "severity": "MEDIUM",
+      "issue": "Quoted option name did not match navigation.appearance.separated label «بحث منفصل»",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.legacy_graphite",
+      "severity": "MEDIUM",
+      "issue": "Gender agreement error (masculine noun with feminine adjective القديمة)",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.legacy_mint",
+      "severity": "MEDIUM",
+      "issue": "Gender agreement error (masculine noun with feminine adjective القديمة)",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.legacy_night",
+      "severity": "MEDIUM",
+      "issue": "Gender agreement error (masculine noun with feminine adjective القديمة)",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.legacy_purple",
+      "severity": "MEDIUM",
+      "issue": "Gender agreement error (masculine noun with feminine adjective القديمة)",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.legacy_sunset",
+      "severity": "MEDIUM",
+      "issue": "Gender agreement error (masculine noun with feminine adjective القديمة)",
+      "fixed": true
+    },
+    {
+      "key": "settings.scroll_break.choice",
+      "severity": "MEDIUM",
+      "issue": "Broken mixed forms \"Reelين\"/\"Reel\" in one/two; aligned with other Reels plurals",
+      "fixed": true
+    },
+    {
+      "key": "settings.composer_buttons_settings.summary",
+      "severity": "LOW",
+      "issue": "Agreement error in \"يبقى الكتابة والإرسال\"",
+      "fixed": true
+    }
+  ],
+  "bg": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: hidden.hide uses lock meaning",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English (Latin); locale term is Режим призрак",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English (Latin); locale term is Режим призрак",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.empty",
+      "severity": "HIGH",
+      "issue": "Meaning reversed: \"people who stopped you from following them\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.follow_back_tracking.summary",
+      "severity": "MEDIUM",
+      "issue": "Broken grammar (\"намира скорошни отказали следване\")",
+      "fixed": true
+    },
+    {
+      "key": "settings.disable_pinch_zoom.summary",
+      "severity": "MEDIUM",
+      "issue": "\"цял екран Разглеждане\" garbled",
+      "fixed": true
+    },
+    {
+      "key": "settings.disable_hdr_boost.summary",
+      "severity": "LOW",
+      "issue": "\"озарява\" unnatural",
+      "fixed": true
+    },
+    {
+      "key": "settings.remove_empty_space.summary",
+      "severity": "MEDIUM",
+      "issue": "Clitic order error (\"откажете го\")",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths",
+      "severity": "LOW",
+      "issue": "Definite article in label (Докладите)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths29",
+      "severity": "LOW",
+      "issue": "Definite article in label (Докладите)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.screen.default",
+      "severity": "LOW",
+      "issue": "Align label with the help texts that name it",
+      "fixed": true
+    },
+    {
+      "key": "fonts.emoji_group.storage",
+      "severity": "LOW",
+      "issue": "Storage heading differs from settings.section.storage",
+      "fixed": true
+    },
+    {
+      "key": "fonts.emoji_delete_title",
+      "severity": "LOW",
+      "issue": "Question form; matches themes.delete_confirmation",
+      "fixed": true
+    },
+    {
+      "key": "fonts.emoji_delete_all_title",
+      "severity": "LOW",
+      "issue": "Question form consistency",
+      "fixed": true
+    }
+  ],
+  "bn": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat uses lock wording; hidden.hide changed from hide wording to the lock label already named in the help texts",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.social",
+      "severity": "MEDIUM",
+      "issue": "Section label SOCIAL left untranslated in English",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.legacy",
+      "severity": "MEDIUM",
+      "issue": "LEGACY left in English; now matches the translated Legacy icon names",
+      "fixed": true
+    },
+    {
+      "key": "settings.chat_seen_button.summary",
+      "severity": "MEDIUM",
+      "issue": "Ungrammatical \"ব্যবহৃত করে দেয়\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.mark_chat_read.summary",
+      "severity": "MEDIUM",
+      "issue": "Ungrammatical \"ব্যবহৃত করে দেয়\"",
+      "fixed": true
+    }
+  ],
+  "cs": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: hidden.hide uses lock meaning",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English; locale term is Režim ducha",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English; locale term is Režim ducha",
+      "fixed": true
+    },
+    {
+      "key": "navigation.startup.default",
+      "severity": "HIGH",
+      "issue": "Unchanged entry: startup-tab option said \"Instagram default font\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.screen.default",
+      "severity": "MEDIUM",
+      "issue": "Label differs from the help texts that name it",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_ai_labeled.summary",
+      "severity": "MEDIUM",
+      "issue": "Gender agreement error (informační štítkem)",
+      "fixed": true
+    },
+    {
+      "key": "settings.follow_back_tracking.summary",
+      "severity": "MEDIUM",
+      "issue": "\"nedávné odhlášení sledování\" unnatural",
+      "fixed": true
+    },
+    {
+      "key": "fonts.group.included",
+      "severity": "MEDIUM",
+      "issue": "\"SOUČÁSTÍ\" is not a usable heading",
+      "fixed": true
+    },
+    {
+      "key": "fonts.font_included",
+      "severity": "MEDIUM",
+      "issue": "\"Součástí\" incomplete phrase",
+      "fixed": true
+    },
+    {
+      "key": "settings.home_toolbar_settings.title",
+      "severity": "MEDIUM",
+      "issue": "Unchanged title says Panel nástrojů; navigation editor now says Lišta nástrojů",
+      "fixed": true
+    }
+  ],
+  "da": [
+    {
+      "key": "media.download.repeat.keep_help",
+      "severity": "HIGH",
+      "issue": "keep_help and replace values swapped (help sentence shown as Replace button, \"Replace\" shown as Keep-both help)",
+      "fixed": true
+    },
+    {
+      "key": "media.download.repeat.replace",
+      "severity": "HIGH",
+      "issue": "swapped with keep_help",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "hidden.hide set to the lock-chat meaning per owner UPDATE; help texts name it",
+      "fixed": true
+    },
+    {
+      "key": "settings.diagnostic_report.summary",
+      "severity": "MEDIUM",
+      "issue": "typo \"logliniger\"",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "\"Instagram nedbrød\" is unidiomatic; \"gik ned\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.myinsta_resume.summary",
+      "severity": "MEDIUM",
+      "issue": "same \"nedbrød\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.preview_collapsed",
+      "severity": "MEDIUM",
+      "issue": "\"Skjult\" means hidden, not collapsed",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filters.entries",
+      "severity": "MEDIUM",
+      "issue": "\"indgang\" means entrance, not list entry",
+      "fixed": true
+    },
+    {
+      "key": "media.like.confirm_description",
+      "severity": "LOW",
+      "issue": "\"et like\" is neuter",
+      "fixed": true
+    },
+    {
+      "key": "settings.recent_unfollowers.title",
+      "severity": "LOW",
+      "issue": "'afsprungne følgere' slightly unusual but understandable and consistent; not changed",
+      "fixed": false
+    }
+  ],
+  "de": [
+    {
+      "key": "media.download.repeat.keep_help",
+      "severity": "HIGH",
+      "issue": "keep_help and replace values swapped (help sentence shown as Replace button, \"Replace\" shown as Keep-both help)",
+      "fixed": true
+    },
+    {
+      "key": "media.download.repeat.replace",
+      "severity": "HIGH",
+      "issue": "swapped with keep_help",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "hidden.hide set to the lock-chat meaning per owner UPDATE; help texts name it (empty_help/hidden_chats_enabled.summary already say „Chat sperren“)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.settings_note",
+      "severity": "MEDIUM",
+      "issue": "names \"Unterhaltung einblenden\" but hidden.unhide is \"Unterhaltung anzeigen\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.slide_help",
+      "severity": "MEDIUM",
+      "issue": "\"Native Tipps\" means tips/advice, not taps",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "18 chars exceeds ~14-char row limit",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.preview_expanded",
+      "severity": "LOW",
+      "issue": "\"Erweitert\" collides with Advanced section label; pairs with \"Eingeklappt\"",
+      "fixed": true
+    }
+  ],
+  "el": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning, not hide",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "17 chars; context limit ~14",
+      "fixed": true
+    },
+    {
+      "key": "settings.block_background_alarms.summary",
+      "severity": "MEDIUM",
+      "issue": "\"ειδοποιήσεις συναγερμού\" implies notifications are stopped, contradicting next sentence",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.floral",
+      "severity": "MEDIUM",
+      "issue": "Left in English while sibling icon names are translated",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.slime",
+      "severity": "MEDIUM",
+      "issue": "Left in English while sibling icon names are translated",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.aurora",
+      "severity": "LOW",
+      "issue": "Latin-script word in Greek UI",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.refraction",
+      "severity": "LOW",
+      "issue": "Existing term is \"Διάθλαση άκρων\" (themes.glass.refraction)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.hardware_support",
+      "severity": "LOW",
+      "issue": "Existing term is \"διάθλαση άκρων\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths29",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    }
+  ],
+  "es": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking the chat, not hiding it",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "MEDIUM",
+      "issue": "Hint dropped the second example line (#sponsored)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_caption_words.title",
+      "severity": "MEDIUM",
+      "issue": "'pie' alone is unclear; catalogue term is 'pie de foto'",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_caption_words.summary",
+      "severity": "MEDIUM",
+      "issue": "'pie' alone is unclear; catalogue term is 'pie de foto'",
+      "fixed": true
+    },
+    {
+      "key": "settings.clear_media_cache.size",
+      "severity": "LOW",
+      "issue": "Anglicism 'Usando {size}'",
+      "fixed": true
+    }
+  ],
+  "fa": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat uses lock wording; hidden.hide changed from hide wording to the lock label already named in the help texts",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.social",
+      "severity": "MEDIUM",
+      "issue": "Section label SOCIAL left untranslated in English",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.legacy",
+      "severity": "MEDIUM",
+      "issue": "LEGACY left in English; now matches the translated Legacy icon names",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "Too long for the ~14-character row label (20 chars)",
+      "fixed": true
+    }
+  ],
+  "fi": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning, not hide",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.slide",
+      "severity": "MEDIUM",
+      "issue": "Grammar: object must be \"välilehden\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.haptics_disabled",
+      "severity": "MEDIUM",
+      "issue": "Must name the corrected toggle label",
+      "fixed": true
+    },
+    {
+      "key": "themes.glass.automatic_description",
+      "severity": "MEDIUM",
+      "issue": "Typo: partitive \"palettia\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Must use exact label \"Reels-videon eteneminen ja aika\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.refraction",
+      "severity": "MEDIUM",
+      "issue": "Catalog term is \"Reunojen taitto\" (themes.glass.refraction)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.hardware_support",
+      "severity": "MEDIUM",
+      "issue": "Catalog term is \"reunojen taitto\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.inherit_help",
+      "severity": "MEDIUM",
+      "issue": "Catalog term is \"taitto\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.inherited_controls",
+      "severity": "MEDIUM",
+      "issue": "Catalog term is \"taitto\"",
+      "fixed": true
+    },
+    {
+      "key": "themes.glass.reduced_description",
+      "severity": "MEDIUM",
+      "issue": "Catalog term is \"taitto\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.section.text_selection",
+      "severity": "LOW",
+      "issue": "Section heading should be a noun",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.social",
+      "severity": "LOW",
+      "issue": "Group label should be plural",
+      "fixed": true
+    },
+    {
+      "key": "settings.back_leaves_home.summary",
+      "severity": "LOW",
+      "issue": "\"taulut\" (boards) for sheets",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths29",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    }
+  ],
+  "fr": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking the chat, not hiding it",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "Label far over the ~14-character limit (24 chars); shortened",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "MEDIUM",
+      "issue": "Hint dropped the second example line (#sponsored)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.compact_disabled",
+      "severity": "LOW",
+      "issue": "Search tab name lowercased; aligned with Recherche séparée label",
+      "fixed": true
+    }
+  ],
+  "gu": [
+    {
+      "key": "settings.copy_comments.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "settings.feed_video_tap_pause.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_ai_labeled.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_caption_words.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_chosen_accounts.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_paid_partnerships.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "settings.scroll_break.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "settings.split_media_by_type.summary",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "gestures.scroll_break.started",
+      "severity": "MEDIUM",
+      "issue": "Latin 'Reels' while the gu catalogue uses રિલ્સ",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "Names Help & support as મદદ અને સપોર્ટ; catalogue label is મદદ અને સમર્થન",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking a chat; was \"વાતચીત છુપાવો\" (hide conversation)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"ચૅટ લૉક કરો\" (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"ચૅટ લૉક કરો\" (owner decision)",
+      "fixed": true
+    }
+  ],
+  "he": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat uses lock wording; hidden.hide changed from hide wording to the lock label already named in the help texts",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.social",
+      "severity": "MEDIUM",
+      "issue": "Section label SOCIAL left untranslated in English",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.legacy",
+      "severity": "MEDIUM",
+      "issue": "LEGACY left in English; now matches the translated Legacy icon names",
+      "fixed": true
+    },
+    {
+      "key": "settings.follow_back_tracking.summary",
+      "severity": "HIGH",
+      "issue": "\"Following list\" mistranslated as the Followers list (רשימת העוקבים)",
+      "fixed": true
+    },
+    {
+      "key": "settings.chat_seen_button.summary",
+      "severity": "MEDIUM",
+      "issue": "Ungrammatical \"יוצר צריכה של\" (creates consumption of)",
+      "fixed": true
+    },
+    {
+      "key": "settings.mark_chat_read.summary",
+      "severity": "MEDIUM",
+      "issue": "Ungrammatical \"יוצרת צריכה של\" (creates consumption of)",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.summary",
+      "severity": "MEDIUM",
+      "issue": "Ungrammatical sentence (subject/verb mismatch \"מתעלמים מהן\")",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.legacy_mint",
+      "severity": "LOW",
+      "issue": "Gender agreement (נענע is feminine)",
+      "fixed": true
+    }
+  ],
+  "hi": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat uses lock wording; hidden.hide changed from hide wording to the lock label already named in the help texts",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.social",
+      "severity": "MEDIUM",
+      "issue": "Section label SOCIAL left untranslated in English",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.legacy",
+      "severity": "MEDIUM",
+      "issue": "LEGACY left in English; now matches the translated Legacy icon names",
+      "fixed": true
+    }
+  ],
+  "hr": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: hidden.hide uses lock meaning",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English; locale term is Način nevidljivosti",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English; locale term is Način nevidljivosti",
+      "fixed": true
+    },
+    {
+      "key": "navigation.startup.default",
+      "severity": "HIGH",
+      "issue": "Unchanged entry: startup-tab option said \"Instagram default font\"",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.found",
+      "severity": "MEDIUM",
+      "issue": "few form: verb must be plural with 2-4 (ne prate)",
+      "fixed": true
+    },
+    {
+      "key": "settings.follow_back_tracking.summary",
+      "severity": "MEDIUM",
+      "issue": "\"nedavna prestanka praćenja\" ungrammatical",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.bubble",
+      "severity": "MEDIUM",
+      "issue": "Chat bubble icon rendered as soap bubble (Mjehurić)",
+      "fixed": true
+    },
+    {
+      "key": "media.direct.mark_confirm_message",
+      "severity": "LOW",
+      "issue": "Bare infinitive label as subject reads ungrammatically",
+      "fixed": true
+    }
+  ],
+  "hu": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning, not hide",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.hardware_support",
+      "severity": "MEDIUM",
+      "issue": "\"éltörés\" is not a refraction term; catalog uses \"peremfénytörés\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.refraction",
+      "severity": "MEDIUM",
+      "issue": "\"Éltörés\" -> catalog term \"Peremfénytörés\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.inherit_help",
+      "severity": "MEDIUM",
+      "issue": "Refraction/opacity terms inconsistent with catalog (fénytörés, fedettség)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.inherited_controls",
+      "severity": "MEDIUM",
+      "issue": "Refraction/opacity terms inconsistent with catalog (fénytörés, fedettség)",
+      "fixed": true
+    },
+    {
+      "key": "themes.glass.reduced_description",
+      "severity": "MEDIUM",
+      "issue": "\"törés\" -> \"fénytörés\" (previous value and catalog)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.contrast",
+      "severity": "MEDIUM",
+      "issue": "Opacity term in catalog is \"fedettség\" (themes.glass.opacity)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.contrast_short",
+      "severity": "MEDIUM",
+      "issue": "Opacity term in catalog is \"fedettség\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.opacity_dark",
+      "severity": "MEDIUM",
+      "issue": "Opacity term in catalog is \"fedettség\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.opacity_light",
+      "severity": "MEDIUM",
+      "issue": "Opacity term in catalog is \"fedettség\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.chat_seen_button.summary",
+      "severity": "MEDIUM",
+      "issue": "Must use exact label \"Olvasottságjelzés letiltása\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Must use exact label \"Reel-videók lejátszási folyamata és ideje\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_profile_note_bubble.summary",
+      "severity": "MEDIUM",
+      "issue": "\"felől\" = \"from the direction of\"; wrong case for \"yours\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_profile_reels_tab.summary",
+      "severity": "LOW",
+      "issue": "Spelling \"tiédről\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_profile_reposts_tab.summary",
+      "severity": "LOW",
+      "issue": "Spelling \"tiédről\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_profile_tagged_tab.summary",
+      "severity": "LOW",
+      "issue": "Spelling \"tiédről\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_active_time.summary",
+      "severity": "LOW",
+      "issue": "Article: \"A „Most aktív”\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filters.entries",
+      "severity": "MEDIUM",
+      "issue": "\"bejegyzés\" means \"post\" in this catalog; filter entries need another word",
+      "fixed": true
+    },
+    {
+      "key": "fonts.font_sheet_note",
+      "severity": "MEDIUM",
+      "issue": "\"az alkalmazás után\" reads as \"after the app\"",
+      "fixed": true
+    },
+    {
+      "key": "fonts.emoji_use",
+      "severity": "LOW",
+      "issue": "Button label should be noun form",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths29",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    }
+  ],
+  "id": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Lock Chat label changed to lock meaning (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "Menu path must match Help & support label \"Bantuan dan dukungan\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "MEDIUM",
+      "issue": "English \"Ghost\" left; catalogue term is Mode Hantu",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "MEDIUM",
+      "issue": "English \"Ghost\" left; catalogue term is Mode Hantu",
+      "fixed": true
+    },
+    {
+      "key": "settings.privacy_analytics.summary",
+      "severity": "MEDIUM",
+      "issue": "\"tekan\" (press) misrenders \"suppress\"",
+      "fixed": true
+    },
+    {
+      "key": "themes.glass.reduced_description",
+      "severity": "MEDIUM",
+      "issue": "\"buram\" reads as blurred, contradicts \"without blur\"",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "21 chars, context limit about 14",
+      "fixed": true
+    }
+  ],
+  "it": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking the chat, not hiding it",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "MEDIUM",
+      "issue": "Hint dropped the second example line (#sponsored)",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_accounts.hint",
+      "severity": "LOW",
+      "issue": "'nomeutente' written as one word; catalogue uses 'nome utente'",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Setting name must match settings.reels_seekbar_enabled.title exactly ('dei reel')",
+      "fixed": true
+    }
+  ],
+  "ja": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Lock Chat label changed to lock meaning (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    }
+  ],
+  "kn": [
+    {
+      "key": "hidden.settings_note",
+      "severity": "MEDIUM",
+      "issue": "Quotes Show conversation inexactly (hidden.unhide = ಸಂಭಾಷಣೆಯನ್ನು ತೋರಿಸಿ)",
+      "fixed": true
+    },
+    {
+      "key": "settings.download_comment_media.summary",
+      "severity": "MEDIUM",
+      "issue": "Quoted menu label differs from media.download.media (ಮಾಧ್ಯಮ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ)",
+      "fixed": true
+    },
+    {
+      "key": "settings.clear_media_cache.title",
+      "severity": "MEDIUM",
+      "issue": "ಮೀಡಿಯಾ vs catalogue term ಮಾಧ್ಯಮ (47 entries)",
+      "fixed": true
+    },
+    {
+      "key": "settings.media_cache_limit.title",
+      "severity": "MEDIUM",
+      "issue": "ಮೀಡಿಯಾ vs catalogue term ಮಾಧ್ಯಮ (47 entries)",
+      "fixed": true
+    },
+    {
+      "key": "settings.split_media_by_type.title",
+      "severity": "MEDIUM",
+      "issue": "ಮೀಡಿಯಾ vs catalogue term ಮಾಧ್ಯಮ (47 entries)",
+      "fixed": true
+    },
+    {
+      "key": "settings.download_result_toast.summary",
+      "severity": "MEDIUM",
+      "issue": "\"toast\" as ಟೋಸ್ಟ್; title of the same setting uses ಕಿರುಸಂದೇಶ",
+      "fixed": true
+    },
+    {
+      "key": "settings.disable_long_press_preview.summary",
+      "severity": "MEDIUM",
+      "issue": "Explore transliterated; catalogue uses ಅನ್ವೇಷಣೆ/ಅನ್ವೇಷಿಸಿ",
+      "fixed": true
+    },
+    {
+      "key": "settings.disable_pinch_zoom.summary",
+      "severity": "MEDIUM",
+      "issue": "Explore transliterated; catalogue uses ಅನ್ವೇಷಣೆ",
+      "fixed": true
+    },
+    {
+      "key": "navigation.layout.preview_help",
+      "severity": "MEDIUM",
+      "issue": "Explore transliterated; catalogue uses ಅನ್ವೇಷಣೆ",
+      "fixed": true
+    },
+    {
+      "key": "settings.copy_comments.summary",
+      "severity": "LOW",
+      "issue": "Select text spelled differently from text.select (ಪಠ್ಯ ಆಯ್ಕೆ ಮಾಡಿ)",
+      "fixed": true
+    },
+    {
+      "key": "settings.profiles_text_selection.summary",
+      "severity": "LOW",
+      "issue": "Select text spelled differently from text.select (ಪಠ್ಯ ಆಯ್ಕೆ ಮಾಡಿ)",
+      "fixed": true
+    },
+    {
+      "key": "settings.reels_text_selection.summary",
+      "severity": "LOW",
+      "issue": "Select text spelled differently from text.select (ಪಠ್ಯ ಆಯ್ಕೆ ಮಾಡಿ)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking a chat; was \"ಸಂಭಾಷಣೆಯನ್ನು ಮರೆಮಾಡಿ\" (hide conversation)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"ಚಾಟ್ ಲಾಕ್ ಮಾಡಿ\" (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"ಚಾಟ್ ಲಾಕ್ ಮಾಡಿ\" (owner decision)",
+      "fixed": true
+    }
+  ],
+  "ko": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Lock Chat label changed to lock meaning (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.empty",
+      "severity": "MEDIUM",
+      "issue": "Names the toggle \"팔로워 기억\"; its title is \"나를 팔로우하는 계정 기억\"",
+      "fixed": true
+    }
+  ],
+  "mr": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat uses lock wording; hidden.hide changed from hide wording to the lock label already named in the help texts",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.social",
+      "severity": "MEDIUM",
+      "issue": "Section label SOCIAL left untranslated in English",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.group.legacy",
+      "severity": "MEDIUM",
+      "issue": "LEGACY left in English; now matches the translated Legacy icon names",
+      "fixed": true
+    }
+  ],
+  "ms": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Lock Chat label changed to lock meaning (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "Menu path must match \"Bantuan dan sokongan\"; \"Sambungkan semula\" means reconnect",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "MEDIUM",
+      "issue": "English \"Ghost\" left; catalogue term is Mod Hantu",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "MEDIUM",
+      "issue": "English \"Ghost\" left; catalogue term is Mod Hantu",
+      "fixed": true
+    },
+    {
+      "key": "settings.privacy_analytics.summary",
+      "severity": "MEDIUM",
+      "issue": "\"tekan\" (press) misrenders \"suppress\"",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "21 chars, context limit about 14",
+      "fixed": true
+    }
+  ],
+  "nb": [
+    {
+      "key": "media.download.repeat.keep_help",
+      "severity": "HIGH",
+      "issue": "keep_help and replace values swapped (help sentence shown as Replace button, \"Replace\" shown as Keep-both help)",
+      "fixed": true
+    },
+    {
+      "key": "media.download.repeat.replace",
+      "severity": "HIGH",
+      "issue": "swapped with keep_help",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "hidden.hide set to the lock-chat meaning per owner UPDATE; help texts name it",
+      "fixed": true
+    },
+    {
+      "key": "settings.diagnostic_report.summary",
+      "severity": "MEDIUM",
+      "issue": "typo \"loggilinjer\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.preview_collapsed",
+      "severity": "MEDIUM",
+      "issue": "\"Skjult\" means hidden, not collapsed",
+      "fixed": true
+    }
+  ],
+  "nl": [
+    {
+      "key": "media.download.repeat.keep_help",
+      "severity": "HIGH",
+      "issue": "keep_help and replace values swapped (help sentence shown as Replace button, \"Replace\" shown as Keep-both help)",
+      "fixed": true
+    },
+    {
+      "key": "media.download.repeat.replace",
+      "severity": "HIGH",
+      "issue": "swapped with keep_help",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "hidden.hide set to the lock-chat meaning per owner UPDATE; help texts name it",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "names \"Help en ondersteuning\" but the settings page is \"Hulp en ondersteuning\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.follow_back_tracking.title",
+      "severity": "MEDIUM",
+      "issue": "\"wie je volgt\" reads as \"whom you follow\"; the feature remembers who follows you",
+      "fixed": true
+    },
+    {
+      "key": "settings.follow_back_tracking.summary",
+      "severity": "MEDIUM",
+      "issue": "same \"wie je volgt\" ambiguity",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.empty",
+      "severity": "MEDIUM",
+      "issue": "must name the corrected toggle label",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "LOW",
+      "issue": "16 chars, slightly over ~14-char guidance; no shorter natural form",
+      "fixed": false
+    },
+    {
+      "key": "(catalogue)",
+      "severity": "LOW",
+      "issue": "Home tab is 'Startpagina' but many old and new strings say 'Start'; pre-existing mixed usage, not changed",
+      "fixed": false
+    }
+  ],
+  "pl": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: hidden.hide uses lock meaning",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English; locale term is Tryb ducha",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English; locale term is Tryb ducha",
+      "fixed": true
+    },
+    {
+      "key": "navigation.startup.default",
+      "severity": "HIGH",
+      "issue": "Unchanged entry: startup-tab option said \"Instagram default font\" (copied from fonts.default)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.screen.default",
+      "severity": "MEDIUM",
+      "issue": "Label ungrammatical and differs from the help texts that name it",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.bubble",
+      "severity": "MEDIUM",
+      "issue": "Chat bubble icon rendered as soap bubble (Bąbelek)",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "LOW",
+      "issue": "Over the ~14 character limit",
+      "fixed": true
+    }
+  ],
+  "pt-BR": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking the chat, not hiding it",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "MEDIUM",
+      "issue": "Hint dropped the second example line (#sponsored)",
+      "fixed": true
+    },
+    {
+      "key": "media.direct.mark_confirm_message",
+      "severity": "MEDIUM",
+      "issue": "'eligible' rendered as 'compatível' (compatible); changed to 'elegível'",
+      "fixed": true
+    },
+    {
+      "key": "settings.chat_seen_button.summary",
+      "severity": "MEDIUM",
+      "issue": "'eligible' rendered as 'compatível'",
+      "fixed": true
+    },
+    {
+      "key": "settings.mark_chat_read.summary",
+      "severity": "MEDIUM",
+      "issue": "'eligible' rendered as 'compatível'",
+      "fixed": true
+    },
+    {
+      "key": "settings.add_follows_indicator.summary",
+      "severity": "LOW",
+      "issue": "Ungrammatical 'lista de seguindo'; uses the Seguindo list name",
+      "fixed": true
+    },
+    {
+      "key": "settings.follow_back_tracking.summary",
+      "severity": "LOW",
+      "issue": "Ungrammatical 'lista de seguindo'",
+      "fixed": true
+    }
+  ],
+  "ro": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking the chat, not hiding it",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "MEDIUM",
+      "issue": "Hint dropped the second example line (#sponsored)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.effects_reduced",
+      "severity": "MEDIUM",
+      "issue": "Did not name the setting label exactly (themes.glass.reduced = Redu transparența)",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Setting name must match settings.reels_seekbar_enabled.title exactly",
+      "fixed": true
+    }
+  ],
+  "ru": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning, not hide",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "21 chars; context limit ~14",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.motion_help",
+      "severity": "MEDIUM",
+      "issue": "\"переходы\" reads as animation transitions, not tab destinations",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.integrated",
+      "severity": "MEDIUM",
+      "issue": "\"Встроенный\" collides with \"встроенный\" = native; help texts used \"цельный\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.separated_help",
+      "severity": "MEDIUM",
+      "issue": "Integrated layout term consistency",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.layout_fallback",
+      "severity": "MEDIUM",
+      "issue": "Integrated layout term consistency",
+      "fixed": true
+    },
+    {
+      "key": "navigation.search_fixed",
+      "severity": "MEDIUM",
+      "issue": "Integrated layout term consistency",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths29",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    }
+  ],
+  "sk": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: hidden.hide uses lock meaning",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English; locale term is Režim ducha",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English; locale term is Režim ducha",
+      "fixed": true
+    },
+    {
+      "key": "navigation.startup.default",
+      "severity": "HIGH",
+      "issue": "Unchanged entry: startup-tab option said \"Instagram default font\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.screen.default",
+      "severity": "MEDIUM",
+      "issue": "Label differs from the help texts that name it",
+      "fixed": true
+    },
+    {
+      "key": "fonts.group.included",
+      "severity": "MEDIUM",
+      "issue": "\"SÚČASŤ\" is not a usable heading",
+      "fixed": true
+    },
+    {
+      "key": "fonts.font_included",
+      "severity": "MEDIUM",
+      "issue": "\"Súčasť\" incomplete phrase",
+      "fixed": true
+    },
+    {
+      "key": "settings.home_toolbar_settings.title",
+      "severity": "MEDIUM",
+      "issue": "Unchanged title says Panel nástrojov; navigation editor now says Lišta nástrojov",
+      "fixed": true
+    }
+  ],
+  "sr": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: hidden.hide uses lock meaning",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English (Latin); locale term is Невидљиви режим",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "HIGH",
+      "issue": "\"Ghost\" left in English (Latin); locale term is Невидљиви режим",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.found",
+      "severity": "MEDIUM",
+      "issue": "few form: verb must be plural with 2-4 (не прате)",
+      "fixed": true
+    },
+    {
+      "key": "settings.follow_back_tracking.summary",
+      "severity": "MEDIUM",
+      "issue": "\"недавна заустављања праћења\" unnatural",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.bubble",
+      "severity": "MEDIUM",
+      "issue": "Chat bubble icon rendered as soap bubble (Мехурић)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.tabs.search_tab",
+      "severity": "MEDIUM",
+      "issue": "Unchanged: Explore tab \"Истражите\" differs from Истражи used in new layout-editor texts",
+      "fixed": true
+    },
+    {
+      "key": "navigation.tabs.myinsta",
+      "severity": "LOW",
+      "issue": "Word order differs from home_toolbar MyInsta settings labels",
+      "fixed": true
+    },
+    {
+      "key": "fonts.emoji_group.storage",
+      "severity": "LOW",
+      "issue": "Storage heading differs from settings.section.storage",
+      "fixed": true
+    },
+    {
+      "key": "settings.home_toolbar_settings.title",
+      "severity": "MEDIUM",
+      "issue": "Unchanged title names Home toolbar differently from the navigation editor",
+      "fixed": true
+    }
+  ],
+  "sv": [
+    {
+      "key": "media.download.repeat.keep_help",
+      "severity": "HIGH",
+      "issue": "keep_help and replace values swapped (help sentence shown as Replace button, \"Replace\" shown as Keep-both help)",
+      "fixed": true
+    },
+    {
+      "key": "media.download.repeat.replace",
+      "severity": "HIGH",
+      "issue": "swapped with keep_help",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "hidden.hide set to the lock-chat meaning per owner UPDATE; help texts name it",
+      "fixed": true
+    },
+    {
+      "key": "(catalogue)",
+      "severity": "LOW",
+      "issue": "Convention 'Hämta' vs widespread 'Ladda ned/nedladdning' (pre-existing mix); new strings use 'Ladda ned', not changed",
+      "fixed": false
+    }
+  ],
+  "ta": [
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "Help & support page named differently from its label உதவியும் ஆதரவும்",
+      "fixed": true
+    },
+    {
+      "key": "settings.download_result_toast.summary",
+      "severity": "MEDIUM",
+      "issue": "\"toast\" transliterated; setting title uses சிறு செய்தி",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "HIGH",
+      "issue": "\"relative dates\" rendered as தொடர்புடைய (= related) dates",
+      "fixed": true
+    },
+    {
+      "key": "settings.reels_seekbar_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "seek bar rendered as தேடல் பட்டி (= search bar)",
+      "fixed": true
+    },
+    {
+      "key": "settings.scroll_break.off",
+      "severity": "LOW",
+      "issue": "State Off given as imperative; other off states use முடக்கம்",
+      "fixed": true
+    },
+    {
+      "key": "media.like.confirm_all_description",
+      "severity": "MEDIUM",
+      "issue": "\"likes\" rendered விருப்பங்கள் (reads as options); catalogue uses விருப்பக்குறி",
+      "fixed": true
+    },
+    {
+      "key": "media.like.confirm_description",
+      "severity": "MEDIUM",
+      "issue": "\"likes\" rendered விருப்பங்கள் (reads as options); catalogue uses விருப்பக்குறி",
+      "fixed": true
+    },
+    {
+      "key": "settings.like_protection_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "\"likes\" rendered விருப்பங்கள் (reads as options); catalogue uses விருப்பக்குறி",
+      "fixed": true
+    },
+    {
+      "key": "settings.like_protection_notice.summary",
+      "severity": "MEDIUM",
+      "issue": "\"likes\" rendered விருப்பங்கள் (reads as options); catalogue uses விருப்பக்குறி",
+      "fixed": true
+    },
+    {
+      "key": "settings.like_protection_posts.summary",
+      "severity": "MEDIUM",
+      "issue": "\"likes\" rendered விருப்பங்கள் (reads as options); catalogue uses விருப்பக்குறி",
+      "fixed": true
+    },
+    {
+      "key": "settings.like_protection_settings.summary",
+      "severity": "MEDIUM",
+      "issue": "\"likes\" rendered விருப்பங்கள் (reads as options); catalogue uses விருப்பக்குறி",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking a chat; was \"உரையாடலை மறை\" (hide conversation)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"அரட்டையைப் பூட்டு\" (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"அரட்டையைப் பூட்டு\" (owner decision)",
+      "fixed": true
+    }
+  ],
+  "te": [
+    {
+      "key": "navigation.appearance.compact_help",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.separated",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.separated_help",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.compact_disabled",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.layout_fallback",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "navigation.search_fixed",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "settings.privacy_recent_searches.summary",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "settings.privacy_recent_searches.title",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "settings.story_viewer_search.summary",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "story_viewers.search.clear",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "settings.myinsta_glass.aliases",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "navigation.layout.locked_search",
+      "severity": "MEDIUM",
+      "issue": "Search noun written as imperative stem వెతుకు (ungrammatical); catalogue noun is శోధన",
+      "fixed": true
+    },
+    {
+      "key": "settings.comments_without_keyboard.summary",
+      "severity": "MEDIUM",
+      "issue": "\"comment\" as కామెంట్; catalogue uses వ్యాఖ్య",
+      "fixed": true
+    },
+    {
+      "key": "settings.comments_without_keyboard.title",
+      "severity": "MEDIUM",
+      "issue": "\"comment\" as కామెంట్; catalogue uses వ్యాఖ్య",
+      "fixed": true
+    },
+    {
+      "key": "settings.copy_comments.summary",
+      "severity": "MEDIUM",
+      "issue": "\"comment\" as కామెంట్; catalogue uses వ్యాఖ్య",
+      "fixed": true
+    },
+    {
+      "key": "settings.download_comment_media.summary",
+      "severity": "MEDIUM",
+      "issue": "\"comment\" as కామెంట్; catalogue uses వ్యాఖ్య",
+      "fixed": true
+    },
+    {
+      "key": "settings.reels_text_selection.summary",
+      "severity": "MEDIUM",
+      "issue": "\"comment\" as కామెంట్; catalogue uses వ్యాఖ్య",
+      "fixed": true
+    },
+    {
+      "key": "settings.scroll_break.summary",
+      "severity": "MEDIUM",
+      "issue": "\"comment\" as కామెంట్; catalogue uses వ్యాఖ్య",
+      "fixed": true
+    },
+    {
+      "key": "text.copy_comment",
+      "severity": "MEDIUM",
+      "issue": "\"comment\" as కామెంట్; catalogue uses వ్యాఖ్య",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "Help & support page named differently from its label సహాయం మరియు మద్దతు",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Quoted setting name differs from settings.reels_seekbar_enabled.title",
+      "fixed": true
+    },
+    {
+      "key": "settings.download_result_toast.summary",
+      "severity": "MEDIUM",
+      "issue": "\"toast\" transliterated; setting title uses పాప్-అప్",
+      "fixed": true
+    },
+    {
+      "key": "settings.disable_long_press_preview.summary",
+      "severity": "MEDIUM",
+      "issue": "Explore transliterated; catalogue uses అన్వేషణ",
+      "fixed": true
+    },
+    {
+      "key": "settings.disable_pinch_zoom.summary",
+      "severity": "MEDIUM",
+      "issue": "Explore transliterated; catalogue uses అన్వేషణ",
+      "fixed": true
+    },
+    {
+      "key": "navigation.layout.preview_help",
+      "severity": "MEDIUM",
+      "issue": "Explore transliterated; catalogue uses అన్వేషణ",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking a chat; was \"సంభాషణను దాచండి\" (hide conversation)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"చాట్‌ను లాక్ చేయండి\" (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"చాట్‌ను లాక్ చేయండి\" (owner decision)",
+      "fixed": true
+    }
+  ],
+  "th": [
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Quoted setting name differs from settings.reels_seekbar_enabled.title",
+      "fixed": true
+    },
+    {
+      "key": "settings.download_result_toast.summary",
+      "severity": "MEDIUM",
+      "issue": "\"toast\" term differs from the setting title (ข้อความชั่วคราว)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.notifications_discreet",
+      "severity": "MEDIUM",
+      "issue": "\"discreet\" as เงียบเนียน (slangy, suggests silent); it means details are hidden",
+      "fixed": true
+    },
+    {
+      "key": "hidden.notifications_effective_discreet",
+      "severity": "MEDIUM",
+      "issue": "\"discreet\" as เงียบเนียน (slangy, suggests silent); it means details are hidden",
+      "fixed": true
+    },
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat must mean locking a chat; was \"ซ่อนการสนทนา\" (hide conversation)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"ล็อกแชท\" (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label \"ล็อกแชท\" (owner decision)",
+      "fixed": true
+    }
+  ],
+  "tl": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Lock Chat label changed to lock meaning (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.active",
+      "severity": "MEDIUM",
+      "issue": "English \"Ghost\" left; catalogue term is Mode na multo",
+      "fixed": true
+    },
+    {
+      "key": "settings.ghost.inactive",
+      "severity": "MEDIUM",
+      "issue": "English \"Ghost\" left; catalogue term is Mode na multo",
+      "fixed": true
+    },
+    {
+      "key": "media.download.repeat.keep",
+      "severity": "MEDIUM",
+      "issue": "\"Itago\" is this catalogue's word for Hide; reads as \"Hide both\"",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "23 chars, context limit about 14",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.purple",
+      "severity": "LOW",
+      "issue": "English colour name while sibling names are translated",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.legacy_purple",
+      "severity": "LOW",
+      "issue": "Follows app_icon.option.purple",
+      "fixed": true
+    },
+    {
+      "key": "settings.app_icon.aliases",
+      "severity": "LOW",
+      "issue": "Add translated colour term",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "LOW",
+      "issue": "\"ito\" (it) should refer to plural features",
+      "fixed": true
+    }
+  ],
+  "tr": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning, not hide",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "direct.active_at",
+      "severity": "MEDIUM",
+      "issue": "\"itibarıyla\" (as of) distorts \"last active at\"",
+      "fixed": true
+    },
+    {
+      "key": "direct.active_yesterday_at",
+      "severity": "MEDIUM",
+      "issue": "\"itibarıyla\" (as of) distorts \"last active at\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_active_time.summary",
+      "severity": "MEDIUM",
+      "issue": "Example must match corrected direct.active_at",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_active_time.title",
+      "severity": "LOW",
+      "issue": "Awkward wording",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "18 chars; context limit ~14",
+      "fixed": true
+    },
+    {
+      "key": "hidden.notifications_discreet",
+      "severity": "MEDIUM",
+      "issue": "\"Gizli bildirimler\" reads as \"hidden notifications\"",
+      "fixed": true
+    },
+    {
+      "key": "hidden.notifications_effective_discreet",
+      "severity": "MEDIUM",
+      "issue": "Match corrected discreet label",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.compact_help",
+      "severity": "MEDIUM",
+      "issue": "\"kaydırma çubuğu\" reads as \"scrollbar\"; meaning garbled",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.inherit_help",
+      "severity": "MEDIUM",
+      "issue": "\"bitiş\" means ending, not surface finish",
+      "fixed": true
+    },
+    {
+      "key": "settings.chat_seen_button.summary",
+      "severity": "MEDIUM",
+      "issue": "Must use exact label \"Görüldü durumunu gizle\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filters.entries",
+      "severity": "MEDIUM",
+      "issue": "\"giriş\" reads as login/entrance",
+      "fixed": true
+    },
+    {
+      "key": "hidden.notifications_follow",
+      "severity": "LOW",
+      "issue": "\"izle\" (watch) awkward",
+      "fixed": true
+    },
+    {
+      "key": "settings.section.text_selection",
+      "severity": "LOW",
+      "issue": "Section heading should be a noun",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths29",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    }
+  ],
+  "uk": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning, not hide",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the new hidden.hide label",
+      "fixed": true
+    },
+    {
+      "key": "follow_back.not_following_back",
+      "severity": "MEDIUM",
+      "issue": "23 chars; context limit ~14",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.motion_help",
+      "severity": "MEDIUM",
+      "issue": "\"переходи\" reads as animation transitions, not tab destinations",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.integrated",
+      "severity": "MEDIUM",
+      "issue": "\"Вбудований\" collides with \"вбудований\" = native; help texts used \"цільний\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.separated_help",
+      "severity": "MEDIUM",
+      "issue": "Integrated layout term consistency",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.layout_fallback",
+      "severity": "MEDIUM",
+      "issue": "Integrated layout term consistency",
+      "fixed": true
+    },
+    {
+      "key": "navigation.search_fixed",
+      "severity": "MEDIUM",
+      "issue": "Integrated layout term consistency",
+      "fixed": true
+    },
+    {
+      "key": "settings.like_protection_notice.summary",
+      "severity": "MEDIUM",
+      "issue": "Undo label is \"Скасувати дію\" (media.like.undo)",
+      "fixed": true
+    },
+    {
+      "key": "settings.like_protection_notice.title",
+      "severity": "MEDIUM",
+      "issue": "Undo label is \"Скасувати дію\" (media.like.undo)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.hardware_support",
+      "severity": "LOW",
+      "issue": "Existing term is \"заломлення по краях\"",
+      "fixed": true
+    },
+    {
+      "key": "navigation.appearance.refraction",
+      "severity": "LOW",
+      "issue": "Existing term is \"заломлення по краях\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.content_filter_words.hint",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    },
+    {
+      "key": "settings.downloads.paths29",
+      "severity": "HIGH",
+      "issue": "Literal backslash-n instead of a line break (UI shows the two characters)",
+      "fixed": true
+    }
+  ],
+  "vi": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Lock Chat label changed to lock meaning (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "hidden.empty_help",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hidden_chats_enabled.summary",
+      "severity": "MEDIUM",
+      "issue": "Help text must name the new Lock Chat label (owner decision)",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "Menu path must match \"Trợ giúp và hỗ trợ\"",
+      "fixed": true
+    },
+    {
+      "key": "settings.privacy_analytics.summary",
+      "severity": "MEDIUM",
+      "issue": "English \"telemetry\" left (catalogue used \"đo từ xa\"); duplicated \"chặn\"",
+      "fixed": true
+    }
+  ],
+  "zh-CN": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning (was 隐藏聊天); help texts already name 锁定聊天",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.glow",
+      "severity": "MEDIUM",
+      "issue": "glow must equal app_icon.option.neon (was 荧光/螢光)",
+      "fixed": true
+    },
+    {
+      "key": "settings.chat_seen_button.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the Remove Seen Status label exactly (隐藏已看状态)",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the settings.reels_seekbar_enabled label exactly",
+      "fixed": true
+    },
+    {
+      "key": "settings.scroll_break.title",
+      "severity": "MEDIUM",
+      "issue": "刷屏 means flooding/spamming the screen; use 滑动休息",
+      "fixed": true
+    },
+    {
+      "key": "gestures.scroll_break.started",
+      "severity": "MEDIUM",
+      "issue": "刷屏 means flooding/spamming the screen; use 滑动休息",
+      "fixed": true
+    },
+    {
+      "key": "gestures.scroll_break.waiting",
+      "severity": "MEDIUM",
+      "issue": "刷屏 means flooding/spamming the screen; use 滑动休息",
+      "fixed": true
+    }
+  ],
+  "zh-HK": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning (was 隱藏對話); help texts already name 鎖定聊天",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.glow",
+      "severity": "MEDIUM",
+      "issue": "glow must equal app_icon.option.neon (was 荧光/螢光)",
+      "fixed": true
+    },
+    {
+      "key": "settings.chat_seen_button.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the Remove Seen Status label exactly (隱藏已看狀態)",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the settings.reels_seekbar_enabled label exactly",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "Must name the Help & support page label (幫助與支援)",
+      "fixed": true
+    },
+    {
+      "key": "settings.copy_comments.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the text.select menu label exactly (選擇文字)",
+      "fixed": true
+    },
+    {
+      "key": "settings.profiles_text_selection.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the text.select menu label exactly (選擇文字)",
+      "fixed": true
+    },
+    {
+      "key": "settings.reels_text_selection.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the text.select menu label exactly (選擇文字)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.tabs.your_feeds",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態流 as in the rest of the catalogue",
+      "fixed": true
+    },
+    {
+      "key": "feed.filtered_empty.body",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態流",
+      "fixed": true
+    },
+    {
+      "key": "settings.back_leaves_home.summary",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態流",
+      "fixed": true
+    },
+    {
+      "key": "settings.back_leaves_home.summary",
+      "severity": "LOW",
+      "issue": "Viewer UI term is 查看器 in the catalogue",
+      "fixed": true
+    },
+    {
+      "key": "settings.disable_pinch_zoom.summary",
+      "severity": "LOW",
+      "issue": "Viewer UI term is 查看器 in the catalogue",
+      "fixed": true
+    },
+    {
+      "key": "navigation.screen.homecoming_feeds",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態流",
+      "fixed": true
+    },
+    {
+      "key": "fonts.emoji_menu_remove",
+      "severity": "MEDIUM",
+      "issue": "資料庫 means database; use 庫 (library)",
+      "fixed": true
+    },
+    {
+      "key": "settings.feed_video_tap_pause.title",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態流",
+      "fixed": true
+    },
+    {
+      "key": "fonts.font_delete_message",
+      "severity": "MEDIUM",
+      "issue": "資料庫 means database; catalogue uses 字體庫",
+      "fixed": true
+    },
+    {
+      "key": "hidden.notifications_discreet_help",
+      "severity": "MEDIUM",
+      "issue": "Profile photo term in catalogue is 頭像 (大頭貼 is TW-only slang and not used elsewhere)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_profile_note_bubble.summary",
+      "severity": "MEDIUM",
+      "issue": "Profile photo term in catalogue is 頭像 (大頭貼 is TW-only slang and not used elsewhere)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_profile_note_bubble.title",
+      "severity": "MEDIUM",
+      "issue": "Profile photo term in catalogue is 頭像 (大頭貼 is TW-only slang and not used elsewhere)",
+      "fixed": true
+    },
+    {
+      "key": "fonts.text_list_notice",
+      "severity": "MEDIUM",
+      "issue": "In HK usage 列 reads as column; row is 行",
+      "fixed": true
+    }
+  ],
+  "zh-TW": [
+    {
+      "key": "hidden.hide",
+      "severity": "MEDIUM",
+      "issue": "Owner decision: Lock Chat = lock meaning (was 隱藏對話); help texts already name 鎖定聊天",
+      "fixed": true
+    },
+    {
+      "key": "app_icon.option.glow",
+      "severity": "MEDIUM",
+      "issue": "glow must equal app_icon.option.neon (was 荧光/螢光)",
+      "fixed": true
+    },
+    {
+      "key": "settings.chat_seen_button.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the Remove Seen Status label exactly (隱藏已看狀態)",
+      "fixed": true
+    },
+    {
+      "key": "settings.exact_post_dates.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the settings.reels_seekbar_enabled label exactly",
+      "fixed": true
+    },
+    {
+      "key": "crash.paused_message",
+      "severity": "MEDIUM",
+      "issue": "Must name the Help & support page label (幫助與支援)",
+      "fixed": true
+    },
+    {
+      "key": "settings.copy_comments.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the text.select menu label exactly (選擇文字)",
+      "fixed": true
+    },
+    {
+      "key": "settings.profiles_text_selection.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the text.select menu label exactly (選擇文字)",
+      "fixed": true
+    },
+    {
+      "key": "settings.reels_text_selection.summary",
+      "severity": "MEDIUM",
+      "issue": "Must name the text.select menu label exactly (選擇文字)",
+      "fixed": true
+    },
+    {
+      "key": "navigation.tabs.your_feeds",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態消息 as in the rest of the catalogue",
+      "fixed": true
+    },
+    {
+      "key": "feed.filtered_empty.body",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態消息",
+      "fixed": true
+    },
+    {
+      "key": "settings.back_leaves_home.summary",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態消息",
+      "fixed": true
+    },
+    {
+      "key": "settings.back_leaves_home.summary",
+      "severity": "LOW",
+      "issue": "Viewer UI term is 查看器 in the catalogue",
+      "fixed": true
+    },
+    {
+      "key": "settings.disable_pinch_zoom.summary",
+      "severity": "LOW",
+      "issue": "Viewer UI term is 查看器 in the catalogue",
+      "fixed": true
+    },
+    {
+      "key": "navigation.screen.homecoming_feeds",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態消息",
+      "fixed": true
+    },
+    {
+      "key": "fonts.emoji_menu_remove",
+      "severity": "MEDIUM",
+      "issue": "資料庫 means database; use 庫 (library)",
+      "fixed": true
+    },
+    {
+      "key": "settings.feed_video_tap_pause.title",
+      "severity": "MEDIUM",
+      "issue": "Feed term must be 動態消息",
+      "fixed": true
+    },
+    {
+      "key": "fonts.font_delete_message",
+      "severity": "MEDIUM",
+      "issue": "資料庫 means database; catalogue uses 字型庫",
+      "fixed": true
+    },
+    {
+      "key": "hidden.notifications_discreet_help",
+      "severity": "MEDIUM",
+      "issue": "Profile photo term in catalogue is 頭像 (大頭貼 is TW-only slang and not used elsewhere)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_profile_note_bubble.summary",
+      "severity": "MEDIUM",
+      "issue": "Profile photo term in catalogue is 頭像 (大頭貼 is TW-only slang and not used elsewhere)",
+      "fixed": true
+    },
+    {
+      "key": "settings.hide_profile_note_bubble.title",
+      "severity": "MEDIUM",
+      "issue": "Profile photo term in catalogue is 頭像 (大頭貼 is TW-only slang and not used elsewhere)",
+      "fixed": true
+    }
+  ]
+}
