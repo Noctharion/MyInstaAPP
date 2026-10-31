@@ -1838,6 +1838,54 @@
       ],
       "placeholders": {}
     },
+    "fonts.story_emoji": {
+      "kind": "strings",
+      "context": "Fonts & Emojis › Emoji style: separate emoji pack for text written on Stories.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.story_emoji_title": {
+      "kind": "strings",
+      "context": "Fonts & Emojis › Emoji style: separate emoji pack for text written on Stories.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.story_emoji_help": {
+      "kind": "strings",
+      "context": "Fonts & Emojis › Emoji style: separate emoji pack for text written on Stories.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.story_emoji_restart": {
+      "kind": "strings",
+      "context": "Fonts & Emojis › Emoji style: separate emoji pack for text written on Stories.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.story_emoji_follow": {
+      "kind": "strings",
+      "context": "Fonts & Emojis › Emoji style: separate emoji pack for text written on Stories.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "fonts.story_emoji_default": {
+      "kind": "strings",
+      "context": "Fonts & Emojis › Emoji style: separate emoji pack for text written on Stories.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/typography/FontsActivity.java"
+      ],
+      "placeholders": {}
+    },
     "fonts.retry_preview": {
       "kind": "strings",
       "context": "fonts / library navigation and preview",
@@ -5311,6 +5359,30 @@
       ],
       "placeholders": {}
     },
+    "media.unsent.preview.reel": {
+      "kind": "strings",
+      "context": "media / unsent / preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentPresentation.java"
+      ],
+      "placeholders": {}
+    },
+    "media.unsent.preview.post": {
+      "kind": "strings",
+      "context": "media / unsent / preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentPresentation.java"
+      ],
+      "placeholders": {}
+    },
+    "media.unsent.preview.story": {
+      "kind": "strings",
+      "context": "media / unsent / preview",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/unsent/UnsentPresentation.java"
+      ],
+      "placeholders": {}
+    },
     "media.unsent.preview.shares": {
       "kind": "strings",
       "context": "media / unsent / preview",
@@ -8116,6 +8188,22 @@
       ],
       "placeholders": {}
     },
+    "settings.download_prefer_compatible.summary": {
+      "kind": "strings",
+      "context": "Download Center: description of the toggle that prefers H.264 video with AAC audio over AV1/VP9 for compatibility.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_prefer_compatible.title": {
+      "kind": "strings",
+      "context": "Download Center: toggle label that prefers H.264 video with AAC audio over AV1/VP9 for compatibility.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
+      ],
+      "placeholders": {}
+    },
     "settings.downloads.choose": {
       "kind": "strings",
       "context": "settings / downloads",
@@ -8657,6 +8745,72 @@
     "settings.hide_composer_voice.title": {
       "kind": "strings",
       "context": "settings / hide_composer_voice",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_header_call.summary": {
+      "kind": "strings",
+      "context": "settings / hide_header_call",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_header_call.title": {
+      "kind": "strings",
+      "context": "settings / hide_header_call",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_header_video_call.summary": {
+      "kind": "strings",
+      "context": "settings / hide_header_video_call",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.hide_header_video_call.title": {
+      "kind": "strings",
+      "context": "settings / hide_header_video_call",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.chat_options_place.title": {
+      "kind": "strings",
+      "context": "settings / chat_options_place",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.chat_options_place.summary": {
+      "kind": "strings",
+      "context": "settings / chat_options_place",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.chat_options_place.top": {
+      "kind": "strings",
+      "context": "settings / chat_options_place",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.chat_options_place.composer": {
+      "kind": "strings",
+      "context": "settings / chat_options_place",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.chat_options_place.hidden": {
+      "kind": "strings",
+      "context": "settings / chat_options_place",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.chat_options_gallery.summary": {
+      "kind": "strings",
+      "context": "settings / chat_options_gallery",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.chat_options_gallery.title": {
+      "kind": "strings",
+      "context": "settings / chat_options_gallery",
       "sources": [],
       "placeholders": {}
     },
@@ -9909,7 +10063,7 @@
     },
     "app_icon.info.delay": {
       "kind": "strings",
-      "context": "One line in the app icon picker's explanation card: the launcher shows the new icon only after the user leaves the app, with a short delay.",
+      "context": "One line in the app icon picker's explanation card: the icon changes at once with Restart now, otherwise when the user leaves the app; launchers may show it with a delay.",
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/AppIconSettings.java"
       ],
@@ -9932,6 +10086,30 @@
       "placeholders": {
         "name": "Runtime value: icon name. Keep the name intact; move the placeholder to fit the translated sentence."
       }
+    },
+    "app_icon.restart.title": {
+      "kind": "strings",
+      "context": "Title of the sheet shown after choosing an app icon: offers to restart Instagram so the icon changes immediately.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/AppIconSettings.java"
+      ],
+      "placeholders": {}
+    },
+    "app_icon.restart.body": {
+      "kind": "strings",
+      "context": "Body of that sheet. 'Later' is the label of the secondary button (common.later); keep the two in sync.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/AppIconSettings.java"
+      ],
+      "placeholders": {}
+    },
+    "app_icon.restart.blank": {
+      "kind": "strings",
+      "context": "Extra paragraph in that sheet when the Transparent icon is chosen: some launchers draw transparent icons as a dark shape; 'Hide apps' is the launcher's own feature name.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/AppIconSettings.java"
+      ],
+      "placeholders": {}
     },
     "app_icon.group.instagram": {
       "kind": "strings",
@@ -10107,6 +10285,18 @@
       "sources": [],
       "placeholders": {}
     },
+    "app_icon.option.monet": {
+      "kind": "strings",
+      "context": "App icon choice: the MyInsta mark in the wallpaper's Material You (Monet) colours on Android 12+.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.instagram_monet": {
+      "kind": "strings",
+      "context": "App icon choice: the Instagram mark in the wallpaper's Material You (Monet) colours on Android 12+.",
+      "sources": [],
+      "placeholders": {}
+    },
     "app_icon.group.legacy": {
       "kind": "strings",
       "context": "Section label above the MyInsta Legacy icons (the earlier MyInsta camera outline in colour variants) in the app icon picker. MyInsta is the app name.",
@@ -10184,6 +10374,78 @@
     "app_icon.option.spark": {
       "kind": "strings",
       "context": "App icon choice: a four-point sparkle.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.group.disguise": {
+      "kind": "strings",
+      "context": "App icon: heading of the group of icons that look like plain utility apps (with their own launcher name).",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.blank": {
+      "kind": "strings",
+      "context": "App icon choice: a fully transparent icon with an invisible launcher name.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.calculator": {
+      "kind": "strings",
+      "context": "App icon choice: a generic calculator; the launcher name becomes Calculator.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.notes": {
+      "kind": "strings",
+      "context": "App icon choice: a generic notes page; the launcher name becomes Notes.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.flashlight": {
+      "kind": "strings",
+      "context": "App icon choice: a generic flashlight; the launcher name becomes Flashlight.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.compass": {
+      "kind": "strings",
+      "context": "App icon choice: a generic compass; the launcher name becomes Compass.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.weather": {
+      "kind": "strings",
+      "context": "App icon choice: sun and cloud; the launcher name becomes Weather.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.clock": {
+      "kind": "strings",
+      "context": "App icon choice: a clock face; the launcher name becomes Clock.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.email": {
+      "kind": "strings",
+      "context": "App icon choice: a generic email icon; the launcher name becomes Email.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.calendar": {
+      "kind": "strings",
+      "context": "App icon choice: a generic calendar icon; the launcher name becomes Calendar.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.photo_editor": {
+      "kind": "strings",
+      "context": "App icon choice: a generic photo editor icon; the launcher name becomes Photo Editor.",
+      "sources": [],
+      "placeholders": {}
+    },
+    "app_icon.option.paint": {
+      "kind": "strings",
+      "context": "App icon choice: a generic paint icon; the launcher name becomes Paint.",
       "sources": [],
       "placeholders": {}
     },
@@ -11053,6 +11315,38 @@
       "sources": [
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java",
         "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/StoryOrganizerMenu.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.risk.title": {
+      "kind": "strings",
+      "context": "Warning sheet shown before enabling Disable analytics, Developer Options or employee tools: account flag/ban risk and responsibility disclaimer.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.risk.message": {
+      "kind": "strings",
+      "context": "Warning sheet shown before enabling Disable analytics, Developer Options or employee tools: account flag/ban risk and responsibility disclaimer.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.risk.cancel": {
+      "kind": "strings",
+      "context": "Warning sheet shown before enabling Disable analytics, Developer Options or employee tools: account flag/ban risk and responsibility disclaimer.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.risk.confirm": {
+      "kind": "strings",
+      "context": "Warning sheet shown before enabling Disable analytics, Developer Options or employee tools: account flag/ban risk and responsibility disclaimer.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
       ],
       "placeholders": {}
     },
@@ -16146,6 +16440,94 @@
       "placeholders": {
         "position": "Runtime value: position. Keep the name intact; move the placeholder to fit the translated sentence."
       }
+    },
+    "navigation.layout.move_left": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: item menu action that moves a Home toolbar item to or from the toolbar's left slot",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.move_right": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: item menu action that moves a Home toolbar item to or from the toolbar's left slot",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.title": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: Home header title: what it shows and where",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.title_feeds": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: Home header title: what it shows and where",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.title_logo": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: Home header title: what it shows and where",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.title_feeds_preview": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: Home header title: what it shows and where",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.title_feeds_tabs": {
+      "kind": "strings",
+      "context": "Navigation › Header title: note shown only on Homecoming with Feeds, whose Home header has feed tabs instead of a title, so the logo/feed choice has no effect and only the position moves the tabs.",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.logo_end": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: Home header title: what it shows and where",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.logo": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: Home header title: what it shows and where",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.logo_centre": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: Home header title: what it shows and where",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
+    "navigation.layout.logo_start": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: Home header title: what it shows and where",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
     },
     "navigation.layout.off": {
       "kind": "strings",
