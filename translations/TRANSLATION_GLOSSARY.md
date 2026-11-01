@@ -84,3 +84,53 @@ Identity files repeat their base locale's values.
 - zh-CN uses 主页 for both Home and Profile.
 - tl keeps many English UI words (Taglish); a consistency pass would be a catalogue-wide choice.
 - kn/ta `home_toolbar.actions.reels_second_opt_in` and te `settings.like_protection_comments.*` predate this pass and use a different Reels/comment form than the rest of their catalogue.
+
+## Decisions recorded on 2026-11-01 (settings reorganization)
+
+Page names became short, single words where the language allows: Ghost (was Ghost Mode), Unsent (was Unsent Messages), Downloads (was Download Center), Focus (was Distraction Free), Feed (was Feed and profiles), Help (was Help & support), Glass (was Glass & Blur), Fonts and Emoji (were one Font and Emoji row), Account suggestions and Suggested content (were Hide Discover people / Hide suggested content). Messages, Reels and Profiles are pages again. Former names live on in each page's `*.aliases`, so search still finds them. Texts that quote a page name (for example `settings.messages_settings.summary` quoting Ghost and Unsent) must use the exact title of that catalogue. Where a short form would be ambiguous or clash with another label, the catalogue keeps its longer existing term (vi Ghost, several Unsent titles).
+
+| locale | Ghost | Unsent | Downloads | Focus | Feed | Help | Fonts | Emoji |
+|---|---|---|---|---|---|---|---|---|
+| af | Spook | Teruggetrek | Aflaaie | Fokus | Stroom | Hulp | Lettertipes | Emoji |
+| ar | الشبح | الرسائل الملغى إرسالها | التنزيلات | التركيز | الخلاصة | المساعدة | الخطوط | الرموز التعبيرية |
+| bg | Призрак | Оттеглени | Изтегляния | Фокус | Емисия | Помощ | Шрифтове | Емоджи |
+| bn | ঘোস্ট | পাঠানো বাতিল | ডাউনলোড | ফোকাস | ফিড | সহায়তা | ফন্ট | ইমোজি |
+| cs | Duch | Odvolané | Stahování | Soustředění | Kanál příspěvků | Nápověda | Písma | Emoji |
+| da | Spøgelse | Tilbagekaldt | Downloads | Fokus | Feed | Hjælp | Skrifttyper | Emojis |
+| de | Geist | Zurückgerufen | Downloads | Fokus | Feed | Hilfe | Schriften | Emojis |
+| el | Φάντασμα | Ανακληθέντα | Λήψεις | Εστίαση | Ροή | Βοήθεια | Γραμματοσειρές | Emoji |
+| es | Fantasma | Anulados | Descargas | Enfoque | Feed | Ayuda | Fuentes | Emojis |
+| fa | روح | لغو ارسال | بارگیری‌ها | تمرکز | فید | راهنما | قلم‌ها | شکلک‌ها |
+| fi | Haamu | Perutut | Lataukset | Keskittyminen | Syöte | Ohje | Fontit | Emojit |
+| fr | Fantôme | Messages retirés | Téléchargements | Concentration | Fil | Aide | Polices | Emojis |
+| gu | ઘોસ્ટ | મોકલવાનું રદ કરેલા સંદેશ | ડાઉનલોડ | ફોકસ | ફીડ | મદદ | ફૉન્ટ | ઇમોજી |
+| he | רפאים | הודעות ששליחתן בוטלה | הורדות | ריכוז | פיד | עזרה | גופנים | אימוג'י |
+| hi | घोस्ट | वापस लिए गए संदेश | डाउनलोड | फ़ोकस | फ़ीड | मदद | फ़ॉन्ट | इमोजी |
+| hr | Nevidljivost | Povučene poruke | Preuzimanja | Fokus | Sažetak | Pomoć | Fontovi | Emojiji |
+| hu | Szellem | Visszavont üzenetek | Letöltések | Fókusz | Hírfolyam | Súgó | Betűtípusok | Emojik |
+| id | Hantu | Pesan Ditarik | Unduhan | Fokus | Feed | Bantuan | Font | Emoji |
+| it | Fantasma | Invio annullato | Download | Concentrazione | Feed | Assistenza | Caratteri | Emoji |
+| ja | ゴースト | 送信取り消し | ダウンロード | 集中 | フィード | ヘルプ | フォント | 絵文字 |
+| kn | ಘೋಸ್ಟ್ | ಹಿಂಪಡೆದ ಸಂದೇಶಗಳು | ಡೌನ್‌ಲೋಡ್‌ಗಳು | ಫೋಕಸ್ | ಫೀಡ್ | ಸಹಾಯ | ಫಾಂಟ್‌ಗಳು | ಇಮೋಜಿ |
+| ko | 고스트 | 전송 취소 | 다운로드 | 집중 | 피드 | 도움말 | 글꼴 | 이모지 |
+| mr | घोस्ट | मागे घेतलेले | डाउनलोड | फोकस | फीड | मदत | फॉन्ट | इमोजी |
+| ms | Hantu | Ditarik Balik | Muat turun | Fokus | Suapan | Bantuan | Fon | Emoji |
+| nb | Spøkelse | Tilbakekalte | Nedlastinger | Fokus | Feed | Hjelp | Skrifttyper | Emoji |
+| nl | Spook | Ingetrokken | Downloads | Focus | Feed | Hulp | Lettertypen | Emoji |
+| pl | Duch | Cofnięte | Pobieranie | Skupienie | Kanał | Pomoc | Czcionki | Emoji |
+| pt-BR | Fantasma | Envio cancelado | Downloads | Foco | Feed | Ajuda | Fontes | Emojis |
+| ro | Fantomă | Retrase | Descărcări | Concentrare | Flux | Ajutor | Fonturi | Emojiuri |
+| ru | Невидимка | Отозванные | Скачивание | Фокус | Лента | Помощь | Шрифты | Эмодзи |
+| sk | Duch | Odvolané | Sťahovanie | Sústredenie | Kanál | Pomoc | Písma | Emoji |
+| sr | Невидљиви | Повучене | Преузимања | Фокус | Фид | Помоћ | Фонтови | Емоџији |
+| sv | Spöke | Återkallade | Nedladdningar | Fokus | Flöde | Hjälp | Teckensnitt | Emoji |
+| ta | மறைநிலை | திரும்பப் பெறப்பட்டவை | பதிவிறக்கங்கள் | கவனம் | ஊட்டம் | உதவி | எழுத்துருக்கள் | எமோஜி |
+| te | ఘోస్ట్ | వెనక్కి తీసుకున్నవి | డౌన్‌లోడ్‌లు | ఏకాగ్రత | ఫీడ్ | సహాయం | ఫాంట్‌లు | ఎమోజీ |
+| th | ผี | ยกเลิกส่ง | ดาวน์โหลด | โฟกัส | ฟีด | ความช่วยเหลือ | แบบอักษร | อีโมจิ |
+| tl | Multo | Binawi | Mga download | Pokus | Feed | Tulong | Mga font | Emoji |
+| tr | Hayalet | Geri alınanlar | İndirmeler | Odak | Akış | Yardım | Yazı tipleri | Emoji |
+| uk | Невидимка | Відкликані | Завантаження | Фокус | Стрічка | Довідка | Шрифти | Емодзі |
+| vi | Chế độ ẩn | Đã thu hồi | Tải xuống | Tập trung | Bảng tin | Trợ giúp | Phông chữ | Biểu tượng cảm xúc |
+| zh-CN | 幽灵 | 已撤回 | 下载 | 专注 | 动态流 | 帮助 | 字体 | 表情符号 |
+| zh-HK | 幽靈 | 已撤回 | 下載 | 專注 | 動態流 | 幫助 | 字體 | 表情符號 |
+| zh-TW | 幽靈 | 已收回 | 下載 | 專注 | 動態消息 | 幫助 | 字型 | 表情符號 |
