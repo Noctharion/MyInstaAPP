@@ -134,3 +134,12 @@ Page names became short, single words where the language allows: Ghost (was Ghos
 | zh-CN | 幽灵 | 已撤回 | 下载 | 专注 | 动态流 | 帮助 | 字体 | 表情符号 |
 | zh-HK | 幽靈 | 已撤回 | 下載 | 專注 | 動態流 | 幫助 | 字體 | 表情符號 |
 | zh-TW | 幽靈 | 已收回 | 下載 | 專注 | 動態消息 | 幫助 | 字型 | 表情符號 |
+
+## Fixed-width labels (v27.0.2)
+
+Some labels are drawn in controls that cannot grow: the Navbar / Toolbar / Off and Left / Centre / Right segments of the Navigation editor, the file name format chips (three per row), the In use / Use emoji chips, the Fonts tabs and the three labels of the settings dock. Segments and chips stay on one line and shrink from 14 to 9 sp, so a label more than about 1.6 times the English length (CJK counted double) can still clip.
+
+- Use the shortest natural term native apps use for these labels (e.g. fr "Navigation" for the Navbar segment, es "Navegación" / "Herramientas", pt-BR "Navegação" / "Ferramentas"). Descriptions and help texts keep the full term ("barre de navigation"); the segment is only its short form.
+- Do not shorten a label that a help text names as a choice (e.g. the "Instagram default" screen type in `navigation.screen.help`); change both together or neither.
+- File name format chips: a short noun or participle is fine where "date of …" does not fit ("Téléchargé le", "Publicado em", "Descargado").
+- The 2026-11-02 review lists every shortened label per locale.

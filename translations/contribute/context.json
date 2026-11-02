@@ -7720,6 +7720,210 @@
       "sources": [],
       "placeholders": {}
     },
+    "media.download.open_external": {
+      "kind": "strings",
+      "context": "Downloads › advanced download sheet: plays the video in another installed video player without saving it",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "media.download.open_external_none": {
+      "kind": "strings",
+      "context": "Downloads › advanced download sheet: plays the video in another installed video player without saving it",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/download/DownloadSheet.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_animation.yours": {
+      "kind": "strings",
+      "context": "Feed › Like animation picker: an animated WebP or GIF the person imports",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/feed/LikeAnimationPicker.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_animation.custom": {
+      "kind": "strings",
+      "context": "Feed › Like animation picker: an animated WebP or GIF the person imports",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/feed/LikeAnimationPicker.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_animation.import": {
+      "kind": "strings",
+      "context": "Feed › Like animation picker: an animated WebP or GIF the person imports",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/feed/LikeAnimationPicker.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_animation.imported": {
+      "kind": "strings",
+      "context": "Feed › Like animation picker: an animated WebP or GIF the person imports",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.like_animation.import_failed": {
+      "kind": "strings",
+      "context": "Feed › Like animation picker: an animated WebP or GIF the person imports",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_name_format.title": {
+      "kind": "strings",
+      "context": "settings / download_name_format",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.download_name_format.summary": {
+      "kind": "strings",
+      "context": "settings / download_name_format",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.download_name_format.example": {
+      "kind": "strings",
+      "context": "Downloads › File name format sheet: a row of labels the user taps to add or remove parts of the file name, an example of the resulting name, and the instruction under the title",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_name_format.pick": {
+      "kind": "strings",
+      "context": "Downloads › File name format sheet: a row of labels the user taps to add or remove parts of the file name, an example of the resulting name, and the instruction under the title",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_name_format.empty": {
+      "kind": "strings",
+      "context": "Downloads › File name format sheet: a row of labels the user taps to add or remove parts of the file name, an example of the resulting name, and the instruction under the title",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_name_format.token.user": {
+      "kind": "strings",
+      "context": "Downloads › File name format sheet: a row of labels the user taps to add or remove parts of the file name, an example of the resulting name, and the instruction under the title",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_name_format.token.id": {
+      "kind": "strings",
+      "context": "Downloads › File name format sheet: a row of labels the user taps to add or remove parts of the file name, an example of the resulting name, and the instruction under the title",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_name_format.token.date": {
+      "kind": "strings",
+      "context": "Downloads › File name format sheet: a row of labels the user taps to add or remove parts of the file name, an example of the resulting name, and the instruction under the title",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_name_format.token.posted": {
+      "kind": "strings",
+      "context": "Downloads › File name format sheet: a row of labels the user taps to add or remove parts of the file name, an example of the resulting name, and the instruction under the title",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.download_name_format.token.type": {
+      "kind": "strings",
+      "context": "Downloads › File name format sheet: a row of labels the user taps to add or remove parts of the file name, an example of the resulting name, and the instruction under the title",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_app_grace.title": {
+      "kind": "strings",
+      "context": "settings / biometric_app_grace",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.biometric_app_grace.summary": {
+      "kind": "strings",
+      "context": "settings / biometric_app_grace",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.biometric_app_grace.0": {
+      "kind": "strings",
+      "context": "Area protection › choice for how long Instagram can stay in the background before the whole-app lock asks again",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_app_grace.60": {
+      "kind": "strings",
+      "context": "Area protection › choice for how long Instagram can stay in the background before the whole-app lock asks again",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.biometric_app_grace.300": {
+      "kind": "strings",
+      "context": "Area protection › choice for how long Instagram can stay in the background before the whole-app lock asks again",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
+      ],
+      "placeholders": {}
+    },
+    "settings.confirm_refresh.title": {
+      "kind": "strings",
+      "context": "settings / confirm_refresh",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.confirm_refresh.summary": {
+      "kind": "strings",
+      "context": "settings / confirm_refresh",
+      "sources": [],
+      "placeholders": {}
+    },
+    "gestures.refresh.title": {
+      "kind": "strings",
+      "context": "Gestures › confirmation sheet before a pull to refresh reloads Feed, Explore or Reels",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/gestures/GestureControls.java"
+      ],
+      "placeholders": {}
+    },
+    "gestures.refresh.message": {
+      "kind": "strings",
+      "context": "Gestures › confirmation sheet before a pull to refresh reloads Feed, Explore or Reels",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/gestures/GestureControls.java"
+      ],
+      "placeholders": {}
+    },
+    "gestures.refresh.confirm": {
+      "kind": "strings",
+      "context": "Gestures › confirmation sheet button that refreshes",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/gestures/GestureControls.java"
+      ],
+      "placeholders": {}
+    },
     "settings.disable_reels_scrolling.summary": {
       "kind": "strings",
       "context": "settings / disable_reels_scrolling",
@@ -7928,6 +8132,18 @@
       "sources": [],
       "placeholders": {}
     },
+    "settings.download_open_external.summary": {
+      "kind": "strings",
+      "context": "settings / download_open_external",
+      "sources": [],
+      "placeholders": {}
+    },
+    "settings.download_open_external.title": {
+      "kind": "strings",
+      "context": "settings / download_open_external",
+      "sources": [],
+      "placeholders": {}
+    },
     "settings.download_comment_media.summary": {
       "kind": "strings",
       "context": "settings / download_comment_media",
@@ -7949,18 +8165,6 @@
     "settings.download_current_post.title": {
       "kind": "strings",
       "context": "settings / download_current_post",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.download_date_in_name.summary": {
-      "kind": "strings",
-      "context": "settings / download_date_in_name",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.download_date_in_name.title": {
-      "kind": "strings",
-      "context": "settings / download_date_in_name",
       "sources": [],
       "placeholders": {}
     },
@@ -16402,6 +16606,14 @@
       ],
       "placeholders": {}
     },
+    "navigation.layout.applied_restart": {
+      "kind": "strings",
+      "context": "Navigation › Layout editor: placement of navbar and Home toolbar items",
+      "sources": [
+        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
+      ],
+      "placeholders": {}
+    },
     "navigation.tabs.quick_snap": {
       "kind": "strings",
       "context": "Navigation › Layout editor: placement of navbar and Home toolbar items",
@@ -16563,14 +16775,6 @@
       "placeholders": {}
     },
     "navigation.screen.imported": {
-      "kind": "strings",
-      "context": "Navigation › Layout editor: placement of navbar and Home toolbar items",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/personalization/NavigationLayoutEditor.java"
-      ],
-      "placeholders": {}
-    },
-    "navigation.layout.locked_pager": {
       "kind": "strings",
       "context": "Navigation › Layout editor: placement of navbar and Home toolbar items",
       "sources": [
