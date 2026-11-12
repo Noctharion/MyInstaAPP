@@ -143,3 +143,11 @@ Some labels are drawn in controls that cannot grow: the Navbar / Toolbar / Off a
 - Do not shorten a label that a help text names as a choice (e.g. the "Instagram default" screen type in `navigation.screen.help`); change both together or neither.
 - File name format chips: a short noun or participle is fine where "date of …" does not fit ("Téléchargé le", "Publicado em", "Descargado").
 - The 2026-11-02 review lists every shortened label per locale.
+
+## Decisions recorded on 2026-11-12 (History, Analyzer, Foldable, updater)
+
+- Update channels: Dev stays “Dev” everywhere; Alpha, Beta and Stable use the catalogue's or Instagram's local word, kept short. Legacy is the label of the server's legacy release channel and is kept short too. Release candidates (“rc”) are no longer a channel.
+- History must not collide with Story: where the local word for History is the word Instagram uses for a Story, another word is used (ru “Просмотры”, uk “Перегляди”, bg “Хронология”).
+- Quick check and Full update are two kinds of Analyzer update. Where “full update” does not fit a 14-character card, the locale names it a full check or pass (da “Fuldtjek”, pl “Pełny test”, hr “Puni prolaz”, el “Πλήρης σάρωση”). Abbreviations (es “Act. completa”, it “Agg. completo”) are used only on tiles, card labels and chips; settings rows, sheet buttons, menus, headings and screen-reader labels use the full wording.
+- Off/On values of settings rows use the catalogue's existing word (fr “Désactivé” / “Activé”), never an English or abbreviated form; only the tiny “Off” under a History tab may be abbreviated.
+- The [2026-11-12 record](review/2026-11-12/README.md) has the per-locale term table; [LENGTH.md](review/2026-11-12/LENGTH.md) lists every abbreviated label and every label kept over its width budget.
