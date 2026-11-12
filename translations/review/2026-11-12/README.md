@@ -11,7 +11,7 @@ Channel names: Dev stays “Dev” in every locale; Alpha, Beta and Stable use t
 
 Checks: `tools/Translations.ps1 -Command validate` (and the same `TranslationCatalogTool validate` for every file) passed 50/50 at 3,082/3,082 entries. A separate script confirmed for all 50 files: valid JSON and header, key set and order equal to `en.json`, identical named placeholders per entry, `{count}` in every plural form, valid plural categories, line-break counts equal to English, no literal backslash-n, identity copies equal to their base, unchanged existing translations, `en`, `pt-PT` and `context.json` byte-equal to the app. Revisions: locales 7, en/pt-PT 10. Packs and `index.json` prepared with `prepare` (defaults unchanged); every index entry matches its file's size, SHA-256 and source.
 
-Not checked: rendering on a phone in each language (widths are character estimates). Native-speaker review remains pending, as for earlier rounds. `context.json` (copied from the app) still carries 24 context entries for keys that the app no longer has; they are harmless and should be removed in the app catalogue.
+Not checked: rendering on a phone in each language (widths are character estimates). Native-speaker review remains pending, as for earlier rounds. `context.json` was copied again from the app after the app removed 24 context entries for keys it no longer has; `source/` and `contribute/` stay byte-equal to the app (validate 50/50 rerun).
 
 ## Terms for the new features
 

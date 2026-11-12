@@ -8869,14 +8869,6 @@
       ],
       "placeholders": {}
     },
-    "settings.ghost.preset_help": {
-      "kind": "strings",
-      "context": "Explains that holding Direct temporarily adds selected preset protections and holding again restores saved manual switches.",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsCatalog.java"
-      ],
-      "placeholders": {}
-    },
     "settings.ghost_mode_settings.summary": {
       "kind": "strings",
       "context": "settings / ghost_mode_settings",
@@ -11972,14 +11964,6 @@
       ],
       "placeholders": {}
     },
-    "settings.section.quick_access": {
-      "kind": "strings",
-      "context": "settings / section",
-      "sources": [
-        "extensions/myinsta/src/main/java/app/myinsta/runtime/ui/SettingsActivity.java"
-      ],
-      "placeholders": {}
-    },
     "settings.section.receipts": {
       "kind": "strings",
       "context": "Settings category organization, presentation, support or import guidance. Related rows open the existing canonical control; no new functional preference.",
@@ -12617,138 +12601,6 @@
       "placeholders": {
         "title": "Runtime value: title. Keep the name intact; move the placeholder to fit the translated sentence."
       }
-    },
-    "settings.toggle_allow_screenshots_dms.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_allow_screenshots_dms",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_allow_screenshots_dms.title": {
-      "kind": "strings",
-      "context": "settings / toggle_allow_screenshots_dms",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_hide_view_once_opened.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_hide_view_once_opened",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_hide_view_once_opened.title": {
-      "kind": "strings",
-      "context": "settings / toggle_hide_view_once_opened",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_mode_settings.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_mode_settings",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_mode_settings.title": {
-      "kind": "strings",
-      "context": "settings / toggle_mode_settings",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_permanent_view_once_media.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_permanent_view_once_media",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_permanent_view_once_media.title": {
-      "kind": "strings",
-      "context": "settings / toggle_permanent_view_once_media",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_screenshot_notification.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_screenshot_notification",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_screenshot_notification.title": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_screenshot_notification",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_seen_dms.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_seen_dms",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_seen_dms.title": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_seen_dms",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_seen_lives.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_seen_lives",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_seen_lives.title": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_seen_lives",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_seen_stories.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_seen_stories",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_seen_stories.title": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_seen_stories",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_typing_status.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_typing_status",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_remove_typing_status.title": {
-      "kind": "strings",
-      "context": "settings / toggle_remove_typing_status",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_secret_voice_notes.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_secret_voice_notes",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_secret_voice_notes.title": {
-      "kind": "strings",
-      "context": "settings / toggle_secret_voice_notes",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_unlimited_view_once_replays.summary": {
-      "kind": "strings",
-      "context": "settings / toggle_unlimited_view_once_replays",
-      "sources": [],
-      "placeholders": {}
-    },
-    "settings.toggle_unlimited_view_once_replays.title": {
-      "kind": "strings",
-      "context": "settings / toggle_unlimited_view_once_replays",
-      "sources": [],
-      "placeholders": {}
     },
     "settings.unlimited_view_once_replays.summary": {
       "kind": "strings",
