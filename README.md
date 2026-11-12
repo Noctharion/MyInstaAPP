@@ -2,19 +2,15 @@
 
 Public release and membership metadata maintained by Spartan. Application source code is maintained separately.
 
-## v27.0.1 in development
+## Releases and channels
 
-The [v27.0.1 changelog](RELEASE-NOTES.md#myinsta-v2701-development) covers device-local reading, protected-media download availability, privacy, navigation and media-quality controls, and theme, Liquid Glass, font and emoji corrections. Current test builds identify as **v27.0.1-dev**, with phone validation pending.
+MyInsta builds belong to one of four channels: **Dev** (development and test builds), **Alpha**, **Beta** and **Stable**. The channel is part of the release name, for example **v27.1.0 Beta 1**; the version number no longer encodes a channel, and release candidates are no longer a separate channel. Stable and Dev builds can also be offered the latest beta. An Alpha or Beta build replaced by a newer build of its channel, or by a Beta or Stable release of the same or a newer version, asks to be updated.
 
-MyInsta's own interface follows Instagram's chosen language. The current authoring source is revision **4**, with **1,790 strings and 18 plurals (1,808 entries)**. English and European Portuguese are complete and bundled for offline use. The other **48 authoring files retain 1,708 entries (94.47%)** and need 100 additional keys: 40 Hidden Chats keys and 60 newer keys, plus review of changed existing wording/context. Existing translations remain intact.
+The latest stable release is **v27.0.2**; the next release is **v27.1.0 Beta 1**. Downloads, release notes and checksums for current releases are published on the [official website](https://myinsta.dev/releases), and the app checks `https://myinsta.dev/api/version`. The v27.0.0 record below is the stable release published in this repository. Superseded beta records (v27.2.2 to v27.2.5, from the earlier numbering in which the middle number marked a beta) and the v27.0.1 development notes were removed; they remain in the Git history.
 
-The downloadable delivery remains at immutable revision **1**, with **1,598 entries**: 45 primary catalogues cover the 48 unconditional native selector variants confirmed in the base build, with five compatible system-locale identities bringing the index to 50 packs. Those packs predate the new source entries; missing keys use English fallback. The [per-locale delivery record](translations/review/2026-10-17/README.md) describes that earlier delivery and does not certify the current source delta. Technical coverage, linguistic review and Android acceptance remain separate. Public contributors can use the [JSON template](translations/contribute/template.json), [contribution guide](translations/CONTRIBUTING.md) and standalone tools without private-source access. Pack corrections for existing keys can be distributed without rebuilding the app; this update does not replace any pack or index.
+## Translations
 
-Ghost Mode adds two independent, default-off options for device-local conversation-read and opened-media markers. Automatic markers do not send additional receipts or change native consumption/replay state. With local media reading enabled, the explicit header Seen and inbox Mark as read actions can send real receipts and consume media even when Keep View-Once Media is enabled; reply and reaction shortcuts retain that protection. Unsupported video players keep native indicators. Native unread filters, aggregate counts, notifications and launcher badges remain unchanged.
-
-Protected-media downloads keep the existing downloader for a matching full native source with a current URL lease, or use validated full-photo/progressive-MP4 cache bytes. A retained ID, URL or partial cache alone does not qualify. Adaptive, fragmented, encrypted or otherwise unsupported cache sources remain unavailable without a qualifying native source. Fresh Android visual and download-delivery acceptance remains pending.
-
-This work targets the upcoming v27.0.1; the released v27.0.0 artifacts and update metadata retain their existing release identity.
+MyInsta's own interface follows Instagram's chosen language. The authoring source in [translations/](translations/README.md) has **3,082 entries** (3,017 strings and 65 plurals) at revision **10**; English and European Portuguese are bundled in the app, and all 48 other language files are complete and published as downloadable packs (revision 7). Contributors can use the [JSON template](translations/contribute/template.json), [contribution guide](translations/CONTRIBUTING.md) and the standalone tools without private-source access.
 
 ## v27.0.0 (Final)
 
@@ -39,66 +35,9 @@ All four ABI bundles passed **370 JVM tests per ABI**. Each exact signed APK app
 
 See the [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Final SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.0.0.txt), [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.0.0.json) and [Final Wiki record](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md). GitHub publication does not create a website release or upload APKs. All `updates.json` download links are empty by owner request; app OTA uses the official API.
 
-## v27.2.5 (Beta 5)
-
-Prepared October 10, 2026, based on Instagram **447.0.0.55.81**. **Clone and UnClone for arm64-v8a only**; other architectures are reserved for the final release. These updated APKs were rebuilt with the additional likes-list correction. They retain the internal **`v27.2.5-dev`** label and OTA identity **`27.2.5 / beta`**, Android versionCode `999999999`, unknown editorial build number `-1` and the established signing certificate.
-
-| Architecture | UnClone (Instagram) | Clone (MyInsta) |
-| --- | --- | --- |
-| arm64-v8a | Download link pending | Download link pending |
-
-Beta 5 adds **Like protection**, photo/GIF comment downloads and MOD settings backup with optional developer flags. It corrects Direct media-read bookkeeping, emoji measurement and shortcut ordering, Story mention/header alignment, and native theme coverage across discovery, search, News filters and Reels menus/trays. Home theme work is reduced during drawing. The Stories summary page retains native behavior, with color handling only.
-
-See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 5 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.5.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.5.json) and the [Wiki release record](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md). The bundle passed **370 JVM tests**, the production people renderer passed **198 checks**, and both exact APKs passed signature, package/ABI, identity, 16 KB alignment, payload and serialized integration checks. Fresh device confirmation of the latest visual changes remains pending.
-
-The owner publishes the matching APKs on the [official website](https://myinsta.dev/releases). Repository updates do not create the website release. The app uses `https://myinsta.dev/api/version`; this repository's `updates.json` remains legacy release metadata. Source development moves to **v27.0.0 final**, while these APKs remain Beta 5.
-
-## v27.2.4 (Beta 4)
-
-Prepared October 9, 2026, based on Instagram **447.0.0.55.81**. This release contains **Clone and UnClone for arm64-v8a only**. Other architectures are reserved for the final release. Release identity is `27.2.4 / beta`, with Android versionCode `999999999` and the established signing certificate.
-
-| Architecture | UnClone (Instagram) | Clone (MyInsta) |
-| --- | --- | --- |
-| arm64-v8a | Download link pending | Download link pending |
-
-Beta 4 adds an optional in-chat **Mark as seen** button and **Seen after reacting**, corrects alternate Developer Flag layouts and theme coverage, suppresses contacts/location onboarding with Disable analytics, refreshes settings artwork and About links, and migrates update checks to the official API with a Home announcement. See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 4 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.4.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.4.json) and the [Wiki release record](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md).
-
-Both final signed APKs applied all **17 patches** and passed package/ABI, embedded release identity, established-certificate signature, 16 KB alignment, DEX/runtime payload preservation, serialized branches and native references. The ARM64 bundle passed **347 JVM tests**. The final manifest records **no fresh device validation**; visual acceptance, recipient-visible receipts, Home announcements and onboarding behavior remain pending owner testing.
-
-Downloads and release publication are managed on the [official website](https://myinsta.dev/releases). Starting with Beta 4, the app uses `https://myinsta.dev/api/version`; `updates.json` remains historical release metadata and is no longer the app's OTA source. Publishing this repository does not publish an official website release or upload its APKs. Beta 3 and Beta 2 entries remain available below.
-
-## v27.2.3 (Beta 3)
-
-Prepared October 5, 2026, based on Instagram **447.0.0.55.81**. Eight final APKs cover Clone and UnClone for **arm64-v8a, armeabi-v7a, x86_64 and x86**. Download links will be added by the owner.
-
-| Architecture | UnClone (Instagram) | Clone (MyInsta) |
-| --- | --- | --- |
-| arm64-v8a | Download link pending | Download link pending |
-| armeabi-v7a | Download link pending | Download link pending |
-| x86_64 | Download link pending | Download link pending |
-| x86 | Download link pending | Download link pending |
-
-UnClone uses `com.instagram.android` and retains Instagram's name and icon. Clone uses `com.myinsta.android` with the MyInsta name and icon for a separate installation. Each final APK declares MyInsta `27.2.3`, channel `beta` and Android versionCode `999999999`.
-
-Beta 3 adds Keep Unsent Messages, the Home Story organizer, Fonts & emojis, creative Direct text, Story fonts, native audio upload, first-frame/audio download choices, Story receipt/mention options, Instants controls and foreground update checks. See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md), [Beta 3 SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS-v27.2.3.txt), the [artifact manifest](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-MANIFEST-v27.2.3.json) and the [Wiki release record](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md).
-
-`updates.json` contains eight Beta 3 entries with exact signed-APK hashes and sizes and **empty download links**. The Beta 3 updater can display eligible update details while the links are blank; its Download button appears after a matching HTTPS link is supplied. Beta 4 uses the official API instead. Existing Beta 2 entries and artifacts are retained below; all legacy download links are now blank.
-
-## v27.2.2 (Beta 2)
-
-Released October 3, 2026, based on Instagram 447.0.0.55.81. Eight signed APKs cover Clone and UnClone for ARM64, ARM32, x86 and x86_64.
-
-UnClone uses `com.instagram.android` and retains the Instagram name and icon. Clone uses `com.myinsta.android` with the MyInsta name and icon, allowing a separate installation. Choose the architecture matching your device.
-
-See [release notes](https://github.com/Noctharion/MyInstaAPP/blob/main/RELEASE-NOTES.md) and [SHA-256 checksums](https://github.com/Noctharion/MyInstaAPP/blob/main/SHA256SUMS.txt). Enable **Include preview releases** in MyInsta's update settings to receive beta updates. A development build already identifying as v27.2.2 can be updated manually with the matching release APK.
-
 ## Release metadata and updates
 
-`updates.json` retains the legacy release schema: version, channel, package, architecture, versionCode, changelog, signed-APK SHA-256, size and link. Final v27 prepends eight verified entries. The 20 prior Beta 5, Beta 4, Beta 3 and Beta 2 entries retain their existing metadata, with all download links blank by owner request. Final entries also record their filename, original inputVersionCode, embedded MyInsta/native version names, unknown editorial build number and final certificate. APK Android versionCode is `999999999`; it is separate from the official website's editorial release build number.
-
-Final v27 and Beta 4/5 update checks use the public official API, select the installed Clone/UnClone variant and ABI, and accept compatible universal assets. **Automatic checks** is opt-in; when enabled, it checks on opening or returning from the background. A newer eligible release can show an Android notification and a themed **Home** announcement with patch notes and **Download / Close**. A release needs to be published with matching assets on the official website before the app can offer it. When an installed editorial build number is unknown, the app omits it from the API query and uses release-version comparison.
-
-All four Beta 3 ABI builds passed **248 JVM tests each**. All eight final APKs applied all **17 patches** and passed signing, exact package/ABI, embedded release/update identity, 16 KB alignment, DEX preservation and serialized branch/runtime/native-reference checks. The final artifact record remains separate from ARM64 Android 16 development device evidence; fresh installation of all eight final variants was not performed in this release run. Broader device and account testing remains ongoing. The 193-test checkpoint and previously tested ARM64 payload comparison belong to the historical Beta 2 release.
+`updates.json` is legacy release metadata in the original schema (version, channel, package, architecture, versionCode, changelog, signed-APK SHA-256, size and link). It lists the eight v27.0.0 stable APKs with their filename, original inputVersionCode, embedded MyInsta/native version names, unknown editorial build number and certificate; download links are blank by owner request. APK Android versionCode is `999999999`; it is separate from the official website's release build number. The app does not read this file: it uses the official API, selects the installed Clone/UnClone variant and ABI, and can download, verify and install official APKs in the app. A release needs to be published with matching assets on the official website before the app can offer it.
 
 ## Membership
 
